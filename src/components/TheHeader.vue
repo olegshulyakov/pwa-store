@@ -1,0 +1,17 @@
+<template>
+  <header class="container mx-auto mt-auto flex flex-row items-center justify-center md:justify-between py-1 md:py-4">
+    <nav class="w-full mx-auto">
+      <ul class="flex flex-wrap justify-center md:justify-end">
+        <li>
+          <RouterLink class="text-gray-700 text-sm font-medium hover:underline py-1 mr-4 lg:mr-6" to="/">
+            {{ $t("header.home") }}
+          </RouterLink>
+
+          <RouterLink class="text-gray-700 text-sm font-medium hover:underline py-1 mr-4 lg:mr-6" to="/about">
+            {{ $t("header.about") }}
+          </RouterLink>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</template>
