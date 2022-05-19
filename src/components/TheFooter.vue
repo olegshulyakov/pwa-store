@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full mx-auto mt-auto text-gray-700 text-xs text-right flex flex-row items-center justify-center md:justify-between py-1 md:py-4"
+    class="w-full max-w-container mx-auto border-t py-4 text-gray-700 text-xs text-right sm:flex sm:items-center sm:justify-center"
   >
     <nav class="mx-auto">
       <ul class="flex flex-wrap justify-center md:justify-end">
@@ -27,11 +27,6 @@
 </template>
 
 <style lang="postcss">
-footer {
-  position: absolute;
-  bottom: 0;
-  z-index: 9999;
-}
 nav a {
   @apply hover:underline py-1 mr-4;
 }

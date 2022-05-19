@@ -7,11 +7,17 @@ import TheFooter from "@/components/TheFooter.vue";
 <template>
   <TheHeader />
 
-  <RouterView />
+  <main class="container mx-auto px-4">
+    <RouterView />
+  </main>
 
   <TheFooter />
 </template>
 
 <style>
 @import "@/assets/base.css";
+
+main {
+  min-height: calc(100vh - 56px - 49px);
+}
 </style>
