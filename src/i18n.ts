@@ -7,8 +7,8 @@ type MessageSchema = typeof en;
 
 export const SUPPORT_LOCALES = ["en"];
 
-export function setupI18n(options = { locale: "en" }) {
-  const i18n = createI18n<[MessageSchema], "en-US">(options);
+export function setupI18n(options = { locale: "en", fallbackLocale: "en" }) {
+  const i18n = createI18n<MessageSchema>(options);
   setI18nLanguage(i18n, options.locale);
   return i18n;
 }

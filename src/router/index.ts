@@ -1,3 +1,4 @@
+import i18n, { loadLocaleMessages } from "@/i18n";
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
@@ -18,6 +19,11 @@ const router = createRouter({
       component: () => import("@/views/AboutView.vue"),
     },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  const lang = to.params.lang ?? "en";
+  loadLocaleMessages(i18n, lang).then(() => next());
 });
 
 export default router;
