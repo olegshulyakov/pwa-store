@@ -17,9 +17,10 @@ export default {
     // load locale applications with dynamic import
     const locale = i18n.global.locale;
     try {
-      const json = await import(/* webpackChunkName: "data-[request]" */ `../data/${locale}.json`);
-      this.apps = json.default || [];
+      const data = await fetch(`./data/${locale}.json`, { mode: "no-cors" });
+      this.apps = (await data.json()) || [];
     } catch (err) {
+      console.error(err);
       this.error = err;
     }
   },
