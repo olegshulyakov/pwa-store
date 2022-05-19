@@ -1,7 +1,15 @@
-<script setup lang="ts">
+<script lang="ts">
 import { RouterView } from "vue-router";
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
+
+export default {
+  components: {
+    RouterView,
+    TheHeader,
+    TheFooter,
+  },
+};
 </script>
 
 <template>

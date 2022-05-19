@@ -1,9 +1,15 @@
-<script setup lang="ts">
-import TheWelcome from "@/components/TheWelcome.vue";
+<script lang="ts">
+import AppGrid from "@/components/AppGrid.vue";
+
+export default {
+  components: {
+    AppGrid,
+  },
+};
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <AppGrid />
   </main>
 </template>
