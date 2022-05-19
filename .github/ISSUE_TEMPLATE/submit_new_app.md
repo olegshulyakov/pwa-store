@@ -1,8 +1,8 @@
 ---
 name: Submit new app
 about: Suggest an new app for this project
-title: ""
-labels: ""
+title: "[NEW APP]"
+labels: "add-application"
 assignees: ""
 ---
 
