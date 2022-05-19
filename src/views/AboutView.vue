@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="container mx-auto min-h-screen">
     <h1>{{ $t("about.title") }}</h1>
 
     <h2>{{ $t("about.what_is_it.title") }}</h2>
@@ -12,11 +12,3 @@
     <p>{{ $t("about.not_supported.description") }}</p>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-  }
-}
-</style>
