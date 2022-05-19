@@ -1,1 +1,0 @@
-var e=[{url:"https://qrcodescan.in/",title:"Qr Code Scan",image:"https://qrcodescan.in/images/touch/android-chrome-192x192.png",categories:["tools"]},{url:"https://smaller-pictures.appspot.com/",title:"Smaller Pictures",image:"https://smaller-pictures.appspot.com/images/touch/splashscreen-192.png",categories:["tools"]}];export{e as default};
