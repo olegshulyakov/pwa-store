@@ -1,14 +1,20 @@
 ---
 name: Submit new app
 about: Suggest an new app for this project
-title: "[NEW APP]"
+title: "[NEW APP] "
 labels: "add-application"
 assignees: ""
 ---
 
-**Please put some description of application.**
+<!--- Provide a name of the application in the Title above -->
 
-To submit a new application please specify its Title, URL, main image and list of categories that can be applied to it:
+## Detailed Description
+
+<!--- Provide a detailed description of the application you are proposing -->
+
+## Specifications
+
+<!--- Provide a detailed specification of the application you are proposing like yitle, URL, image and list of categories -->
 
 ```json
 {
