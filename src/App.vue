@@ -1,11 +1,11 @@
 <template>
-  <TheHeader />
+  <TheHeader v-if="!pending" />
 
   <main v-if="!pending" class="container mx-auto px-4">
     <RouterView />
   </main>
 
-  <TheFooter />
+  <TheFooter v-if="!pending" />
 </template>
 
 <script lang="ts">
@@ -15,6 +15,7 @@ import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
 import { useMessageStore } from "./store/message";
 import { useApplicationStore } from "./store/application";
+import { fallbackLocale } from "./i18n";
 
 export default {
   components: {
@@ -25,11 +26,11 @@ export default {
   setup() {
     const messageStore = useMessageStore();
     messageStore.$reset();
-    messageStore.fetchLocaleMessages();
+    messageStore.fetchLocaleMessages().catch(() => messageStore.fetchLocaleMessages(fallbackLocale));
 
     const appStore = useApplicationStore();
     appStore.$reset();
-    appStore.fetchApplications();
+    appStore.fetchApplications().catch(() => appStore.fetchApplications(fallbackLocale));
 
     return { pending: computed(() => messageStore.pending) };
   },

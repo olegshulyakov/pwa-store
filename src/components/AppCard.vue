@@ -1,11 +1,3 @@
-<script lang="ts">
-export default {
-  props: {
-    app: Object,
-  },
-};
-</script>
-
 <template>
   <div class="flex flex-col items-center">
     <img :src="app.image" width="192" height="192" />
@@ -17,6 +9,14 @@ export default {
     </a>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  props: {
+    app: Object,
+  },
+};
+</script>
 
 <style lang="postcss">
 .btn {
