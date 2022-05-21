@@ -13,18 +13,19 @@
 
 <script lang="ts">
 import { computed } from "vue";
-import AppCard from "@/components/AppCard.vue";
-import store from "@/store";
+import AppCard from "./AppCard.vue";
+import { useApplicationStore } from "../store/application";
 
 export default {
   components: {
     AppCard,
   },
   setup() {
+    const appStore = useApplicationStore();
     return {
-      pending: computed(() => store.applicationStore.state.pending),
-      error: computed(() => store.applicationStore.state.error),
-      applications: computed(() => store.applicationStore.state.applications),
+      pending: computed(() => appStore.pending),
+      error: computed(() => appStore.error),
+      applications: computed(() => appStore.applications),
     };
   },
 };

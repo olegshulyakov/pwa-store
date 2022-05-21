@@ -13,7 +13,8 @@ import { computed } from "vue";
 import { RouterView } from "vue-router";
 import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
-import store from "./store";
+import { useMessageStore } from "./store/message";
+import { useApplicationStore } from "./store/application";
 
 export default {
   components: {
@@ -22,11 +23,15 @@ export default {
     TheFooter,
   },
   setup() {
-    store.actions.reset();
-    store.messageStore.actions.fetchLocaleMessages();
-    store.applicationStore.actions.fetchApplications();
+    const messageStore = useMessageStore();
+    messageStore.$reset();
+    messageStore.fetchLocaleMessages();
 
-    return { pending: computed(() => store.getters.pending()), store };
+    const appStore = useApplicationStore();
+    appStore.$reset();
+    appStore.fetchApplications();
+
+    return { pending: computed(() => messageStore.pending) };
   },
 };
 </script>

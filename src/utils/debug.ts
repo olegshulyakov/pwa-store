@@ -1,10 +1,8 @@
 import type { RouteLocationNormalized } from "vue-router";
 
-const isDebug = process.env.NODE_ENV != "production";
+export const isDebug = process.env.NODE_ENV != "production";
 
 export default {
-  isDebug,
-
   router: {
     route: (to: RouteLocationNormalized, from: RouteLocationNormalized) => {
       if (!isDebug) return;
