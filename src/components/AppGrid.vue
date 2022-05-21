@@ -1,42 +1,31 @@
+<template>
+  <div>
+    <p v-if="pending">Loading...</p>
+    <p v-if="error">Error while fetching applications</p>
+
+    <ul v-else-if="applications" class="grid grid-cols-4 md:grid-cols-6 gap-4">
+      <li v-for="(app, index) in applications" :key="index">
+        <AppCard :app="app" />
+      </li>
+    </ul>
+  </div>
+</template>
+
 <script lang="ts">
-import i18n from "@/i18n";
+import { computed } from "vue";
 import AppCard from "@/components/AppCard.vue";
-import { AppInfo } from "@/types";
+import store from "@/store";
 
 export default {
   components: {
     AppCard,
   },
-  data() {
+  setup() {
     return {
-      error: "",
-      apps: [] as AppInfo[],
+      pending: computed(() => store.applicationStore.state.pending),
+      error: computed(() => store.applicationStore.state.error),
+      applications: computed(() => store.applicationStore.state.applications),
     };
-  },
-  mounted: async function () {
-    // load locale applications with dynamic import
-    const locale = i18n.global.locale;
-    try {
-      const data = await fetch(`./data/${locale}.json`, { mode: "no-cors" });
-      this.apps = (await data.json()) || [];
-    } catch (err) {
-      console.error(err);
-      this.error = err;
-    }
   },
 };
 </script>
-
-<template>
-  <div>
-    <p v-if="error">Error while fetching apps</p>
-
-    <ul v-else-if="apps" class="grid grid-cols-4 md:grid-cols-6 gap-4">
-      <li v-for="(app, index) in apps" :key="index">
-        <AppCard :app="app" />
-      </li>
-    </ul>
-
-    <div v-else>Loading...</div>
-  </div>
-</template>

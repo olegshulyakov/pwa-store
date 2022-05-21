@@ -1,7 +1,19 @@
+<template>
+  <TheHeader />
+
+  <main v-if="!pending" class="container mx-auto px-4">
+    <RouterView />
+  </main>
+
+  <TheFooter />
+</template>
+
 <script lang="ts">
+import { computed } from "vue";
 import { RouterView } from "vue-router";
-import TheHeader from "@/components/TheHeader.vue";
-import TheFooter from "@/components/TheFooter.vue";
+import TheFooter from "./components/TheFooter.vue";
+import TheHeader from "./components/TheHeader.vue";
+import store from "./store";
 
 export default {
   components: {
@@ -9,18 +21,15 @@ export default {
     TheHeader,
     TheFooter,
   },
+  setup() {
+    store.actions.reset();
+    store.messageStore.actions.fetchLocaleMessages();
+    store.applicationStore.actions.fetchApplications();
+
+    return { pending: computed(() => store.getters.pending()), store };
+  },
 };
 </script>
-
-<template>
-  <TheHeader />
-
-  <main class="container mx-auto px-4">
-    <RouterView />
-  </main>
-
-  <TheFooter />
-</template>
 
 <style>
 @import "@/assets/base.css";

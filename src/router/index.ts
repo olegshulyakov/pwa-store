@@ -1,5 +1,6 @@
-import i18n, { loadLocaleMessages } from "@/i18n";
 import { createRouter, createWebHistory } from "vue-router";
+import { debug } from "../utils";
+import AboutView from "../views/AboutView.vue";
 import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
@@ -13,17 +14,13 @@ const router = createRouter({
     {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("@/views/AboutView.vue"),
+      component: AboutView,
     },
   ],
 });
-
 router.beforeEach((to, from, next) => {
-  const lang = to.params.lang ?? "en";
-  loadLocaleMessages(i18n, lang).then(() => next());
+  debug.router.route(to, from);
+  next();
 });
 
 export default router;
