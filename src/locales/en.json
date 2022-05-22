@@ -15,6 +15,9 @@
     "cancel": "Cancel",
     "placeholder": "Search application"
   },
+  "applicationCard": {
+    "get": "Get"
+  },
   "about": {
     "title": "About",
     "what_is_it": {
