@@ -11,9 +11,12 @@
 </template>
 
 <script lang="ts">
+import type { AppInfo } from "types";
+import type { PropType } from "vue";
+
 export default {
   props: {
-    app: Object,
+    app: { type: Object as PropType<AppInfo>, required: true },
   },
 };
 </script>
