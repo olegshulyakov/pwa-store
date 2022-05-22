@@ -1,16 +1,16 @@
 <template>
-  <AppGrid :applications="filteredApps" />
+  <ApplicationGrid :applications="filteredApps" />
 </template>
 
 <script lang="ts">
-import AppGrid from "@/components/AppGrid.vue";
+import ApplicationGrid from "../components/ApplicationGrid.vue";
 import { computed } from "vue";
 import { useApplicationStore } from "../store/application";
 import { useRoute } from "vue-router";
 
 export default {
   components: {
-    AppGrid,
+    ApplicationGrid,
   },
   setup() {
     const route = useRoute();

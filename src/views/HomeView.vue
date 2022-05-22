@@ -3,17 +3,17 @@
 
   <p v-if="error">Error while fetching applications</p>
 
-  <AppGrid :applications="applications" />
+  <ApplicationGrid :applications="applications" />
 </template>
 
 <script lang="ts">
-import AppGrid from "@/components/AppGrid.vue";
+import ApplicationGrid from "@/components/ApplicationGrid.vue";
 import { computed } from "vue";
 import { useApplicationStore } from "../store/application";
 
 export default {
   components: {
-    AppGrid,
+    ApplicationGrid,
   },
   setup() {
     const appStore = useApplicationStore();
