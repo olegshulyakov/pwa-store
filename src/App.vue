@@ -1,18 +1,13 @@
 <template>
-  <TheHeader v-if="!pending" />
-
-  <main v-if="!pending" class="container mx-auto px-4">
+  <LayoutDefaultDesktop v-if="!pending">
     <RouterView />
-  </main>
-
-  <TheFooter v-if="!pending" />
+  </LayoutDefaultDesktop>
 </template>
 
 <script lang="ts">
 import { computed } from "vue";
 import { RouterView } from "vue-router";
-import TheFooter from "./components/TheFooter.vue";
-import TheHeader from "./components/TheHeader.vue";
+import LayoutDefaultDesktop from "./layouts/LayoutDefaultDesktop.vue";
 import { useMessageStore } from "./store/message";
 import { useApplicationStore } from "./store/application";
 import { fallbackLocale } from "./i18n";
@@ -20,8 +15,7 @@ import { fallbackLocale } from "./i18n";
 export default {
   components: {
     RouterView,
-    TheHeader,
-    TheFooter,
+    LayoutDefaultDesktop,
   },
   setup() {
     const messageStore = useMessageStore();

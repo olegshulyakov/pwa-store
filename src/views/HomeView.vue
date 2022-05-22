@@ -1,3 +1,7 @@
+<template>
+  <AppGrid />
+</template>
+
 <script lang="ts">
 import AppGrid from "@/components/AppGrid.vue";
 
@@ -7,9 +11,3 @@ export default {
   },
 };
 </script>
-
-<template>
-  <main>
-    <AppGrid />
-  </main>
-</template>
