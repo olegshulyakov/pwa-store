@@ -17,7 +17,9 @@ export type ApplicationState = {
 export type AppInfo = {
   url: string;
   title: string;
-  image?: string;
+  description?: string;
+  icon?: string;
+  images?: string[];
   categories: string[];
   tags: string[];
 };

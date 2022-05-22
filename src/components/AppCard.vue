@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center">
-    <img :src="app.image" width="192" height="192" />
+    <img :src="app.icon" width="192" height="192" />
 
     <h4>{{ app.title }}</h4>
 
