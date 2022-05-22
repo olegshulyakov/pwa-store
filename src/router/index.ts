@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import { debug } from "../utils";
 import AboutView from "../views/AboutView.vue";
 import HomeView from "../views/HomeView.vue";
+import SearchView from "../views/SearchView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,11 @@ const router = createRouter({
       path: "/about",
       name: "about",
       component: AboutView,
+    },
+    {
+      path: "/search",
+      name: "search",
+      component: SearchView,
     },
   ],
 });
