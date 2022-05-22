@@ -14,13 +14,13 @@ export default {
   },
   setup() {
     const route = useRoute();
-    const text = route.query.text as string;
+    const text = computed(() => route.query.text as string);
 
     const appStore = useApplicationStore();
     return {
       filteredApps: computed(() =>
         appStore.applications.filter((app) => {
-          return app.title.toLowerCase().includes(text) || app.url.toLowerCase().includes(text);
+          return app.title.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
         })
       ),
     };

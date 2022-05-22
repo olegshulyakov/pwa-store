@@ -1,5 +1,9 @@
 <template>
-  <header class="container mx-auto mt-auto flex flex-row items-center justify-center md:justify-between py-1 md:py-4">
+  <header
+    class="container mx-auto mt-auto flex flex-row items-center justify-center md:justify-between px-4 py-1 md:py-4"
+  >
+    <SearchBar />
+
     <nav class="w-full mx-auto">
       <ul class="flex flex-wrap justify-center md:justify-end">
         <li>
@@ -15,3 +19,13 @@
     </nav>
   </header>
 </template>
+
+<script lang="ts">
+import SearchBar from "./SearchBar.vue";
+
+export default {
+  components: {
+    SearchBar,
+  },
+};
+</script>

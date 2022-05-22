@@ -1,9 +1,10 @@
+import "@material-design-icons/font";
+import { createPinia } from "pinia";
+import { PiniaLogger } from "pinia-logger";
 import { createApp } from "vue";
 import App from "./App.vue";
 import i18n from "./i18n";
 import router from "./router";
-import { createPinia } from "pinia";
-import { PiniaLogger } from "pinia-logger";
 import { isDebug } from "./utils/debug";
 
 const pinia = createPinia();

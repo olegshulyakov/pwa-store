@@ -10,6 +10,11 @@
     "terms": "Terms & License",
     "new-app": "Submit App"
   },
+  "search": {
+    "search": "Search",
+    "cancel": "Cancel",
+    "placeholder": "Search application"
+  },
   "about": {
     "title": "About",
     "what_is_it": {
