@@ -17,6 +17,12 @@
   "applicationCard": {
     "get": "Get"
   },
+  "websiteChecker": {
+    "check": "Check App",
+    "clear": "Clear",
+    "placeholder": "Place URL",
+    "modalTitle": "Check App"
+  },
   "about": {
     "title": "About",
     "what_is_it": {

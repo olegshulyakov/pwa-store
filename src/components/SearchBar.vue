@@ -13,7 +13,7 @@
       v-on:keyup="onTextChange"
     />
 
-    <button v-if="text" class="material-icons" :alt="$t('search.cancel')" v-on:click="goHome">cancel</button>
+    <button v-if="text" class="material-icons" :alt="$t('search.cancel')" v-on:click="goHome">close</button>
   </form>
 </template>
 

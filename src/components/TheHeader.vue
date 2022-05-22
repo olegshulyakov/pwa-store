@@ -17,15 +17,19 @@
         </li>
       </ul>
     </nav>
+
+    <WebsiteChecker />
   </header>
 </template>
 
 <script lang="ts">
 import SearchBar from "./SearchBar.vue";
+import WebsiteChecker from "./WebsiteChecker.vue";
 
 export default {
   components: {
     SearchBar,
+    WebsiteChecker,
   },
 };
 </script>
