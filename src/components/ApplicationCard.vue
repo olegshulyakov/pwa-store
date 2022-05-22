@@ -1,10 +1,14 @@
 <template>
-  <div class="flex flex-col items-center">
-    <img :src="app.icon" width="192" height="192" />
+  <div class="flex flex-col items-center py-4 rounded-xl shadow-md">
+    <img :src="app.icon" class="w-48 h-48" />
 
-    <h4>{{ app.title }}</h4>
+    <h4 class="my-1">{{ app.title }}</h4>
 
-    <a :href="app.url" target="_blank" class="btn btn-green">
+    <a
+      :href="app.url"
+      target="_blank"
+      class="bg-transparent font-semibold inline-flex items-center py-1 px-3 rounded-lg text-green-500 border border-green-500 hover:bg-green-500 hover:text-white border-transparent"
+    >
       <span>Get</span>
     </a>
   </div>
@@ -20,12 +24,3 @@ export default {
   },
 };
 </script>
-
-<style lang="postcss">
-.btn {
-  @apply bg-transparent font-semibold inline-flex items-center py-1 px-2 rounded text-green-500 border border-green-500;
-}
-.btn:hover {
-  @apply bg-green-500 text-white border-transparent;
-}
-</style>
