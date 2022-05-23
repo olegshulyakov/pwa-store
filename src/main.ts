@@ -5,13 +5,13 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import i18n from "./i18n";
 import router from "./router";
-import { isDebug } from "./utils/debug";
+import { isDevMode } from "./utils/debug";
 
 const pinia = createPinia();
 pinia.use(
   PiniaLogger({
     expanded: false,
-    disabled: !isDebug,
+    disabled: !isDevMode,
   })
 );
 

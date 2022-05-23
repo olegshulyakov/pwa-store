@@ -18,11 +18,13 @@
       </ul>
     </nav>
 
-    <WebsiteChecker />
+    <WebsiteChecker v-if="isDevMode" />
   </header>
 </template>
 
 <script lang="ts">
+import { isDevMode } from "../utils/debug";
+import { computed } from "vue";
 import SearchBar from "./SearchBar.vue";
 import WebsiteChecker from "./WebsiteChecker.vue";
 
@@ -30,6 +32,11 @@ export default {
   components: {
     SearchBar,
     WebsiteChecker,
+  },
+  setup() {
+    return {
+      isDevMode: computed(() => isDevMode),
+    };
   },
 };
 </script>

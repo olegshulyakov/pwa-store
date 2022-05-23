@@ -1,11 +1,11 @@
 import type { RouteLocationNormalized } from "vue-router";
 
-export const isDebug = process.env.NODE_ENV != "production";
+export const isDevMode = process.env.NODE_ENV === "development";
 
 export default {
   router: {
     route: (to: RouteLocationNormalized, from: RouteLocationNormalized) => {
-      if (!isDebug) return;
+      if (!isDevMode) return;
 
       console.groupCollapsed(`route from ${from.path} to ${to.path}`);
       console.log("from", from);
@@ -16,7 +16,7 @@ export default {
 
   store: {
     state: (name: string, prev: object, next: object) => {
-      if (!isDebug) return;
+      if (!isDevMode) return;
       console.groupCollapsed(`change state ${name}`);
       console.log("prev", prev);
       console.log("next", next);
@@ -24,7 +24,7 @@ export default {
     },
     message: {
       fetch: (locale: string) => {
-        if (!isDebug) return;
+        if (!isDevMode) return;
         console.groupCollapsed(`load localization ${locale}`);
         console.log("locale", locale);
         console.groupEnd();
@@ -32,7 +32,7 @@ export default {
     },
     application: {
       fetch: (locale: string) => {
-        if (!isDebug) return;
+        if (!isDevMode) return;
         console.groupCollapsed(`load applications ${locale}`);
         console.log("locale", locale);
         console.groupEnd();
