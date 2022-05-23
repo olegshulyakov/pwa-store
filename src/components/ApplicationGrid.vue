@@ -1,5 +1,5 @@
 <template>
-  <ul v-if="applications" class="grid grid-cols-4 md:grid-cols-6 gap-4">
+  <ul v-if="applications" class="grid auto-rows-auto grid-cols-4 md:grid-cols-6 gap-4">
     <li v-for="(app, index) in applications" :key="index">
       <ApplicationCard :app="app" />
     </li>
