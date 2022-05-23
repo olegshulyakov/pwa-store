@@ -9,6 +9,7 @@
     "preview": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "check": "node src/utils/checker.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -29,6 +30,7 @@
     "@vue/eslint-config-typescript": "^10.0.0",
     "@vue/tsconfig": "^0.1.3",
     "autoprefixer": "^10.4.7",
+    "cheerio": "^1.0.0-rc.11",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
     "gh-pages": "^4.0.0",

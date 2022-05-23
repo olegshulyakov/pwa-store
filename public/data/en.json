@@ -1,12 +1,14 @@
 [
   {
     "url": "https://qrcodescan.in/",
+    "active": true,
     "title": "Qr Code Scan",
     "icon": "https://qrcodescan.in/images/touch/android-chrome-192x192.png",
     "categories": ["tools"]
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
+    "active": true,
     "title": "Smaller Pictures",
     "icon": "https://smaller-pictures.appspot.com/images/touch/splashscreen-192.png",
     "categories": ["tools"]
