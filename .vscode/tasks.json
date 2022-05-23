@@ -11,9 +11,9 @@
     },
     {
       "type": "npm",
-      "script": "dev",
+      "script": "start",
       "problemMatcher": [],
-      "label": "npm: dev",
+      "label": "npm: start",
       "detail": "vite"
     },
     {
