@@ -1,32 +1,25 @@
 [
   {
-    "url": "https://qrcodescan.in/",
+    "url": "https://atom.horuslugo.com/",
     "active": true,
-    "title": "QR Code Scanner",
-    "description": "QR Code Scanner is the fastest and most user-friendly web application.",
-    "icon": "https://qrcodescan.in/images/touch/apple-touch-icon.jpg",
+    "title": "Atom - Periodic Table & Tests",
+    "description": "Learn the basics of chemistry doing the tests and using the periodic table",
+    "icon": "https://atom.horuslugo.com/icons/apple-touch-icon.png",
     "images": [],
-    "categories": ["tools"],
+    "categories": [
+      "education"
+    ],
     "tags": []
   },
   {
-    "url": "https://smaller-pictures.appspot.com/",
+    "url": "https://canvas.apps.chrome/",
     "active": true,
-    "title": "Smaller Pictures",
-    "description": "A Progressive Web App for compressing images into smaller files.",
-    "icon": "https://smaller-pictures.appspot.com/images/touch/apple-touch-icon-114x114.png",
+    "title": "Canvas",
+    "description": "Create your own designs with Canvas. Express yourself with natural brushes and hand-picked colors. Never lose a masterpiece with automatic syncing to your Google account.",
     "images": [],
-    "categories": ["tools"],
-    "tags": []
-  },
-  {
-    "url": "https://squoosh.app/",
-    "active": true,
-    "title": "Squoosh",
-    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
-    "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
-    "images": [],
-    "categories": [],
+    "categories": [
+      "draw"
+    ],
     "tags": []
   },
   {
@@ -36,7 +29,127 @@
     "description": "JSON formatter, minifier, viewer, editor, validator. Edit, save and share json.",
     "icon": "https://jsontoolbox.com/apple-touch-icon.png",
     "images": [],
+    "categories": [
+      "tools",
+      "development"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://kuranz.com/app/",
+    "active": true,
+    "title": "Kuranz",
+    "description": "Location aware currency converter. Will use GPS to detect the country you're in and the currency. Works offline when you are traveling without internet.",
+    "icon": "https://kuranz.com/assets/icon-ios-152-503ac8.png",
+    "images": [],
+    "categories": [
+      "money"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://letsplant.org/",
+    "active": true,
+    "title": "Lets Plant",
+    "icon": "https://letsplant.org/img/apple-touch-icon-60x60.png",
+    "images": [],
+    "categories": [
+      "education"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://pattern.monster/",
+    "active": true,
+    "title": "Pattern Monster - SVG Pattern Generator",
+    "description": "A simple online pattern generator to create repeatable SVG patterns. Perfect for website backgrounds, apparel, branding, packaging design and more.",
+    "icon": "https://pattern.monster/logo-512.png",
+    "images": [],
+    "categories": [
+      "development"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://periodex.co/",
+    "active": true,
+    "title": "Periodex - Elegant periodic table of elements",
+    "description": "Elegant periodic table of elements",
+    "images": [],
+    "categories": [
+      "education"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://periodic-table.io/",
+    "active": false,
+    "title": "Periodic Table - Periodic Table",
+    "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more.",
+    "icon": "https://periodic-table.io/images/icons/apple-touch-icon.png",
+    "images": [
+      "education"
+    ],
     "categories": [],
+    "tags": []
+  },
+  {
+    "url": "https://pixelcraft.web.app/",
+    "active": false,
+    "title": "PixelCraft: A Pixel Art Editor",
+    "images": [],
+    "categories": [
+      "draw"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://qrcodescan.in/",
+    "active": true,
+    "title": "QR Code Scanner",
+    "description": "QR Code Scanner is the fastest and most user-friendly web application.",
+    "icon": "https://qrcodescan.in/images/touch/apple-touch-icon.jpg",
+    "images": [],
+    "categories": [
+      "tools"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://smaller-pictures.appspot.com/",
+    "active": true,
+    "title": "Smaller Pictures",
+    "description": "A Progressive Web App for compressing images into smaller files.",
+    "icon": "https://smaller-pictures.appspot.com/images/touch/apple-touch-icon-114x114.png",
+    "images": [],
+    "categories": [
+      "image",
+      "development"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://squoosh.app/",
+    "active": true,
+    "title": "Squoosh",
+    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+    "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
+    "images": [],
+    "categories": [
+      "image",
+      "development"
+    ],
+    "tags": []
+  },
+  {
+    "url": "https://themer.dev/",
+    "active": true,
+    "title": "themer",
+    "description": "themer takes a set of colors and generates themes for your apps: editors, terminals, wallpapers, and more.",
+    "images": [],
+    "categories": [
+      "development"
+    ],
     "tags": []
   }
 ]
