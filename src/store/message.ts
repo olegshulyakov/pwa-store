@@ -17,6 +17,8 @@ export const useMessageStore = defineStore("message", {
       // set locale and locale message
       i18n.global.setLocaleMessage(locale, messages);
 
+      document.querySelector("html")?.setAttribute("lang", locale);
+
       this.locale = locale;
       this.error = undefined;
       this.messages = messages;
