@@ -6,11 +6,8 @@
     {{ $t("websiteChecker.check") }}
   </button>
 
-  <div v-if="showModal" class="top-0 bottom-0 left-0 right-0 fixed outline-hidden">
-    <div
-      v-if="showModal"
-      class="relative z-[9999] mt-52 mx-auto rounded-xl w-96 border-none shadow-lg flex flex-col bg-white pointer-events-none"
-    >
+  <div v-if="showModal" class="z-50 top-0 bottom-0 left-0 right-0 fixed">
+    <div class="relative mt-52 mx-auto rounded-xl w-96 border-none shadow-lg flex flex-col bg-white">
       <div class="flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
         <h4 class="text-xl font-medium leading-normal text-gray-800">
           {{ $t("websiteChecker.modalTitle") }}
@@ -20,14 +17,16 @@
 
       <div class="relative p-4">
         <form class="w-full p-1 flex flex-auto items-center content-center" v-on:submit="doCheck">
+          <button type="submit" class="hidden" v-on:click="doCheck" />
+
           <label class="mr-2">URL:</label>
 
           <input
-            type="search"
+            type="url"
             class="w-full px-2 py-1 border rounded-lg border-gray-300 shadow-sm"
-            :value="text"
+            :value="url"
+            v-on:keyup="(event) => (url = event.target.value)"
             :placeholder="$t('websiteChecker.placeholder')"
-            v-on:keyup="onTextChange"
           />
 
           <button v-if="url" class="material-icons" :alt="$t('websiteChecker.clear')" v-on:click="url = ''">
@@ -40,19 +39,17 @@
 </template>
 
 <script lang="ts">
+import { ref } from "vue";
+
 export default {
   data() {
     return {
-      showModal: false,
-      url: "",
+      showModal: ref(false),
+      url: ref(""),
     };
   },
   methods: {
-    onTextChange(event: Event) {
-      this.url = event.target.value;
-      this.doCheck(event);
-    },
-    doCheck(event: Event) {
+    async doCheck(event: Event) {
       event?.preventDefault();
     },
   },

@@ -18,12 +18,13 @@
 </template>
 
 <script lang="ts">
+import { ref } from "vue";
 import router from "../router";
 
 export default {
   data() {
     return {
-      text: "",
+      text: ref(""),
     };
   },
   methods: {
