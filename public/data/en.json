@@ -6,9 +6,7 @@
     "description": "Learn the basics of chemistry doing the tests and using the periodic table",
     "icon": "https://atom.horuslugo.com/icons/apple-touch-icon.png",
     "images": [],
-    "categories": [
-      "education"
-    ],
+    "categories": ["education"],
     "tags": []
   },
   {
@@ -16,10 +14,9 @@
     "active": true,
     "title": "Canvas",
     "description": "Create your own designs with Canvas. Express yourself with natural brushes and hand-picked colors. Never lose a masterpiece with automatic syncing to your Google account.",
+    "icon": "assets/canvas_192.png",
     "images": [],
-    "categories": [
-      "draw"
-    ],
+    "categories": ["draw"],
     "tags": []
   },
   {
@@ -29,10 +26,7 @@
     "description": "JSON formatter, minifier, viewer, editor, validator. Edit, save and share json.",
     "icon": "https://jsontoolbox.com/apple-touch-icon.png",
     "images": [],
-    "categories": [
-      "tools",
-      "development"
-    ],
+    "categories": ["tools", "development"],
     "tags": []
   },
   {
@@ -42,9 +36,7 @@
     "description": "Location aware currency converter. Will use GPS to detect the country you're in and the currency. Works offline when you are traveling without internet.",
     "icon": "https://kuranz.com/assets/icon-ios-152-503ac8.png",
     "images": [],
-    "categories": [
-      "money"
-    ],
+    "categories": ["money"],
     "tags": []
   },
   {
@@ -53,9 +45,7 @@
     "title": "Lets Plant",
     "icon": "https://letsplant.org/img/apple-touch-icon-60x60.png",
     "images": [],
-    "categories": [
-      "education"
-    ],
+    "categories": ["education"],
     "tags": []
   },
   {
@@ -65,9 +55,7 @@
     "description": "A simple online pattern generator to create repeatable SVG patterns. Perfect for website backgrounds, apparel, branding, packaging design and more.",
     "icon": "https://pattern.monster/logo-512.png",
     "images": [],
-    "categories": [
-      "development"
-    ],
+    "categories": ["development"],
     "tags": []
   },
   {
@@ -75,10 +63,9 @@
     "active": true,
     "title": "Periodex - Elegant periodic table of elements",
     "description": "Elegant periodic table of elements",
+    "icon": "pwa-192.png",
     "images": [],
-    "categories": [
-      "education"
-    ],
+    "categories": ["education"],
     "tags": []
   },
   {
@@ -86,10 +73,8 @@
     "active": false,
     "title": "Periodic Table - Periodic Table",
     "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more.",
-    "icon": "https://periodic-table.io/images/icons/apple-touch-icon.png",
-    "images": [
-      "education"
-    ],
+    "icon": "images/icons/android-chrome-192x192.png",
+    "images": ["education"],
     "categories": [],
     "tags": []
   },
@@ -97,10 +82,9 @@
     "url": "https://pixelcraft.web.app/",
     "active": false,
     "title": "PixelCraft: A Pixel Art Editor",
+    "icon": "icons/logo.png",
     "images": [],
-    "categories": [
-      "draw"
-    ],
+    "categories": ["draw"],
     "tags": []
   },
   {
@@ -110,9 +94,7 @@
     "description": "QR Code Scanner is the fastest and most user-friendly web application.",
     "icon": "https://qrcodescan.in/images/touch/apple-touch-icon.jpg",
     "images": [],
-    "categories": [
-      "tools"
-    ],
+    "categories": ["tools"],
     "tags": []
   },
   {
@@ -122,10 +104,7 @@
     "description": "A Progressive Web App for compressing images into smaller files.",
     "icon": "https://smaller-pictures.appspot.com/images/touch/apple-touch-icon-114x114.png",
     "images": [],
-    "categories": [
-      "image",
-      "development"
-    ],
+    "categories": ["image", "development"],
     "tags": []
   },
   {
@@ -135,10 +114,7 @@
     "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
     "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
     "images": [],
-    "categories": [
-      "image",
-      "development"
-    ],
+    "categories": ["image", "development"],
     "tags": []
   },
   {
@@ -146,10 +122,9 @@
     "active": true,
     "title": "themer",
     "description": "themer takes a set of colors and generates themes for your apps: editors, terminals, wallpapers, and more.",
+    "icon": "icon-192.png",
     "images": [],
-    "categories": [
-      "development"
-    ],
+    "categories": ["development"],
     "tags": []
   }
 ]
