@@ -6,13 +6,14 @@ async function doCheck(link) {
   const page = await browser.newPage();
   await page.goto(link);
 
-  const siteData = await page.evaluate(() => {
+  const siteData = await page.evaluate(async () => {
     const url = document.querySelector("head link[rel='canonical']")?.href ?? window.location.href;
     const manifest = document.querySelector("head link[rel='manifest']")?.href;
+    const serviceWorkers = await navigator.serviceWorker.getRegistrations();
 
     return {
       url,
-      active: !!manifest,
+      active: !!manifest && serviceWorkers.length > 0,
       title: document.querySelector("head title")?.text,
       description: document.querySelector("head meta[name='description']")?.content,
       icon: document.querySelector("head link[rel='apple-touch-icon']")?.href,
