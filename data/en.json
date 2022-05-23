@@ -74,8 +74,8 @@
     "title": "Periodic Table - Periodic Table",
     "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more.",
     "icon": "images/icons/android-chrome-192x192.png",
-    "images": ["education"],
-    "categories": [],
+    "images": [],
+    "categories": ["education"],
     "tags": []
   },
   {
