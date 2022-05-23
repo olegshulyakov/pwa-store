@@ -2,15 +2,41 @@
   {
     "url": "https://qrcodescan.in/",
     "active": true,
-    "title": "Qr Code Scan",
-    "icon": "https://qrcodescan.in/images/touch/android-chrome-192x192.png",
-    "categories": ["tools"]
+    "title": "QR Code Scanner",
+    "description": "QR Code Scanner is the fastest and most user-friendly web application.",
+    "icon": "https://qrcodescan.in/images/touch/apple-touch-icon.jpg",
+    "images": [],
+    "categories": ["tools"],
+    "tags": []
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
     "active": true,
     "title": "Smaller Pictures",
-    "icon": "https://smaller-pictures.appspot.com/images/touch/splashscreen-192.png",
-    "categories": ["tools"]
+    "description": "A Progressive Web App for compressing images into smaller files.",
+    "icon": "https://smaller-pictures.appspot.com/images/touch/apple-touch-icon-114x114.png",
+    "images": [],
+    "categories": ["tools"],
+    "tags": []
+  },
+  {
+    "url": "https://squoosh.app/",
+    "active": true,
+    "title": "Squoosh",
+    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+    "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
+    "images": [],
+    "categories": [],
+    "tags": []
+  },
+  {
+    "url": "https://jsontoolbox.com/",
+    "active": true,
+    "title": "JTB:jsontoolbox",
+    "description": "JSON formatter, minifier, viewer, editor, validator. Edit, save and share json.",
+    "icon": "https://jsontoolbox.com/apple-touch-icon.png",
+    "images": [],
+    "categories": [],
+    "tags": []
   }
 ]

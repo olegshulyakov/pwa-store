@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Check site",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/utils/checker.js",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "args": ["https://squoosh.app/"]
+    }
+  ]
+}
