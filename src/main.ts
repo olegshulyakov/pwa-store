@@ -7,6 +7,10 @@ import i18n from "./i18n";
 import router from "./router";
 import { isDevMode } from "./utils/debug";
 
+if (typeof window !== "undefined") {
+  import("./pwa");
+}
+
 const pinia = createPinia();
 pinia.use(
   PiniaLogger({
