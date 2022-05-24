@@ -1,10 +1,10 @@
 <template>
-  <div class="h-full flex flex-col items-center py-4 rounded-xl shadow-md">
+  <div class="h-full w-fit flex flex-col items-center pb-4 rounded-xl shadow-md">
     <img
       v-if="app.icon"
       :src="app.icon.startsWith('http') ? app.icon : app.url + app.icon"
       :alt="app.title"
-      class="w-48 h-48 cursor-pointer"
+      class="w-40 h-40 md:w-48 md:h-48 aspect-square cursor-pointer"
       v-on:click="openApp"
     />
 

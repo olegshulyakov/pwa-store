@@ -1,6 +1,6 @@
 <template>
-  <ul v-if="applications" class="grid auto-rows-auto grid-cols-4 md:grid-cols-6 gap-4">
-    <li v-for="(app, index) in applications" :key="index">
+  <ul v-if="applications" class="py-2 md:py-4 grid justify-center auto-rows-auto gap-4 md:gap-8">
+    <li v-for="(app, index) in applications" :key="index" class="w-full h-full">
       <ApplicationCard :app="app" />
     </li>
   </ul>
@@ -20,3 +20,15 @@ export default {
   },
 };
 </script>
+
+<style>
+ul {
+  grid-template-columns: repeat(auto-fit, 10rem);
+}
+
+@media (min-width: 768px) {
+  ul {
+    grid-template-columns: repeat(auto-fit, 12rem);
+  }
+}
+</style>

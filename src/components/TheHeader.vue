@@ -4,7 +4,7 @@
   >
     <SearchBar />
 
-    <nav class="w-full mx-auto">
+    <nav class="hidden md:block w-full mx-auto">
       <ul class="flex flex-wrap justify-center md:justify-end">
         <li>
           <RouterLink class="text-gray-700 text-sm font-medium hover:underline py-1 mr-4 lg:mr-6" to="/">

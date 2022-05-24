@@ -1,6 +1,6 @@
 <template>
   <form
-    class="w-96 p-1 flex flex-auto items-center content-center border rounded-lg border-gray-300 shadow-sm"
+    class="w-full md:w-96 p-1 flex flex-auto items-center content-center border rounded-lg border-gray-300 shadow-sm"
     v-on:submit="goSearch"
   >
     <button type="submit" class="material-icons" :alt="$t('search.search')" v-on:click="goSearch">search</button>

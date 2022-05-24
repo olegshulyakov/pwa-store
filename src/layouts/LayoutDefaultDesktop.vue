@@ -1,7 +1,7 @@
 <template>
   <TheHeader />
 
-  <main class="container mx-auto px-4">
+  <main class="container mx-auto px-1 md:px-2 lg:px-4">
     <slot />
   </main>
 
