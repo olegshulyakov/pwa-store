@@ -19,6 +19,8 @@ export default defineConfig({
         display: "standalone",
         theme_color: "#0046fa",
         background_color: "#0046fa",
+        lang: "en",
+        categories: ["store", "productivity", "utilities"],
         icons: [
           {
             src: "/pwa-192x192.png",
