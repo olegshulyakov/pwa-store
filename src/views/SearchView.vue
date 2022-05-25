@@ -20,7 +20,7 @@ export default {
     return {
       filteredApps: computed(() =>
         appStore.applications.filter((app) => {
-          return app.title.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
+          return app.name.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
         })
       ),
     };

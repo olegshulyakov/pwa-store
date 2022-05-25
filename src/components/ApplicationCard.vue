@@ -3,13 +3,13 @@
     <img
       v-if="app.icon"
       :src="app.icon.startsWith('http') ? app.icon : app.url + app.icon"
-      :alt="app.title"
+      :alt="app.name"
       class="w-40 h-40 md:w-48 md:h-48 aspect-square cursor-pointer"
       v-on:click="openApp"
     />
 
     <h4 class="my-1 px-2 text-center flex-grow">
-      {{ app.title }}
+      {{ app.name }}
     </h4>
 
     <button

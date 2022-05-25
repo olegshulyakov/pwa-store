@@ -10,18 +10,54 @@ const doCheck = async (link) => {
 
   const appInfo = await page.evaluate(async () => {
     const url = document.querySelector("head link[rel='canonical']")?.href ?? window.location.href;
-    const manifest = document.querySelector("head link[rel='manifest']")?.href;
+
+    const manifestUrl = document.querySelector("head link[rel='manifest']")?.href;
+    if (!manifestUrl) {
+      return {
+        url,
+        active: false,
+        name: document.querySelector("head title")?.text,
+        description: document.querySelector("head meta[name='description']")?.content || "",
+        icon: document.querySelector("head link[rel='apple-touch-icon']")?.href || "",
+        images: [],
+        categories: [],
+        tags: [],
+      };
+    }
+
+    const manifest = await (await fetch(manifestUrl)).json();
+
     const serviceWorkers = await navigator.serviceWorker.getRegistrations();
+
+    const {
+      name,
+      description = document.querySelector("head meta[name='description']")?.content || "",
+      categories = [],
+      icons = [],
+      lang,
+      screenshots = [],
+      background_color,
+      theme_color,
+    } = manifest;
+
+    const icon =
+      icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "192x192")?.src ||
+      icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "512x512")?.src ||
+      document.querySelector("head link[rel='apple-touch-icon']")?.href ||
+      "";
 
     return {
       url,
-      active: !!manifest && serviceWorkers.length > 0,
-      title: document.querySelector("head title")?.text,
-      description: document.querySelector("head meta[name='description']")?.content || "",
-      icon: document.querySelector("head link[rel='apple-touch-icon']")?.href || "",
-      images: [],
-      categories: [],
-      tags: [],
+      active: serviceWorkers.length > 0,
+      name,
+      description,
+      icon,
+      icons,
+      lang,
+      categories,
+      screenshots,
+      background_color,
+      theme_color,
     };
   });
 
@@ -38,7 +74,13 @@ console.log("args:", args);
   const db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   for (const url of args) {
-    const next = await doCheck(url);
+    let next = { url, active: false };
+    try {
+      next = await doCheck(url);
+    } catch (err) {
+      console.error(`Fail fetch ${url} info: ${err}`);
+    }
+
     const prev = db.find((app) => app.url === next.url);
 
     console.groupCollapsed(`app info for: ${url}`);
@@ -54,10 +96,9 @@ console.log("args:", args);
           return;
         }
 
-        app.active = app.active || next.active;
-        app.title = next.title;
-        app.description = next.description;
-        app.icon = next.icon;
+        const categories = app.categories || [];
+        Object.assign(app, next);
+        app.categories = categories.concat(next.categories.filter((i) => categories.indexOf(i) < 0));
       });
     }
   }

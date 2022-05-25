@@ -2,129 +2,749 @@
   {
     "url": "https://atom.horuslugo.com/",
     "active": true,
-    "title": "Atom - Periodic Table & Tests",
-    "description": "Learn the basics of chemistry doing the tests and using the periodic table",
-    "icon": "https://atom.horuslugo.com/icons/apple-touch-icon.png",
-    "images": [],
-    "categories": ["education"],
-    "tags": []
+    "name": "Atom - Periodic Table & Quizzes",
+    "description": "Learn the basics of chemistry doing the quizzes and using the periodic table.\n\nFEATURES:\n• Periodic table quiz\n• Chemical valences quiz\n• All the elements of the periodic table\n• Atomic number, atomic mass, electronic configuration, electronegativity, oxidation states, bonding type, melting point, boiling point, density, year of discovery and valency\n• Molar mass calculator\n\nThere will be more quizzes in the future!",
+    "icon": "/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/android-chrome-192x192-mask.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icons/android-chrome-512x512-mask.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [
+      "education"
+    ],
+    "screenshots": [
+      {
+        "src": "/screenshots/phone/1-pt.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Periodic table with all the elements at your fingertips"
+      },
+      {
+        "src": "/screenshots/phone/2-ptinfo.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Look up available data of any element"
+      },
+      {
+        "src": "/screenshots/phone/3-ptquiz.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Complete the periodic table to learn the position of all elements"
+      },
+      {
+        "src": "/screenshots/phone/4-masscalc.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Use the calculator to find the mass of your formulas"
+      },
+      {
+        "src": "/screenshots/phone/5-valencyquiz.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Learn the valences practicing with the quiz"
+      },
+      {
+        "src": "/screenshots/phone/6-quizsettings.png",
+        "sizes": "1080x1920",
+        "platform": "narrow",
+        "label": "Select the elements you need to learn in each test"
+      },
+      {
+        "src": "/screenshots/desktop/1-pt.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Periodic table with all the elements at your fingertips"
+      },
+      {
+        "src": "/screenshots/desktop/2-ptinfo.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Look up available data of any element"
+      },
+      {
+        "src": "/screenshots/desktop/3-ptquiz.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Complete the periodic table to learn the position of all elements"
+      },
+      {
+        "src": "/screenshots/desktop/4-masscalc.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Use the calculator to find the mass of your formulas"
+      },
+      {
+        "src": "/screenshots/desktop/5-valencyquiz.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Learn the valences practicing with the quiz"
+      },
+      {
+        "src": "/screenshots/desktop/6-quizsettings.png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Select the elements you need to learn in each test"
+      }
+    ],
+    "background_color": "#193132",
+    "theme_color": "#193132"
   },
   {
     "url": "https://canvas.apps.chrome/",
     "active": true,
-    "title": "Canvas",
-    "description": "Create your own designs with Canvas. Express yourself with natural brushes and hand-picked colors. Never lose a masterpiece with automatic syncing to your Google account.",
+    "name": "Chrome Canvas",
+    "description": "The Chrome OS drawing app.",
     "icon": "assets/canvas_192.png",
-    "images": [],
-    "categories": ["draw"],
-    "tags": []
+    "icons": [
+      {
+        "src": "assets/canvas_48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/canvas_128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/canvas_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/canvas_256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FFF"
   },
   {
     "url": "https://jsontoolbox.com/",
     "active": true,
-    "title": "JTB:jsontoolbox",
+    "name": "JSON Tool Box",
     "description": "JSON formatter, minifier, viewer, editor, validator. Edit, save and share json.",
-    "icon": "https://jsontoolbox.com/apple-touch-icon.png",
-    "images": [],
-    "categories": ["tools", "development"],
-    "tags": []
+    "icon": "logo192.png",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#ffffff"
   },
   {
-    "url": "https://kuranz.com/app/",
+    "url": "https://kuranz.com/",
     "active": true,
-    "title": "Kuranz",
+    "name": "Kuranz",
     "description": "Location aware currency converter. Will use GPS to detect the country you're in and the currency. Works offline when you are traveling without internet.",
-    "icon": "https://kuranz.com/assets/icon-ios-152-503ac8.png",
-    "images": [],
-    "categories": ["money"],
-    "tags": []
+    "icon": "/icon_192x192.99a2ed8bfcbc6a7d885b5a6836972ab4.png",
+    "icons": [
+      {
+        "src": "/icon_512x512.bd6287c6082bfcc582208636dcf0ce4f.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icon_512x512.bf387e5025a134dc44c4fef96b3ba9b7.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon_256x256.45f6565ce4376fd17655844fb1dcfd32.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon_192x192.99a2ed8bfcbc6a7d885b5a6836972ab4.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon_128x128.8d2d4a0a41e4c45f78559fb5347bb80e.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon_64x64.2898966724e7b83bb2c6b766348fc046.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en-US",
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#4D841E",
+    "theme_color": "#4D841E"
   },
   {
     "url": "https://letsplant.org/",
     "active": true,
-    "title": "Lets Plant",
-    "icon": "https://letsplant.org/img/apple-touch-icon-60x60.png",
-    "images": [],
-    "categories": ["education"],
-    "tags": []
+    "name": "Let's Plant",
+    "description": "A smart way to choose the right plant.",
+    "icon": "/img/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/img/apple-touch-icon-57x57.png",
+        "sizes": "57x57",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-60x60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-114x114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/apple-touch-icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://pattern.monster/",
     "active": true,
-    "title": "Pattern Monster - SVG Pattern Generator",
+    "name": "Pattern Monster",
     "description": "A simple online pattern generator to create repeatable SVG patterns. Perfect for website backgrounds, apparel, branding, packaging design and more.",
-    "icon": "https://pattern.monster/logo-512.png",
-    "images": [],
-    "categories": ["development"],
-    "tags": []
+    "icon": "logo-192.png",
+    "icons": [
+      {
+        "src": "logo-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "logo-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "screenshots": [
+      {
+        "src": "Screenshot1.png",
+        "sizes": "2400x1800",
+        "type": "image/png"
+      },
+      {
+        "src": "Screenshot2.png",
+        "sizes": "2400x1800",
+        "type": "image/png"
+      },
+      {
+        "src": "Screenshot3.png",
+        "sizes": "2400x1800",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#1a202c",
+    "theme_color": "#44337a"
   },
   {
     "url": "https://periodex.co/",
     "active": true,
-    "title": "Periodex - Elegant periodic table of elements",
+    "name": "Periodex",
     "description": "Elegant periodic table of elements",
-    "icon": "pwa-192.png",
-    "images": [],
-    "categories": ["education"],
-    "tags": []
+    "icon": "/pwa-192.png",
+    "icons": [
+      {
+        "src": "/pwa-36.png",
+        "type": "image/png",
+        "sizes": "36x36"
+      },
+      {
+        "src": "/pwa-adaptive-48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/pwa-adaptive-64.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/pwa-adaptive-96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/pwa-adaptive-144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/pwa-adaptive-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/pwa-adaptive-256.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "/pwa-adaptive-384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "/pwa-adaptive-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [
+      "education",
+      "utilities",
+      "productivity"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/screenshot.png",
+        "sizes": "1280x720",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#fffefb",
+    "theme_color": "#fffefb"
   },
   {
     "url": "https://periodic-table.io/",
-    "active": false,
-    "title": "Periodic Table - Periodic Table",
-    "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more.",
-    "icon": "images/icons/android-chrome-192x192.png",
-    "images": [],
-    "categories": ["education"],
-    "tags": []
+    "active": true,
+    "name": "Periodic Table",
+    "description": "Elements: The Periodic Table provides comprehensive and useful information about the chemical elements all in one place. Click on an element to know more about the properties, history, name origin, images, applications, hazards and electron shell diagram of each element.",
+    "icon": "/images/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/images/icons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/icons/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "lang": "en",
+    "categories": [
+      "education",
+      "books"
+    ],
+    "screenshots": [
+      {
+        "src": "/screenshots/Phone-1.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-2.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-3.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-4.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-5.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-6.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-7.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      },
+      {
+        "src": "/screenshots/Phone-8.png",
+        "sizes": "1200x2400",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#0078d7",
+    "theme_color": "#0078d7"
   },
   {
     "url": "https://pixelcraft.web.app/",
-    "active": false,
-    "title": "PixelCraft: A Pixel Art Editor",
-    "icon": "icons/logo.png",
-    "images": [],
-    "categories": ["draw"],
-    "tags": []
+    "active": true,
+    "name": "PixelCraft",
+    "description": "",
+    "icon": "/icons/logo.png",
+    "icons": [
+      {
+        "src": "/icons/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff"
   },
   {
     "url": "https://qrcodescan.in/",
     "active": true,
-    "title": "QR Code Scanner",
-    "description": "QR Code Scanner is the fastest and most user-friendly web application.",
-    "icon": "https://qrcodescan.in/images/touch/apple-touch-icon.jpg",
-    "images": [],
-    "categories": ["tools"],
-    "tags": []
+    "name": "QR Code Scanner",
+    "description": "Easily scan a QR code. This is a simple, tiny, and super fast web application that works offline.",
+    "icon": "/images/touch/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/images/touch/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/touch/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [
+      {
+        "src": "/images/screenshots/screenshot1.png",
+        "type": "image/png",
+        "sizes": "586x1041"
+      },
+      {
+        "src": "/images/screenshots/screenshot2.png",
+        "type": "image/png",
+        "sizes": "586x1041"
+      },
+      {
+        "src": "/images/screenshots/screenshot3.png",
+        "type": "image/png",
+        "sizes": "586x1041"
+      }
+    ],
+    "background_color": "#fff",
+    "theme_color": "#e4e4e4"
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
     "active": true,
-    "title": "Smaller Pictures",
+    "name": "Smaller Pics",
     "description": "A Progressive Web App for compressing images into smaller files.",
-    "icon": "https://smaller-pictures.appspot.com/images/touch/apple-touch-icon-114x114.png",
-    "images": [],
-    "categories": ["image", "development"],
-    "tags": []
+    "icon": "images/touch/splashscreen-192.png",
+    "icons": [
+      {
+        "src": "images/touch/splashscreen-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/touch/splashscreen-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/touch/splashscreen-152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/touch/splashscreen-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/touch/splashscreen-384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "images/touch/splashscreen-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#212121",
+    "theme_color": "#212121"
   },
   {
     "url": "https://squoosh.app/",
     "active": true,
-    "title": "Squoosh",
-    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+    "name": "Squoosh",
+    "description": "Compress and compare images with different codecs, right in your browser.",
     "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
-    "images": [],
-    "categories": ["image", "development"],
-    "tags": []
+    "icons": [
+      {
+        "src": "/c/icon-large-cb438cac.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      },
+      {
+        "src": "/c/icon-large-maskable-c2078ced.png",
+        "type": "image/png",
+        "sizes": "1024x1024",
+        "purpose": "maskable"
+      }
+    ],
+    "lang": "en",
+    "categories": [
+      "photo",
+      "productivity",
+      "utilities"
+    ],
+    "screenshots": [
+      {
+        "src": "/c/screenshot1-0ff68546.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/c/screenshot2-1f78c4db.jpg",
+        "type": "image/jpeg",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/c/screenshot3-c1e02216.jpg",
+        "type": "image/jpeg",
+        "sizes": "540x720"
+      }
+    ],
+    "background_color": "#fff",
+    "theme_color": "#ff3385"
   },
   {
     "url": "https://themer.dev/",
     "active": true,
-    "title": "themer",
+    "name": "themer",
     "description": "themer takes a set of colors and generates themes for your apps: editors, terminals, wallpapers, and more.",
     "icon": "icon-192.png",
-    "images": [],
-    "categories": ["development"],
-    "tags": []
+    "icons": [
+      {
+        "src": "icon-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [
+      "personalization",
+      "productivity",
+      "utilities",
+      "developer tools"
+    ],
+    "screenshots": [],
+    "background_color": "#FFFCFF",
+    "theme_color": "#282629"
   }
 ]
