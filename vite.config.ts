@@ -16,11 +16,11 @@ export default defineConfig({
         short_name: "Does It PWA",
         description: "List of compatable Progressive Web Applications",
         start_url: ".",
+        orientation: "any",
         display: "standalone",
-        theme_color: "#0046fa",
         background_color: "#0046fa",
+        theme_color: "#0046fa",
         lang: "en",
-        categories: ["store", "productivity", "utilities"],
         icons: [
           {
             src: "/pwa-192x192.png",
@@ -39,6 +39,7 @@ export default defineConfig({
             purpose: "any maskable",
           },
         ],
+        categories: ["store", "productivity", "utilities"],
       },
       workbox: {
         cleanupOutdatedCaches: true,
