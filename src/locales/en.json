@@ -37,5 +37,35 @@
       "title": "What if my browser doesn't support it?",
       "description": "If you are unable to use or upgrade to a supported browser, you should be able to still use the basic features of the application as it is web based.However, PWA specific features such as offline usage will not be available. "
     }
+  },
+  "category": {
+    "books": "books",
+    "business": "business",
+    "education": "education",
+    "entertainment": "entertainment",
+    "finance": "finance",
+    "fitness": "fitness",
+    "food": "food",
+    "games": "games",
+    "government": "government",
+    "health": "health",
+    "kids": "kids",
+    "lifestyle": "lifestyle",
+    "magazines": "magazines",
+    "medical": "medical",
+    "music": "music",
+    "navigation": "navigation",
+    "news": "news",
+    "personalization": "personalization",
+    "photo": "photo",
+    "politics": "politics",
+    "productivity": "productivity",
+    "security": "security",
+    "shopping": "shopping",
+    "social": "social",
+    "sports": "sports",
+    "travel": "travel",
+    "utilities": "utilities",
+    "weather": "weather"
   }
 }
