@@ -1,10 +1,5 @@
 import { registerSW } from "virtual:pwa-register";
 
-const updateSW = registerSW({
-  onNeedRefresh() {
-    //TODO
-  },
-  onOfflineReady() {
-    //TODO
-  },
-});
+if ("serviceWorker" in navigator) {
+  registerSW();
+}

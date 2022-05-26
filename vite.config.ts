@@ -10,7 +10,8 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.svg", "favicon.ico", "robots.txt", "apple-touch-icon.png"],
+      includeManifestIcons: true,
+      manifestFilename: "manifest.json",
       manifest: {
         name: "Does It PWA",
         short_name: "Does It PWA",
@@ -42,7 +43,38 @@ export default defineConfig({
         categories: ["store", "productivity", "utilities"],
       },
       workbox: {
-        cleanupOutdatedCaches: true,
+        runtimeCaching: [
+          {
+            urlPattern: /\.json$/,
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "data",
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 60 * 60 * 24 * 30,
+              },
+              cacheableResponse: {
+                statuses: [200],
+              },
+            },
+          },
+          {
+            urlPattern: (options) => {
+              return ["font", "image", "manifest", "script", "style"].includes(options.request.destination);
+            },
+            handler: "CacheFirst",
+            options: {
+              cacheName: "assets",
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+              cacheableResponse: {
+                statuses: [200],
+              },
+            },
+          },
+        ],
       },
     }),
   ],
