@@ -1,7 +1,7 @@
 <template>
-  <p v-if="pending">Loading...</p>
+  <p v-if="pending" class="capitalize">{{ $t("home.pending") }}</p>
 
-  <p v-if="error">Error while fetching applications</p>
+  <p v-if="error" class="capitalize">{{ $t("home.error") }}</p>
 
   <template v-if="categories">
     <template v-for="(category, index) in categories" :key="index">
