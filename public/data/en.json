@@ -718,6 +718,65 @@
     "theme_color": "#4EB0F6"
   },
   {
+    "url": "https://imgflip.com/",
+    "active": true,
+    "name": "Imgflip",
+    "description": "Flip through memes, gifs, and other funny images. Make your own images with our Meme Generator or Animated GIF Maker.",
+    "icon": "https://imgflip.com/apple-touch-icon.png?c",
+    "icons": [
+      {
+        "src": "/imgflip-icon-96.svg",
+        "sizes": "96x96",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/imgflip-icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/apple-touch-icon.svg",
+        "sizes": "180x180",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-192.svg?a",
+        "sizes": "192x192",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-512.svg?a",
+        "sizes": "512x512",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-192.png?a",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-512.png?a",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["entertainment", "social", "productivity"],
+    "screenshots": [],
+    "background_color": "#333",
+    "theme_color": "#333"
+  },
+  {
     "url": "https://jsontoolbox.com/",
     "active": true,
     "name": "JSON Tool Box",
@@ -2057,6 +2116,29 @@
     "theme_color": "#222"
   },
   {
+    "url": "https://vidno.online/",
+    "active": true,
+    "name": "Vidno – video web conference",
+    "description": "Video web conferences with no hassle. Free, private, no registration needed. Start your video call now!",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["social", "productivity"],
+    "screenshots": [],
+    "background_color": "#f7f7fd",
+    "theme_color": "#f7f7fd"
+  },
+  {
     "url": "https://wordle.madeinmadrid.org/",
     "active": true,
     "name": "Madrid Wordle",
@@ -2101,5 +2183,28 @@
     "screenshots": [],
     "background_color": "#ef5936",
     "theme_color": "#ef5936"
+  },
+  {
+    "url": "https://www.tumblr.com/explore/trending?source=homepage_explore",
+    "active": false,
+    "name": "Tumblr",
+    "description": "Explore trending topics on Tumblr. See all of the GIFs, fan art, and general conversation about the internet’s favorite things.",
+    "icon": "https://assets.tumblr.com/pop/manifest/icon_192-a35de8be.png",
+    "icons": [
+      {
+        "type": "image/png",
+        "sizes": "192x192",
+        "src": "https://assets.tumblr.com/pop/manifest/icon_192-a35de8be.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "512x512",
+        "src": "https://assets.tumblr.com/pop/manifest/icon_512-5fae259e.png"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#36465d",
+    "theme_color": "#36465d"
   }
 ]
