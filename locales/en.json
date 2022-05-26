@@ -23,6 +23,11 @@
     "placeholder": "Place URL",
     "modalTitle": "Check App"
   },
+  "home": {
+    "pending": "loading...",
+    "error": "error while fetching applications",
+    "empty": "no applications"
+  },
   "about": {
     "title": "About",
     "what_is_it": {
