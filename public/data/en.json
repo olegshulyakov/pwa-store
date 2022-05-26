@@ -1,5 +1,134 @@
 [
   {
+    "url": "https://app.freefy.online/",
+    "active": true,
+    "name": "Freefy",
+    "description": "Free streaming music, random mode or not, as you prefer and without advertising between songs. We are the alternative to other platforms 🥳",
+    "icon": "public/client/assets/mobile-icons/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon.png",
+        "sizes": "1398x1398",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [
+      {
+        "src": "public/client/assets/mobile-screenshots/1.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/2.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/3.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/4.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/5.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      }
+    ],
+    "background_color": "#1b1e1c",
+    "theme_color": "#1b1e1c"
+  },
+  {
     "url": "https://app.starbucks.com/",
     "active": true,
     "name": "Starbucks",
@@ -174,6 +303,49 @@
     "screenshots": [],
     "background_color": "#FFFFFF",
     "theme_color": "#2F3BA2"
+  },
+  {
+    "url": "https://beat-tap.firebaseapp.com/",
+    "active": true,
+    "name": "beat-tap",
+    "description": "A BPM Counter application as a PWA.",
+    "icon": "resources/launcher-icon-4x.png",
+    "icons": [
+      {
+        "src": "resources/launcher-icon-1x.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "resources/launcher-icon-2x.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "resources/launcher-icon-3x.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "resources/launcher-icon-4x.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "resources/splash-icon-1x.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "resources/splash-icon-2x.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "categories": ["music", "audio"],
+    "screenshots": [],
+    "background_color": "#475962",
+    "theme_color": "#475962"
   },
   {
     "url": "https://bombhopper.io/",
@@ -838,6 +1010,61 @@
     "screenshots": [],
     "background_color": "#980000",
     "theme_color": "#980000"
+  },
+  {
+    "url": "https://musickit.jull.dev/tone-generator",
+    "active": false,
+    "name": "MusicKit",
+    "description": "Metronome, Tuner and Tone Generator",
+    "icon": "/img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/img/icons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en",
+    "categories": ["music", "utilities", "audio"],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/1.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/2.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/3.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/4.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://obese-pwa.netlify.app/",
@@ -1530,6 +1757,31 @@
     "theme_color": "#ff3385"
   },
   {
+    "url": "https://startrack-ng.firebaseapp.com/",
+    "active": true,
+    "name": "Star Track",
+    "description": "The best Apple Music Client out there. Built with Ionic and Angular",
+    "icon": "assets/icons/icon-512.png",
+    "icons": [
+      {
+        "src": "assets/icons/icon-mask.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "assets/icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  },
+  {
     "url": "https://sushi-hunt.herokuapp.com/",
     "active": true,
     "name": "Sushi Hunt",
@@ -1685,6 +1937,89 @@
     "screenshots": [],
     "background_color": "#FFF",
     "theme_color": "#55B4FA"
+  },
+  {
+    "url": "https://tuner.ninja/",
+    "active": true,
+    "name": "Tuner Ninja",
+    "description": "Chromatic instrument tuner.",
+    "icon": "/assets/icons/tuner_ninja_192.png",
+    "icons": [
+      {
+        "src": "/assets/icons/tuner_ninja_16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["music", "audio"],
+    "screenshots": [],
+    "background_color": "#eee",
+    "theme_color": "#222"
   },
   {
     "url": "https://wordle.madeinmadrid.org/",
