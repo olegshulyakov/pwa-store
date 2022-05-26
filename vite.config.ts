@@ -66,11 +66,11 @@ export default defineConfig({
             options: {
               cacheName: "assets",
               expiration: {
-                maxEntries: 10,
+                maxEntries: 500,
                 maxAgeSeconds: 60 * 60 * 24 * 365,
               },
               cacheableResponse: {
-                statuses: [200],
+                statuses: [0, 200],
               },
             },
           },
