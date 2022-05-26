@@ -134,7 +134,7 @@
   },
   {
     "url": "https://b4the.date/",
-    "active": false,
+    "active": true,
     "name": "B4TheDate",
     "description": "Remind you to consume the otherwise expired food. Stop the waste.",
     "icon": "/images/b4_logo72_192.png",
@@ -176,6 +176,157 @@
     "theme_color": "#2F3BA2"
   },
   {
+    "url": "https://bombhopper.io/",
+    "active": true,
+    "name": "BombHopper.io",
+    "description": "Puzzle-platformer game where you move by making explosions",
+    "icon": "icon/icon512.jpg",
+    "icons": [
+      {
+        "src": "icon/icon-monochrome.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "icon/icon-maskable128.jpg",
+        "sizes": "128x128",
+        "type": "image/jpeg",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable128.webp",
+        "sizes": "128x128",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon128.jpg",
+        "sizes": "128x128",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "icon/icon128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/icon128.webp",
+        "sizes": "128x128",
+        "type": "image/webp"
+      },
+      {
+        "src": "icon/icon-maskable256.jpg",
+        "sizes": "256x256",
+        "type": "image/jpeg",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable256.webp",
+        "sizes": "256x256",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon256.jpg",
+        "sizes": "256x256",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "icon/icon256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/icon256.webp",
+        "sizes": "256x256",
+        "type": "image/webp"
+      },
+      {
+        "src": "icon/icon-maskable512.jpg",
+        "sizes": "512x512",
+        "type": "image/jpeg",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable512.webp",
+        "sizes": "512x512",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon512.jpg",
+        "sizes": "512x512",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "icon/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/icon512.webp",
+        "sizes": "512x512",
+        "type": "image/webp"
+      },
+      {
+        "src": "icon/icon-maskable1024.jpg",
+        "sizes": "1024x1024",
+        "type": "image/jpeg",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon-maskable1024.webp",
+        "sizes": "1024x1024",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon/icon1024.jpg",
+        "sizes": "1024x1024",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "icon/icon1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/icon1024.webp",
+        "sizes": "1024x1024",
+        "type": "image/webp"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#3a323c",
+    "theme_color": "#3a323c"
+  },
+  {
     "url": "https://canvas.apps.chrome/",
     "active": true,
     "name": "Chrome Canvas",
@@ -206,6 +357,120 @@
     "categories": [],
     "screenshots": [],
     "background_color": "#FFF"
+  },
+  {
+    "url": "https://finding-nora.com/",
+    "active": true,
+    "name": "Find your name in a field of letters",
+    "description": "Learn to spell by finding all the letters of your name, or any other word.",
+    "icon": "/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      },
+      {
+        "src": "/android-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "density": "5.0"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#ffd332"
+  },
+  {
+    "url": "https://hammyhome.com/",
+    "active": true,
+    "name": "Hammy Home",
+    "description": "Hammy Home is your home for virtual hamsters.  To get started, simply choose a starter home.  You can then customize your home by changing the colors and/or adding more accessories.  Check abowman.com for updates on new features / accessories.",
+    "icon": "./images/icon_192.png",
+    "icons": [
+      {
+        "src": "./images/maskable_icon_x64.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./images/maskable_icon_x72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./images/maskable_icon_x128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./images/maskable_icon_x144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./images/maskable_icon_x152.png",
+        "type": "image/png",
+        "sizes": "152x152",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./images/maskable_icon_x512.png",
+        "type": "image/png",
+        "purpose": "maskable",
+        "sizes": "512x512"
+      },
+      {
+        "src": "./images/icon_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./images/icon_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": ["virtual pets", "hamster", "fun", "toy"],
+    "screenshots": [],
+    "background_color": "#e59c14",
+    "theme_color": "#e59c14"
   },
   {
     "url": "https://jsontoolbox.com/",
@@ -349,6 +614,133 @@
     "theme_color": "#ffffff"
   },
   {
+    "url": "https://mathriddles.netlify.app/#home",
+    "active": true,
+    "name": "Math Riddles | Quiz App",
+    "description": "Simple Quiz App with Interesting Maths Riddles & Levels up your IQ with Math Oparations.",
+    "icon": "https://mathriddles.netlify.app/images/apple-touch-icon.png",
+    "icons": [
+      {
+        "src": "images/logo128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/logo144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/logo256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "lang": "en-US",
+    "categories": ["game", "webapp", "pwa", "chrome", "math", "riddles", "math riddles"],
+    "screenshots": [
+      {
+        "src": "/images/screenshot/ss(1).jpg",
+        "sizes": "1280x1920",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/images/screenshot/ss(2).jpg",
+        "sizes": "1280x1920",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/images/screenshot/ss(3).jpg",
+        "sizes": "1280x1920",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/images/screenshot/ss(4).jpg",
+        "sizes": "1280x1920",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/images/screenshot/ss(5).jpg",
+        "sizes": "1280x1920",
+        "type": "image/jpg"
+      }
+    ],
+    "background_color": "#202020",
+    "theme_color": "#181818"
+  },
+  {
+    "url": "https://maxwellito.github.io/breaklock/",
+    "active": true,
+    "name": "BreakLock",
+    "description": "A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate.",
+    "icon": "../assets/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "../assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "../assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "../assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "../assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "../assets/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "../assets/icons/ios-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "../assets/icons/ios-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "../assets/icons/ios-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "lang": "en",
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#14171b",
+    "theme_color": "#14171b"
+  },
+  {
     "url": "https://morsure.netlify.app/",
     "active": true,
     "name": "MORSURE",
@@ -390,6 +782,65 @@
     "screenshots": [],
     "background_color": "#980000",
     "theme_color": "#980000"
+  },
+  {
+    "url": "https://offline-dino-game.firebaseapp.com/",
+    "active": true,
+    "name": "Dino Game",
+    "description": "The Chrome Dino Game but on the web, online or offline, on any browser. and with  a bigger game ;P",
+    "icon": "android-chrome-192x192.cd228ea6.png",
+    "icons": [
+      {
+        "src": "android-chrome-36x36.adb36c3b.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-48x48.0670391e.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-72x72.5890e9ba.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-96x96.eefa4c09.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-144x144.087bbd83.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-192x192.cd228ea6.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-256x256.3b009e66.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-384x384.4f291811.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.05b883fb.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "",
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://omnicamapp.com/en/",
@@ -756,6 +1207,40 @@
     "background_color": "#ffffff"
   },
   {
+    "url": "https://platesacrossamerica.com/demo/puzzle",
+    "active": true,
+    "name": "Plates Across America®",
+    "description": "Plates Across America® is an online word game. Word puzzles appear as license plates and the answers help you to travel along America's most famous routes.",
+    "icon": "/static/img/paa-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/static/img/paa-icon-maskable-196x196.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/static/img/paa-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/paa-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/paa-icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#3c3b6e",
+    "theme_color": "#3c3b6e"
+  },
+  {
     "url": "https://qrcodescan.in/",
     "active": true,
     "name": "QR Code Scanner",
@@ -861,6 +1346,65 @@
     "theme_color": "#212121"
   },
   {
+    "url": "https://snake-pwa.github.io/",
+    "active": true,
+    "name": "Snake",
+    "description": "A simple snake game",
+    "icon": "images/icons/icon-192.png",
+    "icons": [
+      {
+        "src": "images/icons/icon-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["games"],
+    "screenshots": [
+      {
+        "src": "images/screenshots/starting.png",
+        "sizes": "800x1200",
+        "type": "image/png"
+      },
+      {
+        "src": "images/screenshots/playing.png",
+        "sizes": "800x1200",
+        "type": "image/png"
+      },
+      {
+        "src": "images/screenshots/game-over.png",
+        "sizes": "800x1200",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#fff",
+    "theme_color": "#000"
+  },
+  {
     "url": "https://squoosh.app/",
     "active": true,
     "name": "Squoosh",
@@ -944,5 +1488,146 @@
     "screenshots": [],
     "background_color": "#FFFCFF",
     "theme_color": "#282629"
+  },
+  {
+    "url": "https://tmaiadev-tetra.netlify.app/",
+    "active": true,
+    "name": "Tetra by Thalles Maia",
+    "description": "",
+    "icon": "/icons/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/icons/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/icons/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/icons/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/icons/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/icons/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      },
+      {
+        "src": "/icons/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#DDFFDF",
+    "theme_color": "#DDFFDF"
+  },
+  {
+    "url": "https://tmaiadev-tictactoe.netlify.app/",
+    "active": true,
+    "name": "TicTacToe",
+    "description": "",
+    "icon": "/icons/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/icons/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/icons/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/icons/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/icons/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/icons/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      },
+      {
+        "src": "/icons/android-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-icon-1024x1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FFF",
+    "theme_color": "#55B4FA"
+  },
+  {
+    "url": "https://wordle.madeinmadrid.org/",
+    "active": true,
+    "name": "Madrid Wordle",
+    "description": "Game",
+    "icon": "logo192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#003DF6",
+    "theme_color": "#003DF6"
   }
 ]
