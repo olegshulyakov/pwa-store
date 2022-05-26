@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import type { AppInfo, ApplicationState } from "../../types";
+import { useMessageStore } from "./message";
 
 export const useApplicationStore = defineStore("application", {
   state: () =>
@@ -7,7 +8,7 @@ export const useApplicationStore = defineStore("application", {
       locale: undefined,
       pending: true,
       applications: [],
-      categories: [],
+      categories: {},
     } as ApplicationState),
 
   actions: {
@@ -17,31 +18,36 @@ export const useApplicationStore = defineStore("application", {
       this.locale = locale;
       this.error = undefined;
       this.applications = apps;
-      this.categories = [];
 
       this.sortByCategories(apps);
+
+      console.log(this.categories);
 
       this.pending = false;
     },
 
-    putApplicationIntoCategory(name: string, app: AppInfo) {
-      const existing = this.categories.find((c) => c.name === name);
-      if (existing) {
-        existing.applications.push(app);
-      } else {
-        this.categories.push({ name: name, applications: [app] });
-      }
-    },
-
     sortByCategories(applications: AppInfo[]) {
+      const messageStore = useMessageStore();
+      for (const c of Object.keys(messageStore.messages.category)) {
+        this.categories = Object.assign(this.categories, { [c]: [] });
+      }
+
       for (const app of applications) {
         if (!app.categories) {
-          this.putApplicationIntoCategory("general", app);
+          this.categories["general"].push(app);
           continue;
         }
 
+        let isFound = false;
         for (const appCategory of app.categories) {
-          this.putApplicationIntoCategory(appCategory, app);
+          if (Object.keys(this.categories).includes(appCategory)) {
+            this.categories[appCategory].push(app);
+            isFound = true;
+          }
+        }
+
+        if (!isFound) {
+          this.categories["general"].push(app);
         }
       }
     },
