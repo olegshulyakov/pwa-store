@@ -1,5 +1,36 @@
 [
   {
+    "url": "https://app.daily.dev/",
+    "active": true,
+    "name": "daily.dev",
+    "description": "daily.dev is the easiest way to stay updated on the latest programming news. Get the best content from the top tech publications on any topic you want.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/maskable_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#151618",
+    "theme_color": "#151618"
+  },
+  {
     "url": "https://app.freefy.online/",
     "active": true,
     "name": "Freefy",
@@ -579,6 +610,16 @@
     "screenshots": [],
     "background_color": "#6CCBC5",
     "theme_color": "#343434"
+  },
+  {
+    "url": "https://dev.to/",
+    "active": true,
+    "name": "DEV Community 👩‍💻👨‍💻",
+    "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
+    "icon": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+    "images": [],
+    "categories": ["social"],
+    "tags": []
   },
   {
     "url": "https://finding-nora.com/",
@@ -2183,6 +2224,74 @@
     "screenshots": [],
     "background_color": "#ef5936",
     "theme_color": "#ef5936"
+  },
+  {
+    "url": "https://www.pwalist.app/",
+    "active": true,
+    "name": "PWA List",
+    "description": "PWA List",
+    "icon": "/favicons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/favicons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#fff"
   },
   {
     "url": "https://www.tumblr.com/explore/trending?source=homepage_explore",
