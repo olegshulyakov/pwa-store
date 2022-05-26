@@ -622,6 +622,35 @@
     "tags": []
   },
   {
+    "url": "https://emojityper.com/",
+    "active": false,
+    "name": "Emojityper",
+    "description": "Emoji ready to copy and paste! Type emoji on your keyboard. List of all emoji, just type some words to get emoji. Laughing crying emoji 😂⌨",
+    "icon": "res/icon-512.png",
+    "icons": [
+      {
+        "src": "res/icon-32.png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "res/icon-128.png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "res/icon-256.png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "res/icon-512.png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#2c3e50",
+    "theme_color": "#1abc9c"
+  },
+  {
     "url": "https://finding-nora.com/",
     "active": true,
     "name": "Find your name in a field of letters",
@@ -675,6 +704,31 @@
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#ffd332"
+  },
+  {
+    "url": "https://firedraft.io/",
+    "active": true,
+    "name": "Firedraft",
+    "description": "",
+    "icon": "",
+    "icons": [
+      {
+        "src": "logo-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logo-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#2e2f33",
+    "theme_color": "#2e2f33"
   },
   {
     "url": "https://hammyhome.com/",
@@ -1184,6 +1238,73 @@
     "theme_color": "#ffffff"
   },
   {
+    "url": "https://my-qr.vercel.app/",
+    "active": true,
+    "name": "My QR",
+    "description": "Fast access to QR code",
+    "icon": "https://my-qr.vercel.app/apple-icon-57x57.png",
+    "icons": [
+      {
+        "src": "icons/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#212121",
+    "theme_color": "#40916c"
+  },
+  {
     "url": "https://obese-pwa.netlify.app/",
     "active": true,
     "name": "Obese",
@@ -1339,6 +1460,29 @@
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#000000"
+  },
+  {
+    "url": "https://pacebud.netlify.app/",
+    "active": true,
+    "name": "PaceBud",
+    "description": "A lightweight Pace Calculator PWA.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["sports", "lifestyle", "health"],
+    "screenshots": [],
+    "background_color": "#51a868",
+    "theme_color": "#51a868"
   },
   {
     "url": "https://pattern.monster/",
@@ -1669,6 +1813,49 @@
     "theme_color": "#3c3b6e"
   },
   {
+    "url": "https://pomofocus.io/",
+    "active": true,
+    "name": "Pomofocus",
+    "description": "A simple Pomodoro Timer app that works on a desktop & mobile browser. Pomofucus will help you manage your time and let you focus on any tasks such as study, writing, or coding.",
+    "icon": "images/icons/512.png",
+    "icons": [
+      {
+        "src": "images/icons/72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["productivity"],
+    "screenshots": [],
+    "background_color": "#efefef",
+    "theme_color": "#282828"
+  },
+  {
     "url": "https://qrcodescan.in/",
     "active": true,
     "name": "QR Code Scanner",
@@ -1917,6 +2104,16 @@
     "theme_color": "#ffffff"
   },
   {
+    "url": "https://stedit.app/",
+    "active": false,
+    "name": "Untitled.txt - Smart Text Editor",
+    "description": "Smart Text Editor is a vanilla JavaScript PWA that allows you to work on your coding projects from any device, in any browser, even if you don't have Internet access.",
+    "icon": "https://stedit.app/resources/app-apple-touch-180.png",
+    "images": [],
+    "categories": ["utilities"],
+    "tags": []
+  },
+  {
     "url": "https://sushi-hunt.herokuapp.com/",
     "active": true,
     "name": "Sushi Hunt",
@@ -2157,6 +2354,111 @@
     "theme_color": "#222"
   },
   {
+    "url": "https://vault.passky.org/",
+    "active": false,
+    "name": "Passky",
+    "description": "Passky is simple, modern, lightweight, open source and secure password manager.",
+    "icon": "images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "images/icons/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["productivity", "security", "utilities"],
+    "screenshots": [
+      {
+        "src": "images/screenshots/1.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/2.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/3.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/4.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/5.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/6.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/7.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/8.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      }
+    ],
+    "background_color": "#DFE5EB",
+    "theme_color": "#0D1117"
+  },
+  {
     "url": "https://vidno.online/",
     "active": true,
     "name": "Vidno – video web conference",
@@ -2206,6 +2508,69 @@
     "screenshots": [],
     "background_color": "#003DF6",
     "theme_color": "#003DF6"
+  },
+  {
+    "url": "https://wormhole.app/",
+    "active": true,
+    "name": "Wormhole",
+    "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
+    "icon": "/webmanifest/mac/icon-192x192.png",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "src": "/webmanifest/mac/icon-192x192.png",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "sizes": "512x512",
+        "src": "/webmanifest/mac/icon-512x512.png",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "sizes": "192x192",
+        "src": "/webmanifest/icon-maskable-192x192.png",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "sizes": "512x512",
+        "src": "/webmanifest/icon-maskable-512x512.png",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [
+      "productivity",
+      "utilities",
+      "security",
+      "business",
+      "files",
+      "file sharing",
+      "encryption",
+      "privacy",
+      "send files"
+    ],
+    "screenshots": [
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-1.jpg",
+        "type": "image/jpeg"
+      },
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-2.jpg",
+        "type": "image/jpeg"
+      },
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-3.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#9F7AEA"
   },
   {
     "url": "https://www-jvktpeglfs.now.sh/",
@@ -2292,6 +2657,49 @@
     "screenshots": [],
     "background_color": "#fff",
     "theme_color": "#fff"
+  },
+  {
+    "url": "https://www.silveos.com/",
+    "active": true,
+    "name": "SilveOS.com",
+    "description": "SilveOS.com - Vue based internet operating system or webtop. It provides an environment similar to that of Windows inside web browser.",
+    "icon": "icons/silveos-icon-192x192.png",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "icons/silveos-icon-120x120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "icons/silveos-icon-152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "icons/silveos-icon-180x180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "icons/silveos-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/silveos-icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#1292e5",
+    "theme_color": "#424242"
   },
   {
     "url": "https://www.tumblr.com/explore/trending?source=homepage_explore",
