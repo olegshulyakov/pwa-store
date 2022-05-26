@@ -129,6 +129,23 @@
     "theme_color": "#1b1e1c"
   },
   {
+    "url": "https://app.ft.com/",
+    "active": true,
+    "name": "Financial Times",
+    "description": "",
+    "icon": "/dist/img/icons/xxhdpi.png?v2",
+    "icons": [
+      {
+        "src": "/dist/img/icons/xxhdpi.png?v2",
+        "sizes": "192x192"
+      }
+    ],
+    "categories": ["news"],
+    "screenshots": [],
+    "background_color": "#9F0C3F",
+    "theme_color": "#fff1e0"
+  },
+  {
     "url": "https://app.starbucks.com/",
     "active": true,
     "name": "Starbucks",
@@ -1612,6 +1629,24 @@
     "screenshots": [],
     "background_color": "#F8FAFC",
     "theme_color": "#4DC0B5"
+  },
+  {
+    "url": "https://roneetkumar.github.io/umbrella/",
+    "active": true,
+    "name": "Umbrella : Weather App",
+    "description": "Umbrella is a beautifuly designed Progressive Web Application for Weather Information.",
+    "icon": "assets/512x512.png",
+    "icons": [
+      {
+        "src": "../assets/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["news"],
+    "screenshots": [],
+    "background_color": "#03a9f4",
+    "theme_color": "#03a9f4"
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
