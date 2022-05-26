@@ -547,6 +547,29 @@
     "theme_color": "#3a323c"
   },
   {
+    "url": "https://book.olacabs.com/",
+    "active": true,
+    "name": "Olacabs",
+    "description": "Now book city taxi, share, rental and outstation directly from web.",
+    "icon": "https://olawebcdn.com/images/v1/Manifest/img_logomark@4x.png",
+    "icons": [
+      {
+        "src": "https://olawebcdn.com/images/v1/Manifest/img_logomark@4x.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://olawebcdn.com/images/v1/Manifest/img_logomark@512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["travel"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#f4f3f3"
+  },
+  {
     "url": "https://canvas.apps.chrome/",
     "active": true,
     "name": "Chrome Canvas",
@@ -2589,6 +2612,35 @@
     "screenshots": [],
     "background_color": "#ef5936",
     "theme_color": "#ef5936"
+  },
+  {
+    "url": "https://www.japanese-phrasebook.com/",
+    "active": true,
+    "name": "Japanese Phrasebook",
+    "description": "⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.",
+    "icon": "/img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["travel"],
+    "screenshots": [
+      {
+        "src": "/img/japanese-phrasebook-screens.jpg",
+        "sizes": "1470x780",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#f44336"
   },
   {
     "url": "https://www.pwalist.app/",
