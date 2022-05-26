@@ -54,9 +54,7 @@
         "purpose": "maskable"
       }
     ],
-    "categories": [
-      "education"
-    ],
+    "categories": ["education"],
     "screenshots": [
       {
         "src": "/screenshots/phone/1-pt.png",
@@ -481,9 +479,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [
-      "utilities"
-    ],
+    "categories": ["utilities"],
     "screenshots": [
       {
         "src": "Screenshot1.png",
@@ -605,11 +601,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": [
-      "education",
-      "utilities",
-      "productivity"
-    ],
+    "categories": ["education", "utilities", "productivity"],
     "screenshots": [
       {
         "src": "/images/screenshot.png",
@@ -695,10 +687,7 @@
       }
     ],
     "lang": "en",
-    "categories": [
-      "education",
-      "books"
-    ],
+    "categories": ["education", "books"],
     "screenshots": [
       {
         "src": "/screenshots/Phone-1.png",
@@ -891,11 +880,7 @@
       }
     ],
     "lang": "en",
-    "categories": [
-      "photo",
-      "productivity",
-      "utilities"
-    ],
+    "categories": ["photo", "productivity", "utilities"],
     "screenshots": [
       {
         "src": "/c/screenshot1-0ff68546.png",
@@ -921,7 +906,7 @@
     "active": true,
     "name": "Sushi Hunt",
     "description": "",
-    "icon": "",
+    "icon": "images/sushi-196.png",
     "icons": [
       {
         "src": "images/sushi-196.png",
@@ -955,12 +940,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": [
-      "personalization",
-      "productivity",
-      "utilities",
-      "developer tools"
-    ],
+    "categories": ["personalization", "productivity", "utilities", "developer tools"],
     "screenshots": [],
     "background_color": "#FFFCFF",
     "theme_color": "#282629"

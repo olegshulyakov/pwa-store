@@ -3,24 +3,28 @@
 
   <p v-if="error">Error while fetching applications</p>
 
-  <ApplicationGrid :applications="applications" />
+  <template v-if="categories">
+    <template v-for="(category, index) in categories" :key="index">
+      <ApplicationCategoryCarousel :name="category.name" :applications="category.applications" />
+    </template>
+  </template>
 </template>
 
 <script lang="ts">
-import ApplicationGrid from "@/components/ApplicationGrid.vue";
+import ApplicationCategoryCarousel from "@/components/ApplicationCategoryCarousel.vue";
 import { computed } from "vue";
 import { useApplicationStore } from "../store/application";
 
 export default {
   components: {
-    ApplicationGrid,
+    ApplicationCategoryCarousel,
   },
   setup() {
     const appStore = useApplicationStore();
     return {
       pending: computed(() => appStore.pending),
       error: computed(() => appStore.error),
-      applications: computed(() => appStore.applications),
+      categories: computed(() => appStore.categories),
     };
   },
 };

@@ -11,6 +11,7 @@ export type ApplicationState = {
   pending: boolean;
   error?: string;
   applications: AppInfo[];
+  categories: CategoryInfo[];
 };
 
 /** Data types */
@@ -23,4 +24,9 @@ export type AppInfo = {
   images?: string[];
   categories: string[];
   tags: string[];
+};
+
+export type CategoryInfo = {
+  name: string;
+  applications: AppInfo[];
 };

@@ -39,8 +39,10 @@
     }
   },
   "category": {
+    "general": "general",
     "books": "books",
     "business": "business",
+    "developer tools": "developer tools",
     "education": "education",
     "entertainment": "entertainment",
     "finance": "finance",
