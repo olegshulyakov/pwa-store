@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug: Firefox",
+      "type": "firefox",
+      "request": "launch",
+      "url": "http://localhost:3000/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug: Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "Check site",
