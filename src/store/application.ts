@@ -12,7 +12,7 @@ export const useApplicationStore = defineStore("application", {
 
   actions: {
     async fetchApplications(locale = navigator.language) {
-      const data = await fetch(`./data/${locale}.json`, { mode: "no-cors" });
+      const data = await fetch(`./data/${locale}.json`);
       const apps = await data.json();
       this.locale = locale;
       this.error = undefined;
