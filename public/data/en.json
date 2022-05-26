@@ -359,6 +359,39 @@
     "background_color": "#FFF"
   },
   {
+    "url": "https://carecards.io/",
+    "active": true,
+    "name": "Care Cards",
+    "description": "We all get a little overwhelmed from time to time. Care Cards is a set of helpful little tips to keep you on top of your mental well-being.",
+    "icon": "icon-192x192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "32x32 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#6CCBC5",
+    "theme_color": "#343434"
+  },
+  {
     "url": "https://finding-nora.com/",
     "active": true,
     "name": "Find your name in a field of letters",
@@ -471,6 +504,29 @@
     "screenshots": [],
     "background_color": "#e59c14",
     "theme_color": "#e59c14"
+  },
+  {
+    "url": "https://hightide.earth/",
+    "active": true,
+    "name": "High Tide",
+    "description": "Find Tides Instantly",
+    "icon": "/assets/icons/android-chrome-192x192-b76415d8584f5c24ed4e45132b2cce42.png",
+    "icons": [
+      {
+        "src": "/assets/icons/android-chrome-192x192-b76415d8584f5c24ed4e45132b2cce42.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/android-chrome-512x512-09a7040cb349a7a58dfaea2f79c89080.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#4EB0F6",
+    "theme_color": "#4EB0F6"
   },
   {
     "url": "https://jsontoolbox.com/",
@@ -782,6 +838,34 @@
     "screenshots": [],
     "background_color": "#980000",
     "theme_color": "#980000"
+  },
+  {
+    "url": "https://obese-pwa.netlify.app/",
+    "active": true,
+    "name": "Obese",
+    "description": "BMI tracker with graphs",
+    "icon": "./images/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./images/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/icons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/ico"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#333333",
+    "theme_color": "#00d99c"
   },
   {
     "url": "https://offline-dino-game.firebaseapp.com/",
@@ -1629,5 +1713,23 @@
     "screenshots": [],
     "background_color": "#003DF6",
     "theme_color": "#003DF6"
+  },
+  {
+    "url": "https://www-jvktpeglfs.now.sh/",
+    "active": true,
+    "name": "BMI Calculator",
+    "description": "",
+    "icon": "assets/icon.png",
+    "icons": [
+      {
+        "src": "assets/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#ef5936",
+    "theme_color": "#ef5936"
   }
 ]
