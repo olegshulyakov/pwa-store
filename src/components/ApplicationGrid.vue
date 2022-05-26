@@ -1,7 +1,7 @@
 <template>
   <ul v-if="applications" class="py-2 md:py-4 grid justify-center auto-rows-auto gap-4 md:gap-8">
-    <li v-for="(app, index) in applications" :key="index" class="w-full h-full">
-      <ApplicationCard :app="app" />
+    <li v-for="app in applications" class="w-full h-full">
+      <ApplicationCard :key="app.name" :app="app" />
     </li>
   </ul>
 </template>

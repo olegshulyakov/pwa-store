@@ -21,8 +21,6 @@ export const useApplicationStore = defineStore("application", {
 
       this.sortByCategories(apps);
 
-      console.log(this.categories);
-
       this.pending = false;
     },
 

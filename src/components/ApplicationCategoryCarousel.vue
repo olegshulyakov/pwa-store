@@ -4,13 +4,12 @@
   </h2>
 
   <ul
-    v-if="applications"
     ref="applicationList"
     class="py-2 md:py-4 flex overflow-y-hidden overflow-x-auto overscroll-y-none overscroll-x-auto list-none gap-4 md:gap-8"
     v-on:wheel="scrollX"
   >
-    <li v-for="(app, index) in applications" :key="index">
-      <ApplicationCard :app="app" />
+    <li v-for="app in applications">
+      <ApplicationCard :key="app.name" :app="app" />
     </li>
   </ul>
 </template>

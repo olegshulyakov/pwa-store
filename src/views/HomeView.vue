@@ -4,8 +4,13 @@
   <p v-else-if="error" class="capitalize">{{ $t("home.error") }}</p>
 
   <template v-else-if="categories">
-    <template v-for="(category, index) of Object.keys(categories)" :key="index">
-      <ApplicationCategoryCarousel :name="category" :applications="categories[category]" />
+    <template v-for="category of Object.keys(categories)">
+      <ApplicationCategoryCarousel
+        :key="category"
+        v-if="categories[category].length > 0"
+        :name="category"
+        :applications="categories[category]"
+      />
     </template>
   </template>
 
