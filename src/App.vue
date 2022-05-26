@@ -20,7 +20,7 @@ export default {
   setup() {
     const messageStore = useMessageStore();
     messageStore.$reset();
-    messageStore.fetchLocaleMessages().catch(() => messageStore.fetchLocaleMessages(fallbackLocale));
+    messageStore.fetchLocaleMessages(fallbackLocale).then(() => messageStore.fetchLocaleMessages());
 
     const appStore = useApplicationStore();
     appStore.$reset();
