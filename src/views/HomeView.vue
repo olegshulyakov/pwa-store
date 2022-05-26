@@ -1,13 +1,15 @@
 <template>
   <p v-if="pending" class="capitalize">{{ $t("home.pending") }}</p>
 
-  <p v-if="error" class="capitalize">{{ $t("home.error") }}</p>
+  <p v-else-if="error" class="capitalize">{{ $t("home.error") }}</p>
 
-  <template v-if="categories">
+  <template v-else-if="categories">
     <template v-for="(category, index) in categories" :key="index">
       <ApplicationCategoryCarousel :name="category.name" :applications="category.applications" />
     </template>
   </template>
+
+  <p v-else class="capitalize">{{ $t("home.empty") }}</p>
 </template>
 
 <script lang="ts">

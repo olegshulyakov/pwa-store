@@ -25,7 +25,8 @@
   },
   "home": {
     "pending": "loading...",
-    "error": "error while fetching applications"
+    "error": "error while fetching applications",
+    "empty": "no applications"
   },
   "about": {
     "title": "About",
