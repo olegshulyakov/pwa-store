@@ -12,7 +12,10 @@ export const useMessageStore = defineStore("message", {
 
   actions: {
     async fetchLocaleMessages(locale = navigator.language) {
-      const messages = (await import(/* webpackChunkName: "locale-[request]" */ `../locales/${locale}.json`)).default;
+      const data = await fetch(`./locales/${locale}.json`, {
+        mode: "no-cors",
+      });
+      const messages = await data.json();
 
       // set locale and locale message
       i18n.global.setLocaleMessage(locale, messages);
