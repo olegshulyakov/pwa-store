@@ -8,9 +8,8 @@
 import { computed } from "vue";
 import { RouterView } from "vue-router";
 import LayoutDefaultDesktop from "./layouts/LayoutDefaultDesktop.vue";
+import { initStore } from "./store";
 import { useMessageStore } from "./store/message";
-import { useApplicationStore } from "./store/application";
-import { fallbackLocale } from "./i18n";
 
 export default {
   components: {
@@ -18,14 +17,8 @@ export default {
     LayoutDefaultDesktop,
   },
   setup() {
+    initStore();
     const messageStore = useMessageStore();
-    messageStore.$reset();
-    messageStore.fetchLocaleMessages(fallbackLocale).then(() => messageStore.fetchLocaleMessages());
-
-    const appStore = useApplicationStore();
-    appStore.$reset();
-    appStore.fetchApplications().catch(() => appStore.fetchApplications(fallbackLocale));
-
     return { pending: computed(() => messageStore.pending) };
   },
 };
