@@ -17,7 +17,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["food"],
     "screenshots": [],
     "background_color": "#FFFFFF",
     "theme_color": "#00A862"
@@ -170,7 +170,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["food"],
     "screenshots": [],
     "background_color": "#FFFFFF",
     "theme_color": "#2F3BA2"
@@ -321,7 +321,7 @@
         "type": "image/webp"
       }
     ],
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#3a323c",
     "theme_color": "#3a323c"
@@ -354,7 +354,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["developer tools"],
     "screenshots": [],
     "background_color": "#FFF"
   },
@@ -408,7 +408,7 @@
         "density": "5.0"
       }
     ],
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#ffd332"
@@ -467,7 +467,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": ["virtual pets", "hamster", "fun", "toy"],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#e59c14",
     "theme_color": "#e59c14"
@@ -495,7 +495,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": [],
+    "categories": ["developer tools", "utility"],
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#ffffff"
@@ -540,7 +540,7 @@
       }
     ],
     "lang": "en-US",
-    "categories": [],
+    "categories": ["finance"],
     "screenshots": [],
     "background_color": "#4D841E",
     "theme_color": "#4D841E"
@@ -608,7 +608,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["education"],
     "screenshots": [],
     "background_color": "#ffffff",
     "theme_color": "#ffffff"
@@ -652,7 +652,7 @@
       }
     ],
     "lang": "en-US",
-    "categories": ["game", "webapp", "pwa", "chrome", "math", "riddles", "math riddles"],
+    "categories": ["games"],
     "screenshots": [
       {
         "src": "/images/screenshot/ss(1).jpg",
@@ -735,7 +735,7 @@
       }
     ],
     "lang": "en",
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#14171b",
     "theme_color": "#14171b"
@@ -778,7 +778,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["education", "games"],
     "screenshots": [],
     "background_color": "#980000",
     "theme_color": "#980000"
@@ -837,7 +837,7 @@
       }
     ],
     "lang": "",
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#ffffff",
     "theme_color": "#ffffff"
@@ -907,7 +907,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["entertainment", "travel"],
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#000000"
@@ -1052,7 +1052,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": ["education", "utilities", "productivity"],
+    "categories": ["education"],
     "screenshots": [
       {
         "src": "/images/screenshot.png",
@@ -1138,7 +1138,7 @@
       }
     ],
     "lang": "en",
-    "categories": ["education", "books"],
+    "categories": ["education"],
     "screenshots": [
       {
         "src": "/screenshots/Phone-1.png",
@@ -1202,7 +1202,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["photo", "utilities"],
     "screenshots": [],
     "background_color": "#ffffff"
   },
@@ -1235,7 +1235,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["travel"],
     "screenshots": [],
     "background_color": "#3c3b6e",
     "theme_color": "#3c3b6e"
@@ -1258,7 +1258,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["utilities"],
     "screenshots": [
       {
         "src": "/images/screenshots/screenshot1.png",
@@ -1297,7 +1297,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["utilities"],
     "screenshots": [],
     "background_color": "#F8FAFC",
     "theme_color": "#4DC0B5"
@@ -1340,7 +1340,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["utilities", "photo", "developer tools"],
     "screenshots": [],
     "background_color": "#212121",
     "theme_color": "#212121"
@@ -1424,7 +1424,7 @@
       }
     ],
     "lang": "en",
-    "categories": ["photo", "productivity", "utilities"],
+    "categories": ["photo", "developer tools", "utilities"],
     "screenshots": [
       {
         "src": "/c/screenshot1-0ff68546.png",
@@ -1458,7 +1458,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["food"],
     "screenshots": []
   },
   {
@@ -1484,7 +1484,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": ["personalization", "productivity", "utilities", "developer tools"],
+    "categories": ["personalization", "utilities", "developer tools"],
     "screenshots": [],
     "background_color": "#FFFCFF",
     "theme_color": "#282629"
@@ -1538,7 +1538,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#DDFFDF",
     "theme_color": "#DDFFDF"
@@ -1597,7 +1597,7 @@
         "type": "image/png"
       }
     ],
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#FFF",
     "theme_color": "#55B4FA"
@@ -1625,7 +1625,7 @@
         "sizes": "512x512"
       }
     ],
-    "categories": [],
+    "categories": ["games"],
     "screenshots": [],
     "background_color": "#003DF6",
     "theme_color": "#003DF6"
