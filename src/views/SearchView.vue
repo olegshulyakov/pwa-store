@@ -14,7 +14,7 @@ export default {
   },
   setup() {
     const route = useRoute();
-    const text = computed(() => route.query.text as string);
+    const text = computed(() => (route.query.text as string).toLowerCase());
 
     const appStore = useApplicationStore();
     return {
