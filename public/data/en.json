@@ -893,6 +893,53 @@
     "tags": []
   },
   {
+    "url": "https://devdocs.io/",
+    "active": true,
+    "name": "DevDocs",
+    "description": "API Documentation Browser",
+    "icon": "/images/webapp-icon-192.png",
+    "icons": [
+      {
+        "src": "/images/webapp-icon-32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-80.png",
+        "sizes": "80x80",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["education", "developer tools"],
+    "screenshots": [],
+    "background_color": "#EEEEEE"
+  },
+  {
     "url": "https://emojityper.com/",
     "active": false,
     "name": "Emojityper",
@@ -1168,6 +1215,62 @@
     "screenshots": [],
     "background_color": "#4EB0F6",
     "theme_color": "#4EB0F6"
+  },
+  {
+    "url": "https://hoppscotch.io/",
+    "active": true,
+    "name": "Hoppscotch",
+    "description": "Open source API development ecosystem",
+    "icon": "https://hoppscotch.io/_nuxt/icons/icon_512x512.062430.png",
+    "icons": [
+      {
+        "src": "/_nuxt/icons/icon_64x64.062430.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_120x120.062430.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_144x144.062430.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_152x152.062430.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_192x192.062430.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_384x384.062430.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_512x512.062430.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "lang": "en",
+    "categories": ["developer tools"],
+    "screenshots": [],
+    "background_color": "#202124",
+    "theme_color": "#202124"
   },
   {
     "url": "https://housing.com/",
@@ -1589,6 +1692,41 @@
     "screenshots": [],
     "background_color": "#980000",
     "theme_color": "#980000"
+  },
+  {
+    "url": "https://music.qier222.com/",
+    "active": true,
+    "name": "YesPlayMusic",
+    "description": "",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [],
+    "background_color": "#335eea",
+    "theme_color": "#ffffff00"
   },
   {
     "url": "https://musickit.jull.dev/tone-generator",
