@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://0data.app/",
+    "active": false,
+    "name": "Zero Data App",
+    "description": "Own your data, all of it.",
+    "icon": "application_icon_x144.png",
+    "icons": [],
+    "categories": ["utilities", "developer tools"],
+    "screenshots": [],
+    "background_color": "#F3F3E3"
+  },
+  {
     "url": "https://2048-opera-pwa.surge.sh/",
     "active": true,
     "name": "2048 Puzzle",
@@ -35,6 +46,44 @@
     "categories": ["games"],
     "screenshots": [],
     "background_color": "#ECC402"
+  },
+  {
+    "url": "https://2brew.github.io/",
+    "active": true,
+    "name": "2Brew",
+    "description": "",
+    "icon": "public/icon/icon_192x192.png",
+    "icons": [
+      {
+        "src": "public/icon/icon_128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "public/icon/icon_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "public/icon/icon_152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "public/icon/icon_192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "public/icon/icon_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["productivity"],
+    "screenshots": [],
+    "background_color": "#f9f9fa",
+    "theme_color": "#f9f9fa"
   },
   {
     "url": "https://airhorner.com/",
@@ -127,6 +176,68 @@
     "theme_color": "#2196F3"
   },
   {
+    "url": "https://alarmdj.com/",
+    "active": true,
+    "name": "Alarm DJ",
+    "short_name": "Alarm Clock",
+    "description": "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed.",
+    "dir": "ltr",
+    "lang": "en-US",
+    "display": "standalone",
+    "orientation": "landscape",
+    "start_url": "./?utm_source=web_app_manifest",
+    "background_color": "#fff",
+    "icons": [
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "https://alarmdj.com/assets/images/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["music"],
+    "theme_color": "#3E2723"
+  },
+  {
     "url": "https://alexgibson.github.io/wavepad/",
     "active": false,
     "name": "Wave-PD1",
@@ -146,6 +257,94 @@
     "theme_color": "#000000"
   },
   {
+    "url": "https://amp.dev/",
+    "active": false,
+    "name": "amp.dev",
+    "description": "Whether you are a publisher, e-commerce company, storyteller, advertiser or email sender, AMP makes it easy to create great experiences on the web. Use AMP to build websites, stories, ads and emails.",
+    "icon": "/static/img/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "/static/img/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["developer tools"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#005af0"
+  },
+  {
+    "url": "https://andreasbm.github.io/web-skills/",
+    "active": true,
+    "name": "Web Skills",
+    "description": "A visual overview of useful skills to learn as a web developer",
+    "icon": "www/icon-circle192x192.png",
+    "icons": [
+      {
+        "src": "www/icon-circle192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "www/icon-circle512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "lang": "en-US",
+    "categories": ["productivity", "education", "utilities"],
+    "screenshots": [
+      {
+        "src": "www/screenshot-1-1280x720.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "www/screenshot-2-1280x720.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#0B0B19",
+    "theme_color": "#0B0B19"
+  },
+  {
     "url": "https://andreasbovens.github.io/inbox-attack/",
     "active": true,
     "name": "Inbox Attack",
@@ -161,6 +360,29 @@
     "screenshots": [],
     "background_color": "#CCDEA8",
     "theme_color": "#990000"
+  },
+  {
+    "url": "https://anonynote.org/",
+    "active": true,
+    "name": "Anonynote",
+    "description": "A free Progressive Web App for anonymously saving, retrieving and organizing notes. No accounts or logins! Quickly access important data from all of your devices.",
+    "icon": "/favicons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["productivity"],
+    "screenshots": [],
+    "background_color": "#0099cc",
+    "theme_color": "#0099cc"
   },
   {
     "url": "https://app.daily.dev/",
@@ -361,6 +583,29 @@
     "screenshots": [],
     "background_color": "#FFFFFF",
     "theme_color": "#00A862"
+  },
+  {
+    "url": "https://appsco.pe/",
+    "active": true,
+    "name": "Appscope",
+    "description": "Appscope is a directory of Progressive Web Apps, showcasing hundreds of excellent PWA examples.",
+    "icon": "/img/icons/192.png",
+    "icons": [
+      {
+        "src": "/img/icons/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["general", "store", "utilities"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://atom.horuslugo.com/",
@@ -3692,7 +3937,7 @@
       }
     ],
     "lang": "en",
-    "categories": [" music"],
+    "categories": ["music"],
     "screenshots": []
   },
   {
