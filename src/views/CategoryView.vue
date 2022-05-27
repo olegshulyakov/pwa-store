@@ -1,5 +1,9 @@
 <template>
-  <ApplicationGrid :applications="filteredApps" />
+  <h2 class="text-xl font-bold uppercase">
+    {{ $t(`category.${name.toLowerCase()}`) }}
+  </h2>
+
+  <ApplicationGrid :applications="applications" />
 </template>
 
 <script lang="ts">
@@ -14,15 +18,11 @@ export default {
   },
   setup() {
     const route = useRoute();
-    const text = computed(() => (route.query.text as string).toLowerCase());
-
+    const name = computed(() => (route.params.name as string).toLowerCase());
     const appStore = useApplicationStore();
     return {
-      filteredApps: computed(() =>
-        appStore.applications.filter((app) => {
-          return app.name.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
-        })
-      ),
+      name,
+      applications: computed(() => appStore.categories[name.value]),
     };
   },
 };

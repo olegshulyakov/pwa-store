@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { debug } from "../utils";
 import AboutView from "../views/AboutView.vue";
+import CategoryView from "../views/CategoryView.vue";
 import HomeView from "../views/HomeView.vue";
 import SearchView from "../views/SearchView.vue";
 
@@ -21,6 +22,12 @@ const router = createRouter({
       path: "/search",
       name: "search",
       component: SearchView,
+    },
+    {
+      path: "/category/:name",
+      name: "category",
+      component: CategoryView,
+      props: true,
     },
   ],
 });

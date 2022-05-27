@@ -1,7 +1,10 @@
 <template>
-  <h2 class="text-xl font-bold uppercase">
-    {{ $t(`category.${name.toLowerCase()}`) }}
-  </h2>
+  <RouterLink
+    class="text-xl font-bold uppercase flex flex-row items-center"
+    :to="{ name: 'category', params: { name: name.toLowerCase() } }"
+  >
+    {{ $t(`category.${name.toLowerCase()}`) }}<span class="material-icons">chevron_right</span>
+  </RouterLink>
 
   <ul
     ref="applicationList"
