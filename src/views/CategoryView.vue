@@ -7,8 +7,7 @@
 </template>
 
 <script lang="ts">
-import { computed } from "vue";
-import { useRoute } from "vue-router";
+import { computed, useAttrs } from "vue";
 import ApplicationGrid from "../components/ApplicationGrid.vue";
 import { useApplicationStore } from "../store/application";
 
@@ -17,8 +16,8 @@ export default {
     ApplicationGrid,
   },
   setup() {
-    const route = useRoute();
-    const name = computed(() => (route.params.name as string).toLowerCase());
+    const attrs = useAttrs();
+    const name = computed(() => (attrs.name as string).toLowerCase());
     const appStore = useApplicationStore();
     return {
       name,

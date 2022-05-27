@@ -1,10 +1,9 @@
 <template>
-  <ApplicationGrid :applications="filteredApps" />
+  <ApplicationGrid :applications="applications" />
 </template>
 
 <script lang="ts">
-import { computed } from "vue";
-import { useRoute } from "vue-router";
+import { computed, useAttrs } from "vue";
 import ApplicationGrid from "../components/ApplicationGrid.vue";
 import { useApplicationStore } from "../store/application";
 
@@ -13,12 +12,13 @@ export default {
     ApplicationGrid,
   },
   setup() {
-    const route = useRoute();
-    const text = computed(() => (route.query.text as string).toLowerCase());
+    const attrs = useAttrs();
+    const text = computed(() => (attrs.text as string).toLowerCase());
 
     const appStore = useApplicationStore();
     return {
-      filteredApps: computed(() =>
+      text,
+      applications: computed(() =>
         appStore.applications.filter((app) => {
           return app.name.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
         })

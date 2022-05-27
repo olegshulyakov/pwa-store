@@ -22,6 +22,7 @@ const router = createRouter({
       path: "/search",
       name: "search",
       component: SearchView,
+      props: (route) => ({ text: route.query.text }),
     },
     {
       path: "/category/:name",
