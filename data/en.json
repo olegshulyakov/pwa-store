@@ -1,5 +1,345 @@
 [
   {
+    "url": "https://2048-opera-pwa.surge.sh/",
+    "active": true,
+    "name": "2048 Puzzle",
+    "description": "",
+    "icon": "/meta/2048-rounded-192.png",
+    "icons": [
+      {
+        "src": "/meta/2048-rounded-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/meta/2048-rounded-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/meta/2048-rounded-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/meta/2048-rounded-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/meta/2048-rounded-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["games"],
+    "screenshots": [],
+    "background_color": "#ECC402"
+  },
+  {
+    "url": "https://airhorner.com/",
+    "active": true,
+    "name": "The Air Horner",
+    "description": "The world's best airhorner, and it's free",
+    "icon": "/images/touch/android-launchericon-192-192.png",
+    "icons": [
+      {
+        "src": "/images/touch/android-launchericon-48-48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/images/touch/android-launchericon-72-72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/images/touch/android-launchericon-96-96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/images/touch/android-launchericon-144-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/images/touch/android-launchericon-192-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/touch/android-launchericon-512-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-48-48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-72-72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-96-96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-144-144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-192-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/touch/android-maskableicon-512-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [
+      {
+        "src": "/images/screenshots/1-360x640.png",
+        "type": "image/png",
+        "sizes": "1080x1920"
+      },
+      {
+        "src": "/images/screenshots/2-360x640.png",
+        "type": "image/png",
+        "sizes": "360x640"
+      }
+    ],
+    "background_color": "#2196F3",
+    "theme_color": "#2196F3"
+  },
+  {
+    "url": "https://alexgibson.github.io/wavepad/",
+    "active": false,
+    "name": "Wave-PD1",
+    "description": "An experimental synthesizer built using the Web Audio API.",
+    "icon": "",
+    "icons": [
+      {
+        "src": "images/iOS-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en",
+    "categories": ["music"],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  },
+  {
+    "url": "https://andreasbovens.github.io/inbox-attack/",
+    "active": true,
+    "name": "Inbox Attack",
+    "description": "",
+    "icon": "icon.png",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192"
+      }
+    ],
+    "categories": ["games"],
+    "screenshots": [],
+    "background_color": "#CCDEA8",
+    "theme_color": "#990000"
+  },
+  {
+    "url": "https://app.daily.dev/",
+    "active": true,
+    "name": "daily.dev",
+    "description": "daily.dev is the easiest way to stay updated on the latest programming news. Get the best content from the top tech publications on any topic you want.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/maskable_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#151618",
+    "theme_color": "#151618"
+  },
+  {
+    "url": "https://app.freefy.online/",
+    "active": true,
+    "name": "Freefy",
+    "description": "Free streaming music, random mode or not, as you prefer and without advertising between songs. We are the alternative to other platforms 🥳",
+    "icon": "public/client/assets/mobile-icons/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0",
+        "purpose": "any"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "public/client/assets/mobile-icons/maskable/maskable_icon.png",
+        "sizes": "1398x1398",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [
+      {
+        "src": "public/client/assets/mobile-screenshots/1.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/2.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/3.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/4.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      },
+      {
+        "src": "public/client/assets/mobile-screenshots/5.webp",
+        "sizes": "320x625",
+        "type": "image/webp"
+      }
+    ],
+    "background_color": "#1b1e1c",
+    "theme_color": "#1b1e1c"
+  },
+  {
+    "url": "https://app.ft.com/",
+    "active": true,
+    "name": "Financial Times",
+    "description": "",
+    "icon": "/dist/img/icons/xxhdpi.png?v2",
+    "icons": [
+      {
+        "src": "/dist/img/icons/xxhdpi.png?v2",
+        "sizes": "192x192"
+      }
+    ],
+    "categories": ["news"],
+    "screenshots": [],
+    "background_color": "#9F0C3F",
+    "theme_color": "#fff1e0"
+  },
+  {
     "url": "https://app.starbucks.com/",
     "active": true,
     "name": "Starbucks",
@@ -176,6 +516,49 @@
     "theme_color": "#2F3BA2"
   },
   {
+    "url": "https://beat-tap.firebaseapp.com/",
+    "active": true,
+    "name": "beat-tap",
+    "description": "A BPM Counter application as a PWA.",
+    "icon": "resources/launcher-icon-4x.png",
+    "icons": [
+      {
+        "src": "resources/launcher-icon-1x.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "resources/launcher-icon-2x.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "resources/launcher-icon-3x.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "resources/launcher-icon-4x.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "resources/splash-icon-1x.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "resources/splash-icon-2x.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "categories": ["music", "audio"],
+    "screenshots": [],
+    "background_color": "#475962",
+    "theme_color": "#475962"
+  },
+  {
     "url": "https://bombhopper.io/",
     "active": true,
     "name": "BombHopper.io",
@@ -327,6 +710,29 @@
     "theme_color": "#3a323c"
   },
   {
+    "url": "https://book.olacabs.com/",
+    "active": true,
+    "name": "Olacabs",
+    "description": "Now book city taxi, share, rental and outstation directly from web.",
+    "icon": "https://olawebcdn.com/images/v1/Manifest/img_logomark@4x.png",
+    "icons": [
+      {
+        "src": "https://olawebcdn.com/images/v1/Manifest/img_logomark@4x.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://olawebcdn.com/images/v1/Manifest/img_logomark@512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["travel"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#f4f3f3"
+  },
+  {
     "url": "https://canvas.apps.chrome/",
     "active": true,
     "name": "Chrome Canvas",
@@ -357,6 +763,263 @@
     "categories": ["developer tools"],
     "screenshots": [],
     "background_color": "#FFF"
+  },
+  {
+    "url": "https://carecards.io/",
+    "active": true,
+    "name": "Care Cards",
+    "description": "We all get a little overwhelmed from time to time. Care Cards is a set of helpful little tips to keep you on top of your mental well-being.",
+    "icon": "icon-192x192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "32x32 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#6CCBC5",
+    "theme_color": "#343434"
+  },
+  {
+    "url": "https://cloudfour.com/",
+    "active": true,
+    "name": "Cloud Four",
+    "description": "We design and develop responsive websites and progressive web apps.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en",
+    "categories": ["business", "technology", "web"],
+    "screenshots": [],
+    "background_color": "#456BD9",
+    "theme_color": "#456BD9"
+  },
+  {
+    "url": "https://code.nasa.gov/",
+    "active": true,
+    "name": "NASA Open Source Software",
+    "description": "Find Open Source Software Projects from NASA.",
+    "icon": "images/logos/nasa-192.png",
+    "icons": [
+      {
+        "src": "images/logos/nasa-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logos/nasa-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["education"],
+    "screenshots": [],
+    "background_color": "#212121",
+    "theme_color": "#212121"
+  },
+  {
+    "url": "https://deanhume.github.io/beer/",
+    "active": true,
+    "name": "Progressive Beer",
+    "description": "Progressive Beer - The ultimate guide to beer around the world.",
+    "icon": "./images/beer-icon-192.png",
+    "icons": [
+      {
+        "src": "./images/beer-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "./images/beer-icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "1"
+      },
+      {
+        "src": "./images/beer-icon-240.png",
+        "sizes": "240x240",
+        "type": "image/png",
+        "density": "1"
+      },
+      {
+        "src": "./images/beer-icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "1"
+      }
+    ],
+    "lang": "en-US",
+    "categories": ["food"],
+    "screenshots": [],
+    "background_color": "#ffe400",
+    "theme_color": "#ffe400"
+  },
+  {
+    "url": "https://dev.to/",
+    "active": true,
+    "name": "DEV Community 👩‍💻👨‍💻",
+    "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
+    "icon": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+    "images": [],
+    "categories": ["social"],
+    "tags": []
+  },
+  {
+    "url": "https://devdocs.io/",
+    "active": true,
+    "name": "DevDocs",
+    "description": "API Documentation Browser",
+    "icon": "/images/webapp-icon-192.png",
+    "icons": [
+      {
+        "src": "/images/webapp-icon-32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-80.png",
+        "sizes": "80x80",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/webapp-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["education", "developer tools"],
+    "screenshots": [],
+    "background_color": "#EEEEEE"
+  },
+  {
+    "url": "https://emojityper.com/",
+    "active": false,
+    "name": "Emojityper",
+    "description": "Emoji ready to copy and paste! Type emoji on your keyboard. List of all emoji, just type some words to get emoji. Laughing crying emoji 😂⌨",
+    "icon": "res/icon-512.png",
+    "icons": [
+      {
+        "src": "res/icon-32.png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "res/icon-128.png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "res/icon-256.png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "res/icon-512.png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#2c3e50",
+    "theme_color": "#1abc9c"
+  },
+  {
+    "url": "https://expensemanager.demo.vaadin.com/",
+    "active": true,
+    "name": "Expense Manager",
+    "description": "Progressive Web App built using Polymer and Vaadin components",
+    "icon": "images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "images/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "hsl(214, 27%, 26%)",
+    "theme_color": "hsl(214, 27%, 26%)"
   },
   {
     "url": "https://finding-nora.com/",
@@ -412,6 +1075,64 @@
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#ffd332"
+  },
+  {
+    "url": "https://firedraft.io/",
+    "active": true,
+    "name": "Firedraft",
+    "description": "",
+    "icon": "",
+    "icons": [
+      {
+        "src": "logo-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logo-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#2e2f33",
+    "theme_color": "#2e2f33"
+  },
+  {
+    "url": "https://getkana.com/app/",
+    "active": true,
+    "name": "Get Kana!",
+    "description": "",
+    "icon": "images/android-touch-icon-192x192.png",
+    "icons": [
+      {
+        "src": "images/android-touch-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ],
+    "categories": ["education"],
+    "screenshots": []
+  },
+  {
+    "url": "https://guitar-tuner.appspot.com/",
+    "active": true,
+    "name": "Guitar Tuner",
+    "description": "",
+    "icon": "/images/chrome-touch-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/images/chrome-touch-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": []
   },
   {
     "url": "https://hammyhome.com/",
@@ -471,6 +1192,195 @@
     "screenshots": [],
     "background_color": "#e59c14",
     "theme_color": "#e59c14"
+  },
+  {
+    "url": "https://hightide.earth/",
+    "active": true,
+    "name": "High Tide",
+    "description": "Find Tides Instantly",
+    "icon": "/assets/icons/android-chrome-192x192-b76415d8584f5c24ed4e45132b2cce42.png",
+    "icons": [
+      {
+        "src": "/assets/icons/android-chrome-192x192-b76415d8584f5c24ed4e45132b2cce42.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/android-chrome-512x512-09a7040cb349a7a58dfaea2f79c89080.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#4EB0F6",
+    "theme_color": "#4EB0F6"
+  },
+  {
+    "url": "https://hoppscotch.io/",
+    "active": true,
+    "name": "Hoppscotch",
+    "description": "Open source API development ecosystem",
+    "icon": "https://hoppscotch.io/_nuxt/icons/icon_512x512.062430.png",
+    "icons": [
+      {
+        "src": "/_nuxt/icons/icon_64x64.062430.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_120x120.062430.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_144x144.062430.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_152x152.062430.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_192x192.062430.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_384x384.062430.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_512x512.062430.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "lang": "en",
+    "categories": ["developer tools"],
+    "screenshots": [],
+    "background_color": "#202124",
+    "theme_color": "#202124"
+  },
+  {
+    "url": "https://housing.com/",
+    "active": false,
+    "name": "Housing Go",
+    "description": "Find your Dream Home from 5 Lakh+ properties on Housing.com. Find ✓327000+ Properties for Sale. ✓110000+ Properties for Rent. ✓46000+ New Projects & ✓15000+ PG/Co-Living Spaces. Enquire Now!",
+    "icon": "//c.housingcdn.com/s/assets/logo-192.2a46a9da.png",
+    "icons": [
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-192.2a46a9da.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-144.467ca177.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-512.51d71d36.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en",
+    "categories": ["travel"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#7323dc"
+  },
+  {
+    "url": "https://imgflip.com/",
+    "active": true,
+    "name": "Imgflip",
+    "description": "Flip through memes, gifs, and other funny images. Make your own images with our Meme Generator or Animated GIF Maker.",
+    "icon": "https://imgflip.com/apple-touch-icon.png?c",
+    "icons": [
+      {
+        "src": "/imgflip-icon-96.svg",
+        "sizes": "96x96",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/imgflip-icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/apple-touch-icon.svg",
+        "sizes": "180x180",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-192.svg?a",
+        "sizes": "192x192",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-512.svg?a",
+        "sizes": "512x512",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-192.png?a",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/imgflip-icon-padded-512.png?a",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["entertainment", "social", "productivity"],
+    "screenshots": [],
+    "background_color": "#333",
+    "theme_color": "#333"
+  },
+  {
+    "url": "https://jakearchibald.github.io/svgomg/",
+    "active": false,
+    "name": "SVGOMG",
+    "description": "",
+    "icon": "https://jakearchibald.github.io/svgomg/imgs/icon.png",
+    "icons": [
+      {
+        "src": "imgs/icon.png",
+        "sizes": "600x600"
+      },
+      {
+        "src": "imgs/maskable.png",
+        "sizes": "600x600",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#bababa",
+    "theme_color": "#303f9f"
   },
   {
     "url": "https://jsontoolbox.com/",
@@ -784,6 +1694,191 @@
     "theme_color": "#980000"
   },
   {
+    "url": "https://music.qier222.com/",
+    "active": true,
+    "name": "YesPlayMusic",
+    "description": "",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [],
+    "background_color": "#335eea",
+    "theme_color": "#ffffff00"
+  },
+  {
+    "url": "https://musickit.jull.dev/tone-generator",
+    "active": false,
+    "name": "MusicKit",
+    "description": "Metronome, Tuner and Tone Generator",
+    "icon": "/img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/img/icons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en",
+    "categories": ["music", "utilities", "audio"],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/1.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/2.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/3.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/screenshots/4.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  },
+  {
+    "url": "https://my-qr.vercel.app/",
+    "active": true,
+    "name": "My QR",
+    "description": "Fast access to QR code",
+    "icon": "https://my-qr.vercel.app/apple-icon-57x57.png",
+    "icons": [
+      {
+        "src": "icons/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#212121",
+    "theme_color": "#40916c"
+  },
+  {
+    "url": "https://obese-pwa.netlify.app/",
+    "active": true,
+    "name": "Obese",
+    "description": "BMI tracker with graphs",
+    "icon": "./images/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./images/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/icons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/ico"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#333333",
+    "theme_color": "#00d99c"
+  },
+  {
     "url": "https://offline-dino-game.firebaseapp.com/",
     "active": true,
     "name": "Dino Game",
@@ -911,6 +2006,77 @@
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#000000"
+  },
+  {
+    "url": "https://pacebud.netlify.app/",
+    "active": true,
+    "name": "PaceBud",
+    "description": "A lightweight Pace Calculator PWA.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["sports", "lifestyle", "health"],
+    "screenshots": [],
+    "background_color": "#51a868",
+    "theme_color": "#51a868"
+  },
+  {
+    "url": "https://paperplanes.world/",
+    "active": true,
+    "name": "Paper Planes",
+    "description": "Catch and throw Paper Planes with one another around the world.",
+    "icon": "assets/meta/icon-192.png",
+    "icons": [
+      {
+        "src": "assets/meta/icon-32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "assets/meta/icon-48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "assets/meta/icon-72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "assets/meta/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "assets/meta/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "assets/meta/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ],
+    "categories": ["games"],
+    "screenshots": [],
+    "background_color": "#bfb9f3"
   },
   {
     "url": "https://pattern.monster/",
@@ -1241,6 +2407,67 @@
     "theme_color": "#3c3b6e"
   },
   {
+    "url": "https://poly-mail.appspot.com/",
+    "active": true,
+    "name": "Polymer Mail",
+    "description": "",
+    "icon": "images/gmail.png",
+    "icons": [
+      {
+        "src": "images/gmail.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#e51c23",
+    "theme_color": "#e51c23"
+  },
+  {
+    "url": "https://pomofocus.io/",
+    "active": true,
+    "name": "Pomofocus",
+    "description": "A simple Pomodoro Timer app that works on a desktop & mobile browser. Pomofucus will help you manage your time and let you focus on any tasks such as study, writing, or coding.",
+    "icon": "images/icons/512.png",
+    "icons": [
+      {
+        "src": "images/icons/72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["productivity"],
+    "screenshots": [],
+    "background_color": "#efefef",
+    "theme_color": "#282828"
+  },
+  {
     "url": "https://qrcodescan.in/",
     "active": true,
     "name": "QR Code Scanner",
@@ -1301,6 +2528,57 @@
     "screenshots": [],
     "background_color": "#F8FAFC",
     "theme_color": "#4DC0B5"
+  },
+  {
+    "url": "https://roneetkumar.github.io/umbrella/",
+    "active": true,
+    "name": "Umbrella : Weather App",
+    "description": "Umbrella is a beautifuly designed Progressive Web Application for Weather Information.",
+    "icon": "assets/512x512.png",
+    "icons": [
+      {
+        "src": "../assets/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["news"],
+    "screenshots": [],
+    "background_color": "#03a9f4",
+    "theme_color": "#03a9f4"
+  },
+  {
+    "url": "https://sii.im/playground/notes/",
+    "active": true,
+    "name": "notes",
+    "description": "An offline-capable notes app, using localStorage and ServiceWorker",
+    "icon": "",
+    "icons": [
+      {
+        "src": "img/icon-60.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-558.png",
+        "sizes": "558x558",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["productivity"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
@@ -1405,6 +2683,69 @@
     "theme_color": "#000"
   },
   {
+    "url": "https://snapdrop.net/",
+    "active": true,
+    "name": "Snapdrop",
+    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+    "icon": "images/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/android-chrome-192x192-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/android-chrome-512x512-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#efefef",
+    "theme_color": "#3367d6"
+  },
+  {
+    "url": "https://snapw.at/",
+    "active": true,
+    "name": "Snapwat",
+    "description": "A doodling app for the web. A Progressive Web App demo.",
+    "icon": "images/homescreen/192.png",
+    "icons": [
+      {
+        "src": "images/homescreen/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/homescreen/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#987fff",
+    "theme_color": "#987fff"
+  },
+  {
     "url": "https://squoosh.app/",
     "active": true,
     "name": "Squoosh",
@@ -1444,6 +2785,41 @@
     ],
     "background_color": "#fff",
     "theme_color": "#ff3385"
+  },
+  {
+    "url": "https://startrack-ng.firebaseapp.com/",
+    "active": true,
+    "name": "Star Track",
+    "description": "The best Apple Music Client out there. Built with Ionic and Angular",
+    "icon": "assets/icons/icon-512.png",
+    "icons": [
+      {
+        "src": "assets/icons/icon-mask.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "assets/icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "categories": ["music"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  },
+  {
+    "url": "https://stedit.app/",
+    "active": false,
+    "name": "Untitled.txt - Smart Text Editor",
+    "description": "Smart Text Editor is a vanilla JavaScript PWA that allows you to work on your coding projects from any device, in any browser, even if you don't have Internet access.",
+    "icon": "https://stedit.app/resources/app-apple-touch-180.png",
+    "images": [],
+    "categories": ["utilities"],
+    "tags": []
   },
   {
     "url": "https://sushi-hunt.herokuapp.com/",
@@ -1603,6 +2979,275 @@
     "theme_color": "#55B4FA"
   },
   {
+    "url": "https://tuner.ninja/",
+    "active": true,
+    "name": "Tuner Ninja",
+    "description": "Chromatic instrument tuner.",
+    "icon": "/assets/icons/tuner_ninja_192.png",
+    "icons": [
+      {
+        "src": "/assets/icons/tuner_ninja_16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/icons/tuner_ninja_1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["music", "audio"],
+    "screenshots": [],
+    "background_color": "#eee",
+    "theme_color": "#222"
+  },
+  {
+    "url": "https://vault.passky.org/",
+    "active": false,
+    "name": "Passky",
+    "description": "Passky is simple, modern, lightweight, open source and secure password manager.",
+    "icon": "images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "images/icons/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": ["productivity", "security", "utilities"],
+    "screenshots": [
+      {
+        "src": "images/screenshots/1.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/2.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/3.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/4.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/5.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/6.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/7.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      },
+      {
+        "src": "images/screenshots/8.jpg",
+        "sizes": "1080x2400",
+        "type": "image/jpg"
+      }
+    ],
+    "background_color": "#DFE5EB",
+    "theme_color": "#0D1117"
+  },
+  {
+    "url": "https://vidno.online/",
+    "active": true,
+    "name": "Vidno – video web conference",
+    "description": "Video web conferences with no hassle. Free, private, no registration needed. Start your video call now!",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["social", "productivity"],
+    "screenshots": [],
+    "background_color": "#f7f7fd",
+    "theme_color": "#f7f7fd"
+  },
+  {
+    "url": "https://web.telegram.org/",
+    "active": true,
+    "name": "Telegram",
+    "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
+    "icon": "img/icons/icon192.png",
+    "icons": [
+      {
+        "src": "img/icons/icon16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "src": "img/icons/icon32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "img/icons/icon60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "img/icons/icon64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "img/icons/icon90.png",
+        "type": "image/png",
+        "sizes": "90x90"
+      },
+      {
+        "src": "img/icons/icon128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "img/icons/icon192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/icons/icon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "img/icons/icon.svg",
+        "type": "image/svg+xml",
+        "sizes": "513x513"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#497495"
+  },
+  {
     "url": "https://wordle.madeinmadrid.org/",
     "active": true,
     "name": "Madrid Wordle",
@@ -1629,5 +3274,448 @@
     "screenshots": [],
     "background_color": "#003DF6",
     "theme_color": "#003DF6"
+  },
+  {
+    "url": "https://wormhole.app/",
+    "active": true,
+    "name": "Wormhole",
+    "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
+    "icon": "/webmanifest/mac/icon-192x192.png",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "src": "/webmanifest/mac/icon-192x192.png",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "sizes": "512x512",
+        "src": "/webmanifest/mac/icon-512x512.png",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "sizes": "192x192",
+        "src": "/webmanifest/icon-maskable-192x192.png",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "sizes": "512x512",
+        "src": "/webmanifest/icon-maskable-512x512.png",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [
+      "productivity",
+      "utilities",
+      "security",
+      "business",
+      "files",
+      "file sharing",
+      "encryption",
+      "privacy",
+      "send files"
+    ],
+    "screenshots": [
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-1.jpg",
+        "type": "image/jpeg"
+      },
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-2.jpg",
+        "type": "image/jpeg"
+      },
+      {
+        "sizes": "1439x2700",
+        "src": "/webmanifest/android-screenshot-1439x2700-3.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#9F7AEA"
+  },
+  {
+    "url": "https://www-jvktpeglfs.now.sh/",
+    "active": true,
+    "name": "BMI Calculator",
+    "description": "",
+    "icon": "assets/icon.png",
+    "icons": [
+      {
+        "src": "assets/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["lifestyle"],
+    "screenshots": [],
+    "background_color": "#ef5936",
+    "theme_color": "#ef5936"
+  },
+  {
+    "url": "https://www.currency-calc.com/",
+    "active": true,
+    "name": "Currency Calculator",
+    "description": "Convert from Dollars to Euros with our currency calculator. Current exchange rate for the Dollar (USD) against the Euro (EUR).",
+    "icon": "/ico/launcher-global-a/launcher-icon-4x.png",
+    "icons": [
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-1x.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-1-5x.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-2x.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-3x.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-4x.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/launcher-global-a/launcher-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["finance"],
+    "screenshots": [],
+    "background_color": "#FFFFFF",
+    "theme_color": "#41517f"
+  },
+  {
+    "url": "https://www.datememe.com/",
+    "active": true,
+    "name": "datememe",
+    "description": "The best free dating site for singles in the world.  Get started chatting with people, sign up now for free! 🎉",
+    "icon": "/static/img/logo-blue-192.png",
+    "icons": [
+      {
+        "src": "/static/img/logo-blue-196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/logo-blue-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#FFFFFF",
+    "theme_color": "#0275d8"
+  },
+  {
+    "url": "https://www.englishaccentsmap.com/",
+    "active": true,
+    "name": "English Accents Map",
+    "description": "Watch videos of the English accents spoken around the world",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["education"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#192f5d"
+  },
+  {
+    "url": "https://www.japanese-phrasebook.com/",
+    "active": true,
+    "name": "Japanese Phrasebook",
+    "description": "⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.",
+    "icon": "/img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["travel"],
+    "screenshots": [
+      {
+        "src": "/img/japanese-phrasebook-screens.jpg",
+        "sizes": "1470x780",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#f44336"
+  },
+  {
+    "url": "https://www.pwalist.app/",
+    "active": true,
+    "name": "PWA List",
+    "description": "PWA List",
+    "icon": "/favicons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/favicons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#fff"
+  },
+  {
+    "url": "https://www.silveos.com/",
+    "active": true,
+    "name": "SilveOS.com",
+    "description": "SilveOS.com - Vue based internet operating system or webtop. It provides an environment similar to that of Windows inside web browser.",
+    "icon": "icons/silveos-icon-192x192.png",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "icons/silveos-icon-120x120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "icons/silveos-icon-152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "icons/silveos-icon-180x180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "icons/silveos-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/silveos-icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": ["utilities"],
+    "screenshots": [],
+    "background_color": "#1292e5",
+    "theme_color": "#424242"
+  },
+  {
+    "url": "https://www.soundslice.com/",
+    "active": true,
+    "name": "Soundslice",
+    "description": "Learn music better with our living sheet music.",
+    "icon": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-24052349c3a74e4eb74ea3afbfdbb124.png",
+    "icons": [
+      {
+        "src": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-24052349c3a74e4eb74ea3afbfdbb124.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-11852e267c30000bf63ef60def1fef5e.svg"
+      }
+    ],
+    "lang": "en",
+    "categories": [" music"],
+    "screenshots": []
+  },
+  {
+    "url": "https://www.tumblr.com/explore/trending?source=homepage_explore",
+    "active": false,
+    "name": "Tumblr",
+    "description": "Explore trending topics on Tumblr. See all of the GIFs, fan art, and general conversation about the internet’s favorite things.",
+    "icon": "https://assets.tumblr.com/pop/manifest/icon_192-a35de8be.png",
+    "icons": [
+      {
+        "type": "image/png",
+        "sizes": "192x192",
+        "src": "https://assets.tumblr.com/pop/manifest/icon_192-a35de8be.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "512x512",
+        "src": "https://assets.tumblr.com/pop/manifest/icon_512-5fae259e.png"
+      }
+    ],
+    "categories": ["social"],
+    "screenshots": [],
+    "background_color": "#36465d",
+    "theme_color": "#36465d"
   }
 ]
