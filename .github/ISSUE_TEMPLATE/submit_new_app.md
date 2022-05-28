@@ -14,7 +14,7 @@ assignees: ""
 
 ## Specifications
 
-<!--- Provide a detailed specification of the application you are proposing like yitle, URL, image and list of categories -->
+<!--- Provide a detailed specification of the application you are proposing like title, URL, image and list of categories -->
 
 ```json
 {
