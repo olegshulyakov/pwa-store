@@ -4,8 +4,7 @@
       v-if="app.icon"
       :src="getApplicationImage(app)"
       :alt="app.name"
-      class="w-40 h-40 md:w-48 md:h-48 aspect-square cursor-pointer"
-      v-on:click="openApp"
+      class="w-40 h-40 md:w-48 md:h-48 aspect-square"
     />
 
     <h4 class="my-1 px-2 text-center flex-grow">
