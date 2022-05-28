@@ -5,7 +5,6 @@
       :src="app.icon.startsWith('http') ? app.icon : app.url + app.icon"
       :alt="app.name"
       class="w-40 h-40 md:w-48 md:h-48 aspect-square cursor-pointer"
-      loading="lazy"
       v-on:click="openApp"
     />
 
