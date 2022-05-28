@@ -15,7 +15,8 @@
     "placeholder": "Search application"
   },
   "applicationCard": {
-    "get": "Get"
+    "get": "Get",
+    "open": "Open"
   },
   "websiteChecker": {
     "check": "Check App",

@@ -1,7 +1,7 @@
 [
   {
     "url": "https://0data.app/",
-    "active": false,
+    "isActive": false,
     "name": "Zero Data App",
     "description": "Own your data, all of it.",
     "icon": "application_icon_x144.png",
@@ -12,7 +12,7 @@
   },
   {
     "url": "https://2048-opera-pwa.surge.sh/",
-    "active": true,
+    "isActive": true,
     "name": "2048 Puzzle",
     "description": "",
     "icon": "/meta/2048-rounded-192.png",
@@ -49,7 +49,7 @@
   },
   {
     "url": "https://2brew.github.io/",
-    "active": true,
+    "isActive": true,
     "name": "2Brew",
     "description": "",
     "icon": "public/icon/icon_192x192.png",
@@ -87,7 +87,7 @@
   },
   {
     "url": "https://airhorner.com/",
-    "active": true,
+    "isActive": true,
     "name": "The Air Horner",
     "description": "The world's best airhorner, and it's free",
     "icon": "/images/touch/android-launchericon-192-192.png",
@@ -177,7 +177,7 @@
   },
   {
     "url": "https://alarmdj.com/",
-    "active": true,
+    "isActive": true,
     "name": "Alarm DJ",
     "short_name": "Alarm Clock",
     "description": "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed.",
@@ -239,7 +239,7 @@
   },
   {
     "url": "https://alexgibson.github.io/wavepad/",
-    "active": false,
+    "isActive": false,
     "name": "Wave-PD1",
     "description": "An experimental synthesizer built using the Web Audio API.",
     "icon": "",
@@ -258,7 +258,7 @@
   },
   {
     "url": "https://amp.dev/",
-    "active": false,
+    "isActive": false,
     "name": "amp.dev",
     "description": "Whether you are a publisher, e-commerce company, storyteller, advertiser or email sender, AMP makes it easy to create great experiences on the web. Use AMP to build websites, stories, ads and emails.",
     "icon": "/static/img/icons/icon-192x192.png",
@@ -311,7 +311,7 @@
   },
   {
     "url": "https://andreasbm.github.io/web-skills/",
-    "active": true,
+    "isActive": true,
     "name": "Web Skills",
     "description": "A visual overview of useful skills to learn as a web developer",
     "icon": "www/icon-circle192x192.png",
@@ -346,7 +346,7 @@
   },
   {
     "url": "https://andreasbovens.github.io/inbox-attack/",
-    "active": true,
+    "isActive": true,
     "name": "Inbox Attack",
     "description": "",
     "icon": "icon.png",
@@ -363,7 +363,7 @@
   },
   {
     "url": "https://anonynote.org/",
-    "active": true,
+    "isActive": true,
     "name": "Anonynote",
     "description": "A free Progressive Web App for anonymously saving, retrieving and organizing notes. No accounts or logins! Quickly access important data from all of your devices.",
     "icon": "/favicons/android-chrome-192x192.png",
@@ -386,7 +386,7 @@
   },
   {
     "url": "https://app.daily.dev/",
-    "active": true,
+    "isActive": true,
     "name": "daily.dev",
     "description": "daily.dev is the easiest way to stay updated on the latest programming news. Get the best content from the top tech publications on any topic you want.",
     "icon": "/android-chrome-192x192.png",
@@ -417,7 +417,7 @@
   },
   {
     "url": "https://app.freefy.online/",
-    "active": true,
+    "isActive": true,
     "name": "Freefy",
     "description": "Free streaming music, random mode or not, as you prefer and without advertising between songs. We are the alternative to other platforms 🥳",
     "icon": "public/client/assets/mobile-icons/android-icon-192x192.png",
@@ -546,7 +546,7 @@
   },
   {
     "url": "https://app.ft.com/",
-    "active": true,
+    "isActive": true,
     "name": "Financial Times",
     "description": "",
     "icon": "/dist/img/icons/xxhdpi.png?v2",
@@ -563,7 +563,7 @@
   },
   {
     "url": "https://app.starbucks.com/",
-    "active": true,
+    "isActive": true,
     "name": "Starbucks",
     "description": "",
     "icon": "/weblx/images/icons/pwa-icon-192.png",
@@ -586,7 +586,7 @@
   },
   {
     "url": "https://appsco.pe/",
-    "active": true,
+    "isActive": true,
     "name": "Appscope",
     "description": "Appscope is a directory of Progressive Web Apps, showcasing hundreds of excellent PWA examples.",
     "icon": "/img/icons/192.png",
@@ -609,7 +609,7 @@
   },
   {
     "url": "https://atom.horuslugo.com/",
-    "active": true,
+    "isActive": true,
     "name": "Atom - Periodic Table & Quizzes",
     "description": "Learn the basics of chemistry doing the quizzes and using the periodic table.\n\nFEATURES:\n• Periodic table quiz\n• Chemical valences quiz\n• All the elements of the periodic table\n• Atomic number, atomic mass, electronic configuration, electronegativity, oxidation states, bonding type, melting point, boiling point, density, year of discovery and valency\n• Molar mass calculator\n\nThere will be more quizzes in the future!",
     "icon": "/icons/android-chrome-192x192.png",
@@ -719,7 +719,7 @@
   },
   {
     "url": "https://b4the.date/",
-    "active": true,
+    "isActive": true,
     "name": "B4TheDate",
     "description": "Remind you to consume the otherwise expired food. Stop the waste.",
     "icon": "/images/b4_logo72_192.png",
@@ -762,7 +762,7 @@
   },
   {
     "url": "https://beat-tap.firebaseapp.com/",
-    "active": true,
+    "isActive": true,
     "name": "beat-tap",
     "description": "A BPM Counter application as a PWA.",
     "icon": "resources/launcher-icon-4x.png",
@@ -805,7 +805,7 @@
   },
   {
     "url": "https://bombhopper.io/",
-    "active": true,
+    "isActive": true,
     "name": "BombHopper.io",
     "description": "Puzzle-platformer game where you move by making explosions",
     "icon": "icon/icon512.jpg",
@@ -956,7 +956,7 @@
   },
   {
     "url": "https://book.olacabs.com/",
-    "active": true,
+    "isActive": true,
     "name": "Olacabs",
     "description": "Now book city taxi, share, rental and outstation directly from web.",
     "icon": "https://olawebcdn.com/images/v1/Manifest/img_logomark@4x.png",
@@ -979,7 +979,7 @@
   },
   {
     "url": "https://canvas.apps.chrome/",
-    "active": true,
+    "isActive": true,
     "name": "Chrome Canvas",
     "description": "The Chrome OS drawing app.",
     "icon": "assets/canvas_192.png",
@@ -1011,7 +1011,7 @@
   },
   {
     "url": "https://carecards.io/",
-    "active": true,
+    "isActive": true,
     "name": "Care Cards",
     "description": "We all get a little overwhelmed from time to time. Care Cards is a set of helpful little tips to keep you on top of your mental well-being.",
     "icon": "icon-192x192.png",
@@ -1044,7 +1044,7 @@
   },
   {
     "url": "https://cloudfour.com/",
-    "active": true,
+    "isActive": true,
     "name": "Cloud Four",
     "description": "We design and develop responsive websites and progressive web apps.",
     "icon": "/android-chrome-192x192.png",
@@ -1068,7 +1068,7 @@
   },
   {
     "url": "https://code.nasa.gov/",
-    "active": true,
+    "isActive": true,
     "name": "NASA Open Source Software",
     "description": "Find Open Source Software Projects from NASA.",
     "icon": "images/logos/nasa-192.png",
@@ -1091,7 +1091,7 @@
   },
   {
     "url": "https://deanhume.github.io/beer/",
-    "active": true,
+    "isActive": true,
     "name": "Progressive Beer",
     "description": "Progressive Beer - The ultimate guide to beer around the world.",
     "icon": "/images/beer-icon-192.png",
@@ -1129,7 +1129,7 @@
   },
   {
     "url": "https://dev.to/",
-    "active": true,
+    "isActive": true,
     "name": "DEV Community 👩‍💻👨‍💻",
     "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
     "icon": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
@@ -1139,7 +1139,7 @@
   },
   {
     "url": "https://devdocs.io/",
-    "active": true,
+    "isActive": true,
     "name": "DevDocs",
     "description": "API Documentation Browser",
     "icon": "/images/webapp-icon-192.png",
@@ -1186,7 +1186,7 @@
   },
   {
     "url": "https://emojityper.com/",
-    "active": false,
+    "isActive": false,
     "name": "Emojityper",
     "description": "Emoji ready to copy and paste! Type emoji on your keyboard. List of all emoji, just type some words to get emoji. Laughing crying emoji 😂⌨",
     "icon": "res/icon-512.png",
@@ -1215,7 +1215,7 @@
   },
   {
     "url": "https://expensemanager.demo.vaadin.com/",
-    "active": true,
+    "isActive": true,
     "name": "Expense Manager",
     "description": "Progressive Web App built using Polymer and Vaadin components",
     "icon": "images/icons/icon-192x192.png",
@@ -1268,7 +1268,7 @@
   },
   {
     "url": "https://finding-nora.com/",
-    "active": true,
+    "isActive": true,
     "name": "Find your name in a field of letters",
     "description": "Learn to spell by finding all the letters of your name, or any other word.",
     "icon": "/android-icon-192x192.png",
@@ -1323,7 +1323,7 @@
   },
   {
     "url": "https://firedraft.io/",
-    "active": true,
+    "isActive": true,
     "name": "Firedraft",
     "description": "",
     "icon": "",
@@ -1348,7 +1348,7 @@
   },
   {
     "url": "https://getkana.com/app/",
-    "active": true,
+    "isActive": true,
     "name": "Get Kana!",
     "description": "",
     "icon": "images/android-touch-icon-192x192.png",
@@ -1365,7 +1365,7 @@
   },
   {
     "url": "https://guitar-tuner.appspot.com/",
-    "active": true,
+    "isActive": true,
     "name": "Guitar Tuner",
     "description": "",
     "icon": "/images/chrome-touch-icon-192x192.png",
@@ -1381,7 +1381,7 @@
   },
   {
     "url": "https://hammyhome.com/",
-    "active": true,
+    "isActive": true,
     "name": "Hammy Home",
     "description": "Hammy Home is your home for virtual hamsters.  To get started, simply choose a starter home.  You can then customize your home by changing the colors and/or adding more accessories.  Check abowman.com for updates on new features / accessories.",
     "icon": "/images/icon_192.png",
@@ -1440,7 +1440,7 @@
   },
   {
     "url": "https://hightide.earth/",
-    "active": true,
+    "isActive": true,
     "name": "High Tide",
     "description": "Find Tides Instantly",
     "icon": "/assets/icons/android-chrome-192x192-b76415d8584f5c24ed4e45132b2cce42.png",
@@ -1463,7 +1463,7 @@
   },
   {
     "url": "https://hoppscotch.io/",
-    "active": true,
+    "isActive": true,
     "name": "Hoppscotch",
     "description": "Open source API development ecosystem",
     "icon": "https://hoppscotch.io/_nuxt/icons/icon_512x512.062430.png",
@@ -1519,7 +1519,7 @@
   },
   {
     "url": "https://housing.com/",
-    "active": false,
+    "isActive": false,
     "name": "Housing Go",
     "description": "Find your Dream Home from 5 Lakh+ properties on Housing.com. Find ✓327000+ Properties for Sale. ✓110000+ Properties for Rent. ✓46000+ New Projects & ✓15000+ PG/Co-Living Spaces. Enquire Now!",
     "icon": "//c.housingcdn.com/s/assets/logo-192.2a46a9da.png",
@@ -1548,7 +1548,7 @@
   },
   {
     "url": "https://imgflip.com/",
-    "active": true,
+    "isActive": true,
     "name": "Imgflip",
     "description": "Flip through memes, gifs, and other funny images. Make your own images with our Meme Generator or Animated GIF Maker.",
     "icon": "https://imgflip.com/apple-touch-icon.png?c",
@@ -1607,7 +1607,7 @@
   },
   {
     "url": "https://jakearchibald.github.io/svgomg/",
-    "active": false,
+    "isActive": false,
     "name": "SVGOMG",
     "description": "",
     "icon": "https://jakearchibald.github.io/svgomg/imgs/icon.png",
@@ -1629,7 +1629,7 @@
   },
   {
     "url": "https://jsontoolbox.com/",
-    "active": true,
+    "isActive": true,
     "name": "JSON Tool Box",
     "description": "JSON formatter, minifier, viewer, editor, validator. Edit, save and share json.",
     "icon": "logo192.png",
@@ -1657,7 +1657,7 @@
   },
   {
     "url": "https://kuranz.com/",
-    "active": true,
+    "isActive": true,
     "name": "Kuranz",
     "description": "Location aware currency converter. Will use GPS to detect the country you're in and the currency. Works offline when you are traveling without internet.",
     "icon": "/icon_192x192.99a2ed8bfcbc6a7d885b5a6836972ab4.png",
@@ -1702,7 +1702,7 @@
   },
   {
     "url": "https://letsplant.org/",
-    "active": true,
+    "isActive": true,
     "name": "Let's Plant",
     "description": "A smart way to choose the right plant.",
     "icon": "/img/android-chrome-192x192.png",
@@ -1770,7 +1770,7 @@
   },
   {
     "url": "https://mathriddles.netlify.app/#home",
-    "active": true,
+    "isActive": true,
     "name": "Math Riddles | Quiz App",
     "description": "Simple Quiz App with Interesting Maths Riddles & Levels up your IQ with Math Oparations.",
     "icon": "https://mathriddles.netlify.app/images/apple-touch-icon.png",
@@ -1840,7 +1840,7 @@
   },
   {
     "url": "https://maxwellito.github.io/breaklock/",
-    "active": true,
+    "isActive": true,
     "name": "BreakLock",
     "description": "A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate.",
     "icon": "/assets/icons/icon-192x192.png",
@@ -1897,7 +1897,7 @@
   },
   {
     "url": "https://morsure.netlify.app/",
-    "active": true,
+    "isActive": true,
     "name": "MORSURE",
     "description": "A tiny morse app",
     "icon": "/images/icons/icon-192x192.png",
@@ -1940,7 +1940,7 @@
   },
   {
     "url": "https://music.qier222.com/",
-    "active": true,
+    "isActive": true,
     "name": "YesPlayMusic",
     "description": "",
     "icon": "/img/icons/android-chrome-192x192.png",
@@ -1975,7 +1975,7 @@
   },
   {
     "url": "https://musickit.jull.dev/tone-generator",
-    "active": false,
+    "isActive": false,
     "name": "MusicKit",
     "description": "Metronome, Tuner and Tone Generator",
     "icon": "/img/icons/android-chrome-192x192.png",
@@ -2030,7 +2030,7 @@
   },
   {
     "url": "https://my-qr.vercel.app/",
-    "active": true,
+    "isActive": true,
     "name": "My QR",
     "description": "Fast access to QR code",
     "icon": "https://my-qr.vercel.app/apple-icon-57x57.png",
@@ -2097,7 +2097,7 @@
   },
   {
     "url": "https://obese-pwa.netlify.app/",
-    "active": true,
+    "isActive": true,
     "name": "Obese",
     "description": "BMI tracker with graphs",
     "icon": "/images/icons/android-chrome-192x192.png",
@@ -2125,7 +2125,7 @@
   },
   {
     "url": "https://offline-dino-game.firebaseapp.com/",
-    "active": true,
+    "isActive": true,
     "name": "Dino Game",
     "description": "The Chrome Dino Game but on the web, online or offline, on any browser. and with  a bigger game ;P",
     "icon": "android-chrome-192x192.cd228ea6.png",
@@ -2184,7 +2184,7 @@
   },
   {
     "url": "https://omnicamapp.com/en/",
-    "active": true,
+    "isActive": true,
     "name": "OmniCam",
     "description": "The best live streaming webcams around the world.",
     "icon": "Frontend/img/icon-512x512.png",
@@ -2254,7 +2254,7 @@
   },
   {
     "url": "https://pacebud.netlify.app/",
-    "active": true,
+    "isActive": true,
     "name": "PaceBud",
     "description": "A lightweight Pace Calculator PWA.",
     "icon": "/android-chrome-192x192.png",
@@ -2277,7 +2277,7 @@
   },
   {
     "url": "https://paperplanes.world/",
-    "active": true,
+    "isActive": true,
     "name": "Paper Planes",
     "description": "Catch and throw Paper Planes with one another around the world.",
     "icon": "assets/meta/icon-192.png",
@@ -2325,7 +2325,7 @@
   },
   {
     "url": "https://pattern.monster/",
-    "active": true,
+    "isActive": true,
     "name": "Pattern Monster",
     "description": "A simple online pattern generator to create repeatable SVG patterns. Perfect for website backgrounds, apparel, branding, packaging design and more.",
     "icon": "logo-192.png",
@@ -2364,7 +2364,7 @@
   },
   {
     "url": "https://periodex.co/",
-    "active": true,
+    "isActive": true,
     "name": "Periodex",
     "description": "Elegant periodic table of elements",
     "icon": "/pwa-192.png",
@@ -2476,7 +2476,7 @@
   },
   {
     "url": "https://periodic-table.io/",
-    "active": true,
+    "isActive": true,
     "name": "Periodic Table",
     "description": "Elements: The Periodic Table provides comprehensive and useful information about the chemical elements all in one place. Click on an element to know more about the properties, history, name origin, images, applications, hazards and electron shell diagram of each element.",
     "icon": "/images/icons/android-chrome-192x192.png",
@@ -2597,7 +2597,7 @@
   },
   {
     "url": "https://pixelcraft.web.app/",
-    "active": true,
+    "isActive": true,
     "name": "PixelCraft",
     "description": "",
     "icon": "/icons/logo.png",
@@ -2619,7 +2619,7 @@
   },
   {
     "url": "https://platesacrossamerica.com/demo/puzzle",
-    "active": true,
+    "isActive": true,
     "name": "Plates Across America®",
     "description": "Plates Across America® is an online word game. Word puzzles appear as license plates and the answers help you to travel along America's most famous routes.",
     "icon": "/static/img/paa-icon-192x192.png",
@@ -2653,7 +2653,7 @@
   },
   {
     "url": "https://poly-mail.appspot.com/",
-    "active": true,
+    "isActive": true,
     "name": "Polymer Mail",
     "description": "",
     "icon": "images/gmail.png",
@@ -2671,7 +2671,7 @@
   },
   {
     "url": "https://pomofocus.io/",
-    "active": true,
+    "isActive": true,
     "name": "Pomofocus",
     "description": "A simple Pomodoro Timer app that works on a desktop & mobile browser. Pomofucus will help you manage your time and let you focus on any tasks such as study, writing, or coding.",
     "icon": "images/icons/512.png",
@@ -2714,7 +2714,7 @@
   },
   {
     "url": "https://qrcodescan.in/",
-    "active": true,
+    "isActive": true,
     "name": "QR Code Scanner",
     "description": "Easily scan a QR code. This is a simple, tiny, and super fast web application that works offline.",
     "icon": "/images/touch/android-chrome-192x192.png",
@@ -2753,7 +2753,7 @@
   },
   {
     "url": "https://random.jasonlbeggs.com/",
-    "active": true,
+    "isActive": true,
     "name": "Random Picker",
     "description": "Why make diffcult decisions when this app can do it for you?",
     "icon": "/img/icons/android-chrome-192x192.png",
@@ -2776,7 +2776,7 @@
   },
   {
     "url": "https://roneetkumar.github.io/umbrella/",
-    "active": true,
+    "isActive": true,
     "name": "Umbrella : Weather App",
     "description": "Umbrella is a beautifuly designed Progressive Web Application for Weather Information.",
     "icon": "assets/512x512.png",
@@ -2794,7 +2794,7 @@
   },
   {
     "url": "https://sii.im/playground/notes/",
-    "active": true,
+    "isActive": true,
     "name": "notes",
     "description": "An offline-capable notes app, using localStorage and ServiceWorker",
     "icon": "",
@@ -2827,7 +2827,7 @@
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
-    "active": true,
+    "isActive": true,
     "name": "Smaller Pics",
     "description": "A Progressive Web App for compressing images into smaller files.",
     "icon": "images/touch/splashscreen-192.png",
@@ -2870,7 +2870,7 @@
   },
   {
     "url": "https://snake-pwa.github.io/",
-    "active": true,
+    "isActive": true,
     "name": "Snake",
     "description": "A simple snake game",
     "icon": "images/icons/icon-192.png",
@@ -2929,7 +2929,7 @@
   },
   {
     "url": "https://snapdrop.net/",
-    "active": true,
+    "isActive": true,
     "name": "Snapdrop",
     "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
     "icon": "images/android-chrome-192x192.png",
@@ -2969,7 +2969,7 @@
   },
   {
     "url": "https://snapw.at/",
-    "active": true,
+    "isActive": true,
     "name": "Snapwat",
     "description": "A doodling app for the web. A Progressive Web App demo.",
     "icon": "images/homescreen/192.png",
@@ -2992,7 +2992,7 @@
   },
   {
     "url": "https://squoosh.app/",
-    "active": true,
+    "isActive": true,
     "name": "Squoosh",
     "description": "Compress and compare images with different codecs, right in your browser.",
     "icon": "https://squoosh.app/c/icon-large-maskable-c2078ced.png",
@@ -3033,7 +3033,7 @@
   },
   {
     "url": "https://startrack-ng.firebaseapp.com/",
-    "active": true,
+    "isActive": true,
     "name": "Star Track",
     "description": "The best Apple Music Client out there. Built with Ionic and Angular",
     "icon": "assets/icons/icon-512.png",
@@ -3058,7 +3058,7 @@
   },
   {
     "url": "https://stedit.app/",
-    "active": false,
+    "isActive": false,
     "name": "Untitled.txt - Smart Text Editor",
     "description": "Smart Text Editor is a vanilla JavaScript PWA that allows you to work on your coding projects from any device, in any browser, even if you don't have Internet access.",
     "icon": "https://stedit.app/resources/app-apple-touch-180.png",
@@ -3068,7 +3068,7 @@
   },
   {
     "url": "https://sushi-hunt.herokuapp.com/",
-    "active": true,
+    "isActive": true,
     "name": "Sushi Hunt",
     "description": "",
     "icon": "images/sushi-196.png",
@@ -3084,7 +3084,7 @@
   },
   {
     "url": "https://themer.dev/",
-    "active": true,
+    "isActive": true,
     "name": "themer",
     "description": "themer takes a set of colors and generates themes for your apps: editors, terminals, wallpapers, and more.",
     "icon": "icon-192.png",
@@ -3112,7 +3112,7 @@
   },
   {
     "url": "https://tmaiadev-tetra.netlify.app/",
-    "active": true,
+    "isActive": true,
     "name": "Tetra by Thalles Maia",
     "description": "",
     "icon": "/icons/android-icon-192x192.png",
@@ -3166,7 +3166,7 @@
   },
   {
     "url": "https://tmaiadev-tictactoe.netlify.app/",
-    "active": true,
+    "isActive": true,
     "name": "TicTacToe",
     "description": "",
     "icon": "/icons/android-icon-192x192.png",
@@ -3225,7 +3225,7 @@
   },
   {
     "url": "https://tuner.ninja/",
-    "active": true,
+    "isActive": true,
     "name": "Tuner Ninja",
     "description": "Chromatic instrument tuner.",
     "icon": "/assets/icons/tuner_ninja_192.png",
@@ -3308,7 +3308,7 @@
   },
   {
     "url": "https://vault.passky.org/",
-    "active": false,
+    "isActive": false,
     "name": "Passky",
     "description": "Passky is simple, modern, lightweight, open source and secure password manager.",
     "icon": "images/icons/icon-192x192.png",
@@ -3413,7 +3413,7 @@
   },
   {
     "url": "https://vidno.online/",
-    "active": true,
+    "isActive": true,
     "name": "Vidno – video web conference",
     "description": "Video web conferences with no hassle. Free, private, no registration needed. Start your video call now!",
     "icon": "/android-chrome-192x192.png",
@@ -3436,7 +3436,7 @@
   },
   {
     "url": "https://web.telegram.org/",
-    "active": true,
+    "isActive": true,
     "name": "Telegram",
     "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
     "icon": "img/icons/icon192.png",
@@ -3494,7 +3494,7 @@
   },
   {
     "url": "https://wordle.madeinmadrid.org/",
-    "active": true,
+    "isActive": true,
     "name": "Madrid Wordle",
     "description": "Game",
     "icon": "logo192.png",
@@ -3522,7 +3522,7 @@
   },
   {
     "url": "https://wormhole.app/",
-    "active": true,
+    "isActive": true,
     "name": "Wormhole",
     "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
     "icon": "/webmanifest/mac/icon-192x192.png",
@@ -3585,7 +3585,7 @@
   },
   {
     "url": "https://www-jvktpeglfs.now.sh/",
-    "active": true,
+    "isActive": true,
     "name": "BMI Calculator",
     "description": "",
     "icon": "assets/icon.png",
@@ -3603,7 +3603,7 @@
   },
   {
     "url": "https://www.currency-calc.com/",
-    "active": true,
+    "isActive": true,
     "name": "Currency Calculator",
     "description": "Convert from Dollars to Euros with our currency calculator. Current exchange rate for the Dollar (USD) against the Euro (EUR).",
     "icon": "/ico/launcher-global-a/launcher-icon-4x.png",
@@ -3651,7 +3651,7 @@
   },
   {
     "url": "https://www.datememe.com/",
-    "active": true,
+    "isActive": true,
     "name": "datememe",
     "description": "The best free dating site for singles in the world.  Get started chatting with people, sign up now for free! 🎉",
     "icon": "/static/img/logo-blue-192.png",
@@ -3724,7 +3724,7 @@
   },
   {
     "url": "https://www.englishaccentsmap.com/",
-    "active": true,
+    "isActive": true,
     "name": "English Accents Map",
     "description": "Watch videos of the English accents spoken around the world",
     "icon": "/android-chrome-192x192.png",
@@ -3782,7 +3782,7 @@
   },
   {
     "url": "https://www.japanese-phrasebook.com/",
-    "active": true,
+    "isActive": true,
     "name": "Japanese Phrasebook",
     "description": "⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.",
     "icon": "/img/icons/android-chrome-192x192.png",
@@ -3811,7 +3811,7 @@
   },
   {
     "url": "https://www.pwalist.app/",
-    "active": true,
+    "isActive": true,
     "name": "PWA List",
     "description": "PWA List",
     "icon": "/favicons/android-chrome-192x192.png",
@@ -3879,7 +3879,7 @@
   },
   {
     "url": "https://www.silveos.com/",
-    "active": true,
+    "isActive": true,
     "name": "SilveOS.com",
     "description": "SilveOS.com - Vue based internet operating system or webtop. It provides an environment similar to that of Windows inside web browser.",
     "icon": "icons/silveos-icon-192x192.png",
@@ -3922,7 +3922,7 @@
   },
   {
     "url": "https://www.soundslice.com/",
-    "active": true,
+    "isActive": true,
     "name": "Soundslice",
     "description": "Learn music better with our living sheet music.",
     "icon": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-24052349c3a74e4eb74ea3afbfdbb124.png",
@@ -3942,7 +3942,7 @@
   },
   {
     "url": "https://www.tumblr.com/explore/trending?source=homepage_explore",
-    "active": false,
+    "isActive": false,
     "name": "Tumblr",
     "description": "Explore trending topics on Tumblr. See all of the GIFs, fan art, and general conversation about the internet’s favorite things.",
     "icon": "https://assets.tumblr.com/pop/manifest/icon_192-a35de8be.png",

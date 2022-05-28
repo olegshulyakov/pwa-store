@@ -3,7 +3,7 @@
     class="text-xl font-bold uppercase flex flex-row items-center"
     :to="{ name: 'category', params: { name: name.toLowerCase() } }"
   >
-    {{ $t(`category.${name.toLowerCase()}`) }}<span class="material-icons">chevron_right</span>
+    {{ $t(`category.${name.toLowerCase()}`) }}
   </RouterLink>
 
   <ul

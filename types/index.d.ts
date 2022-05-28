@@ -17,7 +17,7 @@ export type ApplicationState = {
 /** Data types */
 export type AppInfo = {
   url: string;
-  active: boolean;
+  isActive: boolean;
   name: string;
   description?: string;
   icon?: string;

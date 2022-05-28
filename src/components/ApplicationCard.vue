@@ -17,7 +17,12 @@
       :href="app.url"
       target="_blank"
     >
-      {{ $t("applicationCard.get") }}
+      <template v-if="app.isActive">
+        <span class="material-icons">download</span>&nbsp;{{ $t("applicationCard.get") }}
+      </template>
+      <template v-else>
+        <span class="material-icons">open_in_new</span>&nbsp;{{ $t("applicationCard.open") }}
+      </template>
     </a>
   </div>
 </template>
