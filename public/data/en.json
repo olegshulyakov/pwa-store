@@ -1133,9 +1133,7 @@
     "name": "DEV Community 👩‍💻👨‍💻",
     "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
     "icon": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
-    "images": [],
-    "categories": ["social"],
-    "tags": []
+    "categories": ["social"]
   },
   {
     "url": "https://devdocs.io/",
@@ -3062,9 +3060,7 @@
     "name": "Untitled.txt - Smart Text Editor",
     "description": "Smart Text Editor is a vanilla JavaScript PWA that allows you to work on your coding projects from any device, in any browser, even if you don't have Internet access.",
     "icon": "https://stedit.app/resources/app-apple-touch-180.png",
-    "images": [],
-    "categories": ["utilities"],
-    "tags": []
+    "categories": ["utilities"]
   },
   {
     "url": "https://sushi-hunt.herokuapp.com/",
