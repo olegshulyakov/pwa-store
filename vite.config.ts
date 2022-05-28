@@ -1,3 +1,4 @@
+import legacy from "@vitejs/plugin-legacy";
 import vue from "@vitejs/plugin-vue";
 import { fileURLToPath, URL } from "url";
 import { defineConfig } from "vite";
@@ -8,6 +9,9 @@ export default defineConfig({
   publicDir: "public",
   plugins: [
     vue(),
+    legacy({
+      targets: ["defaults", "not IE 11"],
+    }),
     VitePWA({
       registerType: "autoUpdate",
       includeManifestIcons: true,
