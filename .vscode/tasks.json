@@ -4,7 +4,7 @@
     {
       "type": "npm",
       "script": "install",
-      "group": "clean",
+      "group": "none",
       "problemMatcher": [],
       "label": "npm: install",
       "detail": "install dependencies from package"
@@ -12,6 +12,7 @@
     {
       "type": "npm",
       "script": "start",
+      "group": { "kind": "test", "default": true },
       "problemMatcher": [],
       "label": "npm: start",
       "detail": "vite"
@@ -19,7 +20,7 @@
     {
       "type": "npm",
       "script": "build",
-      "group": "build",
+      "group": { "kind": "build", "default": true },
       "problemMatcher": [],
       "label": "npm: build",
       "detail": "vue-tsc --noEmit && vite build"
@@ -27,6 +28,7 @@
     {
       "type": "npm",
       "script": "deploy",
+      "group": "build",
       "problemMatcher": [],
       "label": "npm: deploy",
       "detail": "gh-pages -d dist"
