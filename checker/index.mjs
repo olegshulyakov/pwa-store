@@ -3,6 +3,23 @@ import path from "path";
 import process from "process";
 import puppeteer from "puppeteer";
 
+const selectors = {
+  url: "head link[rel='canonical']",
+  manifest: "head link[rel='manifest']",
+  title: "head title",
+  description: "head meta[name='description']",
+  openGraph: {
+    title: "head meta[property='og:title']",
+    type: "head meta[property='og:type']",
+    image: "head meta[property='og:image']",
+    url: "head meta[property='og:url']",
+    description: "head meta[property='og:description']",
+    name: "head meta[property='og:site_name']",
+    locale: "head meta[property='og:locale']",
+    localeAlt: "head meta[property='og:locale:alternate']",
+  },
+};
+
 const doCheck = async (link) => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
