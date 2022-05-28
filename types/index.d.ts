@@ -20,10 +20,13 @@ export type AppInfo = {
   isActive: boolean;
   name: string;
   description?: string;
-  icon?: string;
-  images?: string[];
+  icon: string;
+  icons: string[];
   categories: string[];
-  tags: string[];
+  screenshots?: string[];
+  lang?: string;
+  background_color?: string;
+  theme_color?: string;
 };
 
 export type CategoryInfo = {
