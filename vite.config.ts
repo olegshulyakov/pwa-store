@@ -49,22 +49,8 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /\.json$/,
-            handler: "NetworkFirst",
-            options: {
-              cacheName: "data",
-              expiration: {
-                maxEntries: 50,
-                maxAgeSeconds: 60 * 60 * 24 * 30,
-              },
-              cacheableResponse: {
-                statuses: [200],
-              },
-            },
-          },
-          {
             urlPattern: (options) => {
-              return ["font", "image", "manifest", "script", "style"].includes(options.request.destination);
+              return ["image"].includes(options.request.destination);
             },
             handler: "CacheFirst",
             options: {

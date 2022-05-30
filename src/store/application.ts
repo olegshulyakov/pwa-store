@@ -13,8 +13,8 @@ export const useApplicationStore = defineStore("application", {
 
   actions: {
     async fetchApplications(locale = navigator.language) {
-      const data = await fetch(`/data/${locale}.json`);
-      const apps = await data.json();
+      const data = await import(`../data/${locale}.json`);
+      const apps = data.default;
       this.locale = locale;
       this.error = undefined;
       this.applications = apps;
