@@ -1089,6 +1089,29 @@
     "background_color": "#EEEEEE"
   },
   {
+    "url": "https://developer.mozilla.org/",
+    "isActive": true,
+    "name": "MDN Web Docs",
+    "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+    "icon": "/favicon-192x192.png",
+    "icons": [
+      {
+        "src": "/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["education", "developer tools"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  },
+  {
     "url": "https://emojityper.com/",
     "isActive": true,
     "name": "Emojityper",

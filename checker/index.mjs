@@ -1,13 +1,14 @@
 import fs from "fs";
+import fetch from "node-fetch";
 import path from "path";
 import process from "process";
-import puppeteer from "puppeteer";
 
 const selectors = {
   url: "head link[rel='canonical']",
   manifest: "head link[rel='manifest']",
   title: "head title",
   description: "head meta[name='description']",
+  icon: "head link[rel='apple-touch-icon']",
   openGraph: {
     title: "head meta[property='og:title']",
     type: "head meta[property='og:type']",
@@ -20,67 +21,99 @@ const selectors = {
   },
 };
 
+const doFetch = async (url) => {
+  console.debug("fetch: ", url);
+  return (await fetch(url)).json();
+};
+
+const doWebScrape = async (url, selector, attribute) => {
+  if (attribute) {
+    const res = await doFetch(
+      `https://web.scraper.workers.dev/?url=${url}&` +
+        new URLSearchParams({
+          selector,
+          scrape: "attr",
+          attr: attribute,
+        })
+    );
+    if (res.Error) throw new Error(res.Error);
+    return res.result;
+  }
+
+  const res = await doFetch(
+    `https://web.scraper.workers.dev/?url=${url}&` +
+      new URLSearchParams({
+        selector,
+        scrape: "text",
+      })
+  );
+  if (res.Error) throw new Error(res.Error);
+  if (!res.result) return undefined;
+
+  return res.result[selector][0];
+};
+
 const doCheck = async (link) => {
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
-  await page.goto(link);
+  const headerTitle = await doWebScrape(link, selectors.title);
+  const headerDescription = await doWebScrape(link, selectors.description, "content");
+  const headerIcon = await doWebScrape(link, selectors.icon, "href");
 
-  const appInfo = await page.evaluate(async () => {
-    const url = document.querySelector("head link[rel='canonical']")?.href ?? window.location.href;
+  const openGraphTitle = await doWebScrape(link, selectors.openGraph.title, "content");
+  const openGraphImage = await doWebScrape(link, selectors.openGraph.image, "content");
+  const openGraphUrl = await doWebScrape(link, selectors.openGraph.url, "content");
+  const openGraphDescription = await doWebScrape(link, selectors.openGraph.description, "content");
+  const openGraphName = await doWebScrape(link, selectors.openGraph.name, "content");
 
-    const manifestUrl = document.querySelector("head link[rel='manifest']")?.href;
-    if (!manifestUrl) {
-      return {
-        url,
-        active: false,
-        name: document.querySelector("head title")?.text,
-        description: document.querySelector("head meta[name='description']")?.content || "",
-        icon: document.querySelector("head link[rel='apple-touch-icon']")?.href || "",
-        images: [],
-        categories: [],
-        tags: [],
-      };
-    }
+  let url = (await doWebScrape(link, selectors.url, "href")) || openGraphUrl || link;
+  url = new URL(url, link).href;
 
-    const manifest = await (await fetch(manifestUrl)).json();
-
-    const serviceWorkers = await navigator.serviceWorker.getRegistrations();
-
-    const {
-      name,
-      description = document.querySelector("head meta[name='description']")?.content || "",
-      categories = [],
-      icons = [],
-      lang,
-      screenshots = [],
-      background_color,
-      theme_color,
-    } = manifest;
-
-    const icon =
-      icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "192x192")?.src ||
-      icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "512x512")?.src ||
-      document.querySelector("head link[rel='apple-touch-icon']")?.href ||
-      "";
-
+  let manifestUrl = await doWebScrape(link, selectors.manifest, "href");
+  if (!manifestUrl || /^\s+$/.test(manifestUrl)) {
     return {
       url,
-      active: serviceWorkers.length > 0,
-      name,
-      description,
-      icon,
-      icons,
-      lang,
-      categories,
-      screenshots,
-      background_color,
-      theme_color,
+      isActive: false,
+      name: openGraphName || openGraphTitle || headerTitle,
+      description: openGraphDescription || headerDescription,
+      icon: headerIcon || openGraphImage,
+      categories: [],
     };
-  });
+  }
 
-  await browser.close();
+  if (url.startsWith("http://")) {
+    url = url.replace("http://", "https://");
+  }
 
-  return appInfo;
+  manifestUrl = new URL(manifestUrl, url).href;
+  const manifest = await doFetch(manifestUrl);
+  const {
+    name = openGraphName || openGraphTitle || headerTitle,
+    description = openGraphDescription || headerDescription,
+    categories = [],
+    icons = [],
+    lang,
+    screenshots = [],
+    background_color,
+    theme_color,
+  } = manifest;
+
+  const icon =
+    icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "192x192")?.src ||
+    icons.find((i) => (i.purpose === "any" || !i.purpose) && i.sizes === "512x512")?.src ||
+    headerIcon ||
+    openGraphImage;
+  return {
+    url,
+    isActive: true,
+    name,
+    description,
+    icon,
+    icons,
+    lang,
+    categories,
+    screenshots,
+    background_color,
+    theme_color,
+  };
 };
 
 const args = process.argv.slice(2);
@@ -91,32 +124,31 @@ console.log("args:", args);
   const db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   for (const url of args) {
-    let next = { url, active: false };
     try {
-      next = await doCheck(url);
+      const next = await doCheck(url);
+
+      const prev = db.find((app) => app.url === next.url);
+
+      // console.groupCollapsed(`app info for: ${url}`);
+      // console.log("prev", prev);
+      // console.log("next", next);
+      // console.groupEnd();
+
+      if (!prev) {
+        db.push(next);
+      } else {
+        db.map((app) => {
+          if (app.url !== next.url) {
+            return;
+          }
+
+          const categories = app.categories || [];
+          Object.assign(app, next);
+          app.categories = categories.concat(next.categories.filter((i) => categories.indexOf(i) < 0));
+        });
+      }
     } catch (err) {
-      console.error(`Fail fetch ${url} info: ${err}`);
-    }
-
-    const prev = db.find((app) => app.url === next.url);
-
-    console.groupCollapsed(`app info for: ${url}`);
-    console.log("prev", prev);
-    console.log("next", next);
-    console.groupEnd();
-
-    if (!prev) {
-      db.push(next);
-    } else {
-      db.map((app) => {
-        if (app.url !== next.url) {
-          return;
-        }
-
-        const categories = app.categories || [];
-        Object.assign(app, next);
-        app.categories = categories.concat(next.categories.filter((i) => categories.indexOf(i) < 0));
-      });
+      console.error(`fail process ${url}: ${err.message}.\n${err.stack}`);
     }
   }
 

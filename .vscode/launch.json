@@ -20,9 +20,9 @@
       "request": "launch",
       "name": "Check site",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/src/utils/checker.js",
+      "program": "${workspaceFolder}/checker/index.mjs",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "args": ["https://squoosh.app/"]
+      "args": ["https://developer.mozilla.org/"]
     }
   ]
 }
