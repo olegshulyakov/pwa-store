@@ -14,7 +14,7 @@ export const useApplicationStore = defineStore("application", {
   actions: {
     async fetchApplications(locale = i18n.global.locale) {
       const data = await import(`../data/${locale}.json`);
-      const apps = data.default;
+      const apps = data.default.filter((a) => a.isActive);
       this.locale = locale;
       this.error = undefined;
       this.applications = apps;
