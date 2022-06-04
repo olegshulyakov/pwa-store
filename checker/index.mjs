@@ -117,7 +117,7 @@ const doCheck = async (link) => {
 };
 
 const args = process.argv.slice(2);
-const filePath = path.resolve("./public/data/en.json");
+const filePath = path.resolve("./src/data/en.json");
 
 console.log("args:", args);
 (async () => {
