@@ -1,6 +1,6 @@
+import i18n from "../i18n";
 import { defineStore } from "pinia";
 import type { AppInfo, ApplicationState } from "../../types";
-import { useMessageStore } from "./message";
 
 export const useApplicationStore = defineStore("application", {
   state: () =>
@@ -12,7 +12,7 @@ export const useApplicationStore = defineStore("application", {
     } as ApplicationState),
 
   actions: {
-    async fetchApplications(locale = navigator.language) {
+    async fetchApplications(locale = i18n.global.locale) {
       const data = await import(`../data/${locale}.json`);
       const apps = data.default;
       this.locale = locale;
@@ -25,8 +25,7 @@ export const useApplicationStore = defineStore("application", {
     },
 
     sortByCategories(applications: AppInfo[]) {
-      const messageStore = useMessageStore();
-      for (const c of Object.keys(messageStore.messages.category)) {
+      for (const c of Object.keys(i18n.global.getLocaleMessage(i18n.global.locale)["category"])) {
         this.categories = Object.assign(this.categories, { [c]: [] });
       }
 

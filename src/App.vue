@@ -9,7 +9,7 @@ import { computed } from "vue";
 import { RouterView } from "vue-router";
 import LayoutDefaultDesktop from "./layouts/LayoutDefaultDesktop.vue";
 import { initStore } from "./store";
-import { useMessageStore } from "./store/message";
+import { useApplicationStore } from "./store/application";
 
 export default {
   components: {
@@ -18,8 +18,8 @@ export default {
   },
   setup() {
     initStore();
-    const messageStore = useMessageStore();
-    return { pending: computed(() => messageStore.pending) };
+    const appStore = useApplicationStore();
+    return { pending: computed(() => appStore.pending) };
   },
 };
 </script>
