@@ -20,6 +20,10 @@ export default {
       text,
       applications: computed(() =>
         appStore.applications.filter((app) => {
+          if (!app.name || !app.url) {
+            console.warn("invalid app:", app);
+            return false;
+          }
           return app.name.toLowerCase().includes(text.value) || app.url.toLowerCase().includes(text.value);
         })
       ),
