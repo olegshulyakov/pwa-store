@@ -75,6 +75,81 @@
     "theme_color": "#f9f9fa"
   },
   {
+    "url": "https://abc.xyz/",
+    "isActive": true,
+    "name": "Alphabet",
+    "description": "Alphabet Inc. is a holding company that gives ambitious projects the resources, freedom, and focus to make their ideas happen — and will be the parent company of Google, Nest, and other ventures. Alphabet supports and develops companies applying technology to the world’s biggest challenges.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ],
+    "categories": [],
+    "screenshots": []
+  },
+  {
+    "url": "https://adrianromero.github.io/myhelloiot/",
+    "isActive": true,
+    "name": "MYHELLOIOT MQTT Dashboard",
+    "description": "MYHELLOIOT MQTT Dashboard",
+    "icon": "logo192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#001528"
+  },
+  {
     "url": "https://airhorner.com/",
     "isActive": true,
     "name": "Air Horn",
@@ -170,8 +245,6 @@
     "name": "Alarm DJ",
     "short_name": "Alarm Clock",
     "description": "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed.",
-    "dir": "ltr",
-    "lang": "en-US",
     "display": "standalone",
     "orientation": "landscape",
     "start_url": "/?utm_source=web_app_manifest",
@@ -241,11 +314,63 @@
         "type": "image/png"
       }
     ],
-    "lang": "en",
     "categories": ["music"],
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#000000"
+  },
+  {
+    "url": "https://amp.dev/",
+    "isActive": true,
+    "name": "amp.dev",
+    "description": "Whether you are a publisher, e-commerce company, storyteller, advertiser or email sender, AMP makes it easy to create great experiences on the web. Use AMP to build websites, stories, ads and emails.",
+    "icon": "/static/img/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "/static/img/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#005af0"
   },
   {
     "url": "https://andreasbm.github.io/web-skills/",
@@ -265,7 +390,6 @@
         "sizes": "512x512"
       }
     ],
-    "lang": "en-US",
     "categories": ["productivity", "education", "utilities"],
     "screenshots": [
       {
@@ -321,6 +445,73 @@
     "screenshots": [],
     "background_color": "#0099cc",
     "theme_color": "#0099cc"
+  },
+  {
+    "url": "https://app.bangle.io/",
+    "isActive": true,
+    "name": "bangle.io",
+    "description": "Bangle.io is a powerful yet simple note taking web app that works on top of your locally saved Markdown files.",
+    "icon": "icon-transparent_x192.png",
+    "icons": [
+      {
+        "src": "maskable_icon_x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icon-transparent_x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "icon-transparent_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "icon-transparent_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://app.daily.dev/",
@@ -498,6 +689,72 @@
     "screenshots": [],
     "background_color": "#9F0C3F",
     "theme_color": "#fff1e0"
+  },
+  {
+    "url": "https://app.hugo.team/",
+    "isActive": true,
+    "name": "Hugo",
+    "description": "The solution for remote teams to make every meeting worth it.",
+    "icon": "logo_192_4.png",
+    "icons": [
+      {
+        "src": "logo_192_4.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo_512_4.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FAFAFA",
+    "theme_color": "#410934"
+  },
+  {
+    "url": "https://app.pregbuddy.com/",
+    "isActive": true,
+    "name": "PregBuddy",
+    "description": "Stay prepared &amp; fit with FREE weekly pregnancy tips about your baby &amp; your body! Best app for pregnant women.",
+    "icon": "/img/icons/favicon-192x192.png",
+    "icons": [
+      {
+        "src": "/img/icons/favicon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/favicon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/favicon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#148d74",
+    "theme_color": "#1bbc9b"
   },
   {
     "url": "https://app.starbucks.com/",
@@ -742,6 +999,89 @@
     "theme_color": "#475962"
   },
   {
+    "url": "https://bento-starter.firebaseapp.com/",
+    "isActive": true,
+    "name": "Bento Starter",
+    "description": "",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#FFFFFF"
+  },
+  {
+    "url": "https://bitmidi.com/",
+    "isActive": true,
+    "name": "BitMidi",
+    "description": "Listen to free MIDI songs, download the best MIDI files, and share the best MIDIs on the web.",
+    "icon": "/apple-touch-icon.png",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "src": "/android-chrome-192x192.png",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "sizes": "512x512",
+        "src": "/android-chrome-512x512.png",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ff41b4"
+  },
+  {
+    "url": "https://bolster.pro/",
+    "isActive": true,
+    "name": "Bolster",
+    "description": "The secure, private journal.",
+    "icon": "/icons/192.png",
+    "icons": [
+      {
+        "src": "/icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/icons/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icons/maskable/512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icons/maskable/192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  },
+  {
     "url": "https://bombhopper.io/",
     "isActive": true,
     "name": "BombHopper.io",
@@ -916,6 +1256,90 @@
     "theme_color": "#f4f3f3"
   },
   {
+    "url": "https://btapp.netlify.com/",
+    "isActive": true,
+    "name": "Budget Tracker",
+    "description": "Track expenses and analyse if they stick to a budget",
+    "icon": "android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [
+      {
+        "src": "screenshots/budget-list.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      },
+      {
+        "src": "screenshots/budget-view.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      },
+      {
+        "src": "screenshots/budget-view.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      },
+      {
+        "src": "screenshots/edit-budget.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      },
+      {
+        "src": "screenshots/edit-expense.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      },
+      {
+        "src": "screenshots/statistics.webp",
+        "sizes": "360x590",
+        "type": "image/webp"
+      }
+    ],
+    "background_color": "#2f0d59",
+    "theme_color": "#4a148c"
+  },
+  {
+    "url": "https://calculator-app-tau.vercel.app/",
+    "isActive": true,
+    "name": "calculator",
+    "description": "",
+    "icon": "apple-icon-180.png",
+    "icons": [
+      {
+        "src": "manifest-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "manifest-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#182034",
+    "theme_color": "#3a4764"
+  },
+  {
     "url": "https://canvas.apps.chrome/",
     "isActive": true,
     "name": "Chrome Canvas",
@@ -981,6 +1405,145 @@
     "theme_color": "#343434"
   },
   {
+    "url": "https://catsafefoods.com/",
+    "isActive": true,
+    "name": "Cat Safe Foods",
+    "description": "Sharing food with your cat? Make sure it's safe first",
+    "icon": "android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "maskable_icon.png",
+        "sizes": "650x650",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "monochrome_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "monochrome"
+      }
+    ],
+    "categories": ["pets", "food"],
+    "screenshots": [
+      {
+        "src": "screenshot1.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      },
+      {
+        "src": "screenshot2.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      },
+      {
+        "src": "screenshot3.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#000",
+    "theme_color": "#000"
+  },
+  {
+    "url": "https://closerinti.me/",
+    "isActive": true,
+    "name": "#closerintime",
+    "description": "Timespan comparisons between historical events.",
+    "icon": "icons/icon-192x192.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+    "icons": [
+      {
+        "src": "icons/icon-48x48.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-72x72.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-96x96.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-144x144.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-256x256.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png?v=eb3fe0ea1340eea8645cd25e5616d3ff",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#f56505"
+  },
+  {
     "url": "https://code.nasa.gov/",
     "isActive": true,
     "name": "NASA Open Source Software",
@@ -1002,6 +1565,124 @@
     "screenshots": [],
     "background_color": "#212121",
     "theme_color": "#212121"
+  },
+  {
+    "url": "https://contrax.app/",
+    "isActive": true,
+    "name": "Contrax",
+    "description": "Keep track of your subscriptions and deadlines",
+    "icon": "/images/icon-192x192.png",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "icons": [
+      {
+        "src": "/images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/images/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["productivity"]
+  },
+  {
+    "url": "https://crazydice.netlify.app/",
+    "isActive": true,
+    "name": "Crazy Dices",
+    "description": "Simple Dices to play simple games",
+    "icon": "images/logo192.png",
+    "icons": [
+      {
+        "src": "images/logo128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "black"
+  },
+  {
+    "url": "https://currency-converter.now.sh/",
+    "isActive": true,
+    "name": "Currency Converter",
+    "description": "Easily convert between 32 currencies",
+    "icon": "/favicon-small.png",
+    "icons": [
+      {
+        "src": "/favicon-small.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#212121",
+    "theme_color": "#212121"
+  },
+  {
+    "url": "https://currency-loss.netlify.com/",
+    "isActive": true,
+    "name": "Currency Exchange Loss",
+    "description": "",
+    "icon": "logo-192.png",
+    "icons": [
+      {
+        "src": "logo-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "logo-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "darkmagenta"
   },
   {
     "url": "https://deanhume.github.io/beer/",
@@ -1035,11 +1716,26 @@
         "density": "1"
       }
     ],
-    "lang": "en-US",
     "categories": ["food"],
     "screenshots": [],
     "background_color": "#ffe400",
     "theme_color": "#ffe400"
+  },
+  {
+    "url": "https://dev.opera.com/",
+    "isActive": true,
+    "name": "Dev.Opera",
+    "description": "Dev.Opera covers current and future HTML, CSS and JavaScript features and implementations, responsive web design, browser extensions, and more.",
+    "icon": "apple-touch-icon.png",
+    "icons": [
+      {
+        "src": "apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": []
   },
   {
     "url": "https://devdocs.io/",
@@ -1110,6 +1806,240 @@
     "screenshots": [],
     "background_color": "#ffffff",
     "theme_color": "#000000"
+  },
+  {
+    "url": "https://developers.google.com/",
+    "isActive": true,
+    "name": "Google Developers",
+    "description": "Everything you need to build better apps.",
+    "icon": "icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#fff"
+  },
+  {
+    "url": "https://dogsafefoods.com/",
+    "isActive": true,
+    "name": "Dog Safe Foods",
+    "description": "Sharing food with your dog? Make sure it's safe first",
+    "icon": "android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "maskable_icon.png",
+        "sizes": "650x650",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "monochrome_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "monochrome"
+      }
+    ],
+    "categories": ["pets", "food"],
+    "screenshots": [
+      {
+        "src": "screenshot1.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      },
+      {
+        "src": "screenshot2.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      },
+      {
+        "src": "screenshot3.png",
+        "sizes": "1500x800",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#000",
+    "theme_color": "#000"
+  },
+  {
+    "url": "https://duo.google.com/",
+    "isActive": true,
+    "name": "Google Duo",
+    "description": "Google Duo is a free, simple video calling app that brings you face-to-face with the people who matter most. Group call with 32 participants today.",
+    "icon": "https://ssl.gstatic.com/images/branding/product/1x/duo_512dp.png",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/images/branding/product/1x/duo_512dp.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "//ssl.gstatic.com/images/branding/product/1x/duo_64dp.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "//ssl.gstatic.com/images/branding/product/1x/duo_32dp.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "url": "https://elfsh.mousetail.nl/en/login",
+    "isActive": true,
+    "name": "ELFSH - Eet Lijst",
+    "description": "\n\nDo you live in a shared accomodation, or are part of an eating group, but are tired of discussing whose\n turn it is to cook tonight every day? Are you looking for a way to manage the shared finances better?\n Then ELFSH is the app for you!\n\n          ",
+    "icon": "/static/images/icon_512.png",
+    "icons": [
+      {
+        "src": "/static/images/icon_64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/static/images/icon_128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/static/images/icon_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#eeeeee",
+    "theme_color": "#0000ff"
+  },
+  {
+    "url": "https://emberclear.io/",
+    "isActive": true,
+    "name": "emberclear",
+    "description": "Encrypted Chat. No History. No Logs.",
+    "icon": "/assets/images/icons/android-chrome-192x192-f3a4749685cb447dfb3cc5ab073178b2.png",
+    "icons": [
+      {
+        "src": "/assets/images/icons/android-chrome-192x192-f3a4749685cb447dfb3cc5ab073178b2.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/icons/android-chrome-512x512-f3a4749685cb447dfb3cc5ab073178b2.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#fff"
+  },
+  {
+    "url": "https://emojilog.rosano.ca/pt/",
+    "isActive": true,
+    "name": "Emoji Log",
+    "description": "Measure your progress.",
+    "icon": "https://static.rosano.ca/emojilog/touch.png",
+    "icons": [
+      {
+        "src": "https://static.rosano.ca/emojilog/touch.png",
+        "sizes": "600x600",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "white"
   },
   {
     "url": "https://emojityper.com/",
@@ -1199,6 +2129,70 @@
     "theme_color": "#192f5d"
   },
   {
+    "url": "https://englishextra.gitlab.io/",
+    "isActive": true,
+    "name": "English Extra",
+    "description": "«С нуля», подтянуть, улучшить, подготовка к ЕГЭ. Школьникам, студентам и взрослым в частном порядке в Тушино. Сайт: englishextra.gitlab.io",
+    "icon": "/android-chrome-512x512.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#F03B4C",
+    "theme_color": "#F03B4C"
+  },
+  {
+    "url": "https://fastgolfscores.com/",
+    "isActive": true,
+    "name": "Fast Golf Scores",
+    "description": "Tour scores delivered in milliseconds",
+    "icon": "/images/icon-192.png?v=52d2f2302eeccc63721d723138c758ed",
+    "icons": [
+      {
+        "src": "/images/icon-192.png?v=52d2f2302eeccc63721d723138c758ed",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icon-512.png?v=52d2f2302eeccc63721d723138c758ed",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/maskable_icon-192.png?v=52d2f2302eeccc63721d723138c758ed",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/maskable_icon-512.png?v=52d2f2302eeccc63721d723138c758ed",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#00c85c",
+    "theme_color": "#00c85c"
+  },
+  {
     "url": "https://finding-nora.com/",
     "isActive": true,
     "name": "Find your name in a field of letters",
@@ -1279,6 +2273,52 @@
     "theme_color": "#2e2f33"
   },
   {
+    "url": "https://flagwarriors.netlify.com/",
+    "isActive": true,
+    "name": "FlagWarriors",
+    "description": "",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  },
+  {
+    "url": "https://footballpeek.com/",
+    "isActive": true,
+    "name": "Football Peek",
+    "description": "Access football results, tables, top scorers and top assists from the major leagues and competitions",
+    "icon": "/icon-192x192.png",
+    "icons": [
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#074c72",
+    "theme_color": "#074c72"
+  },
+  {
     "url": "https://getkana.com/app/",
     "isActive": true,
     "name": "Get Kana!",
@@ -1294,6 +2334,82 @@
     ],
     "categories": ["education"],
     "screenshots": []
+  },
+  {
+    "url": "https://github-e.com/",
+    "isActive": true,
+    "name": "GitHub Explorer",
+    "description": "",
+    "icon": "assets/inspectocat.png",
+    "icons": [
+      {
+        "src": "assets/inspectocat.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#3d536d",
+    "theme_color": "#3d536d"
+  },
+  {
+    "url": "https://gpacalculator.io/",
+    "isActive": true,
+    "name": "GPA Calculator",
+    "description": "Calculate your college GPA, high school GPA and cumulative GPA, check your grades and understand how the GPA scale works.",
+    "icon": "assets/images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/images/icons/icon-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#D9F7FA",
+    "theme_color": "#D9F7FA"
   },
   {
     "url": "https://guitar-tuner.appspot.com/",
@@ -1443,7 +2559,6 @@
         "purpose": "any maskable"
       }
     ],
-    "lang": "en",
     "categories": ["developer tools"],
     "screenshots": [],
     "background_color": "#202124",
@@ -1472,11 +2587,29 @@
         "type": "image/png"
       }
     ],
-    "lang": "en",
     "categories": ["travel"],
     "screenshots": [],
     "background_color": "#fff",
     "theme_color": "#7323dc"
+  },
+  {
+    "url": "https://hyperdraft.rosano.ca/pt/",
+    "isActive": true,
+    "name": "Hyperdraft",
+    "description": "Turn your text notes into a website.",
+    "icon": "https://static.rosano.ca/wikiavec/touch.png",
+    "icons": [
+      {
+        "src": "https://static.rosano.ca/wikiavec/touch.png",
+        "sizes": "600x600",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "white"
   },
   {
     "url": "https://imgflip.com/",
@@ -1538,6 +2671,135 @@
     "theme_color": "#333"
   },
   {
+    "url": "https://indecisive.us/",
+    "isActive": true,
+    "name": "Indecisive: Decision-Making App",
+    "description": "App to help you make a decision",
+    "icon": "assets/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/icons/icon-1024x1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-2208x1242.png",
+        "sizes": "2208x1242",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-2048x1536.png",
+        "sizes": "2048x1536",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-1536x2048.png",
+        "sizes": "1536x2048",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-1334x750.png",
+        "sizes": "1334x750",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-1242x2208.png",
+        "sizes": "1242x2208",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-1024x768.png",
+        "sizes": "1024x768",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-768x1024.png",
+        "sizes": "768x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-750x1334.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-640x1136.png",
+        "sizes": "640x1136",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-640x960.png",
+        "sizes": "640x960",
+        "type": "image/png"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#2c3e50",
+    "theme_color": "#16a085"
+  },
+  {
     "url": "https://jakearchibald.github.io/svgomg/",
     "isActive": true,
     "name": "SVGOMG",
@@ -1558,6 +2820,155 @@
     "screenshots": [],
     "background_color": "#bababa",
     "theme_color": "#303f9f"
+  },
+  {
+    "url": "https://jeremyckahn.github.io/farmhand/",
+    "isActive": true,
+    "name": "Farmhand",
+    "description": "",
+    "icon": "logo192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "logoMaskable.png",
+        "type": "image/png",
+        "purpose": "maskable",
+        "sizes": "731x731"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffe3a1"
+  },
+  {
+    "url": "https://joybox.rosano.ca/pt/",
+    "isActive": true,
+    "name": "Joybox",
+    "description": "A pinboard for audiovisual media.",
+    "icon": "https://static.rosano.ca/joybox/touch.png",
+    "icons": [
+      {
+        "src": "https://static.rosano.ca/joybox/touch.png",
+        "sizes": "600x600",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "black",
+    "theme_color": "black"
+  },
+  {
+    "url": "https://jsfeatures.in/",
+    "isActive": true,
+    "name": "jsfeatures.in",
+    "description": "",
+    "icon": "/images/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/images/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "density": "5"
+      },
+      {
+        "src": "/images/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#f0db4e",
+    "theme_color": "#fdd835"
+  },
+  {
+    "url": "https://jsonformatter.com/",
+    "isActive": true,
+    "name": "JSON formatter",
+    "description": "Minimalist JSON formatter designed to enhance productivity",
+    "icon": "images/logo-192_4.png",
+    "icons": [
+      {
+        "src": "images/logo-192_4.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "images/logo-512_4.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "images/logo-maskable-192_4.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/logo-maskable-512_4.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "white"
   },
   {
     "url": "https://jsontoolbox.com/",
@@ -1586,6 +2997,25 @@
     "screenshots": [],
     "background_color": "#000000",
     "theme_color": "#ffffff"
+  },
+  {
+    "url": "https://kommit.rosano.ca/pt/",
+    "isActive": true,
+    "name": "Kommit",
+    "description": "Augment your memory.",
+    "icon": "https://static.rosano.ca/kommit/touch.png",
+    "icons": [
+      {
+        "src": "https://static.rosano.ca/kommit/touch.png",
+        "sizes": "600x600",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "white"
   },
   {
     "url": "https://kuranz.com/",
@@ -1626,11 +3056,55 @@
         "type": "image/png"
       }
     ],
-    "lang": "en-US",
+
     "categories": ["finance"],
     "screenshots": [],
     "background_color": "#4D841E",
     "theme_color": "#4D841E"
+  },
+  {
+    "url": "https://launchlet.dev/pt/",
+    "isActive": true,
+    "name": "Launchlet",
+    "description": "Make the web yours.",
+    "icon": "https://static.rosano.ca/launchlet/touch.png",
+    "icons": [
+      {
+        "src": "https://static.rosano.ca/launchlet/touch.png",
+        "sizes": "600x600",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "white",
+    "theme_color": "white"
+  },
+  {
+    "url": "https://leoherrmann.github.io/timetable/",
+    "isActive": true,
+    "name": "Timetable",
+    "description": "A simple progressive web application helping you to keep track of your school or university schedule",
+    "icon": "icon_128.png",
+    "icons": [
+      {
+        "src": "icon_512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "icon_128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#EEE",
+    "theme_color": "#000000"
   },
   {
     "url": "https://letsplant.org/",
@@ -1701,6 +3175,86 @@
     "theme_color": "#ffffff"
   },
   {
+    "url": "https://loremipsum.io/",
+    "isActive": true,
+    "name": "Lorem Ipsum",
+    "description": "Learn about the origins of the Lorem Ipsum passage and generate your own text using any number of characters, words sentences or paragraphs.",
+    "icon": "assets/images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/images/icons/icon-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#556271",
+    "theme_color": "#556271"
+  },
+  {
+    "url": "https://m.aliexpress.com/",
+    "isActive": true,
+    "name": "AliExpress",
+    "icon": "https://ae01.alicdn.com/kf/H0311bf6a4027463b80de1fe6f0d9d754J.png",
+    "icons": [
+      {
+        "src": "https://ae01.alicdn.com/kf/H0311bf6a4027463b80de1fe6f0d9d754J.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://ae01.alicdn.com/kf/H6c6b17076c554c96812d2913ff22d57e3.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF"
+  },
+  {
     "url": "https://madrid-wordle.vercel.app/",
     "isActive": true,
     "name": "Madrid Wordle",
@@ -1766,7 +3320,7 @@
         "purpose": "any maskable"
       }
     ],
-    "lang": "en-US",
+
     "categories": ["game", "webapp", "pwa", "chrome", "math", "riddles", "math riddles"],
     "screenshots": [
       {
@@ -1849,11 +3403,174 @@
         "purpose": "maskable"
       }
     ],
-    "lang": "en",
+
     "categories": ["games"],
     "screenshots": [],
     "background_color": "#14171b",
     "theme_color": "#14171b"
+  },
+  {
+    "url": "https://mconverter.eu/",
+    "isActive": true,
+    "name": "MConverter",
+    "description": "Free secure online file converter. Quick, easy and simple. Can convert in bulk. Lots of video, audio, image, e-book, office and archive formats supported. No registration needed.",
+    "icon": "img/icon-pwa-circle.png",
+    "icons": [
+      {
+        "src": "img/icon-pwa.png",
+        "type": "image/png",
+        "sizes": "1024x1024",
+        "purpose": "maskable"
+      },
+      {
+        "src": "img/icon-pwa-circle.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      }
+    ],
+    "categories": ["utilities", "photo", "music", "books"],
+    "screenshots": [
+      {
+        "src": "img/screenshots/mobile-home.png",
+        "sizes": "1080x2280",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/mobile-pick-format.png",
+        "sizes": "1080x2280",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/mobile-share-file.png",
+        "sizes": "1080x2280",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/mobile-convert-dark.png",
+        "sizes": "1080x2280",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/mobile-download-multi.png",
+        "sizes": "1080x2280",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/desktop-home.png",
+        "sizes": "2400x1600",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/desktop-pick-format.png",
+        "sizes": "2400x1600",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/desktop-convert-dark.png",
+        "sizes": "2400x1600",
+        "type": "image/png"
+      },
+      {
+        "src": "img/screenshots/desktop-download-multi.png",
+        "sizes": "2400x1600",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#2e5598",
+    "theme_color": "#2e5598"
+  },
+  {
+    "url": "https://messages.google.com/web/",
+    "isActive": true,
+    "name": "Messages",
+    "description": "Messages is a simple, helpful messaging app that keeps you connected with the people who matter most. Text anyone from anywhere across devices.",
+    "icon": "//ssl.gstatic.com/images/branding/product/2x/messages_96dp.png",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/images/branding/product/2x/messages_96dp.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "//ssl.gstatic.com/images/branding/product/1x/messages_512dp.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#FFFFFF",
+    "theme_color": "#F1F3F4",
+    "categories": ["social", "productivity"]
+  },
+  {
+    "url": "https://moneytracker.cc/",
+    "isActive": true,
+    "name": "Money Tracker",
+    "description": "Personal finances tracking web app",
+    "icon": "/android-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ],
+    "categories": [],
+    "screenshots": []
+  },
+  {
+    "url": "https://morsedecoder.com/",
+    "isActive": true,
+    "name": "Morse Decoder",
+    "description": "Easy to use Morse code translator, translate Morse code to text and text to Morse code, play the sound of the Morse code.",
+    "icon": "/dist/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/dist/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#000000"
   },
   {
     "url": "https://morsure.netlify.app/",
@@ -1899,6 +3616,29 @@
     "theme_color": "#980000"
   },
   {
+    "url": "https://murlok.io/",
+    "isActive": true,
+    "name": "Murlok.io",
+    "description": "World of Warcraft Shadowlands 9.2 daily updated PvP (2v2,  3v3, RBG) and PvE (Mythic+) class guides, based on the 50 highest-rated players for each class, specialization, and covenant.",
+    "icon": "https://cdn.murlok.io/v2.0.1/web/murlok.svg",
+    "icons": [
+      {
+        "src": "https://cdn.murlok.io/v2.0.1/web/murlok.svg",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#1a1c1f",
+    "theme_color": "#1a1c1f"
+  },
+  {
     "url": "https://music.qier222.com/",
     "isActive": true,
     "name": "YesPlayMusic",
@@ -1934,6 +3674,60 @@
     "theme_color": "#ffffff00"
   },
   {
+    "url": "https://music.youtube.com/",
+    "isActive": true,
+    "name": "YouTube Music",
+    "description": "A new music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here.",
+    "icon": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_192x192.png",
+    "icons": [
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_maskable_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "background_color": "#000000",
+    "theme_color": "#131313",
+    "categories": ["music"]
+  },
+  {
     "url": "https://musickit.jull.dev/tone-generator",
     "isActive": true,
     "name": "MusicKit",
@@ -1961,7 +3755,7 @@
         "type": "image/png"
       }
     ],
-    "lang": "en",
+
     "categories": ["music", "utilities", "audio"],
     "screenshots": [
       {
@@ -2056,6 +3850,63 @@
     "theme_color": "#40916c"
   },
   {
+    "url": "https://naramsim.github.io/Colosseum/",
+    "isActive": true,
+    "name": "Colosseum",
+    "description": "Displays Pokemons in a beautiful way",
+    "icon": "images/icons/launcher-192.png",
+    "icons": [
+      {
+        "src": "images/icons/launcher-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/launcher-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/launcher-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/launcher-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/maskable-48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/icons/maskable-96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/icons/maskable-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/icons/maskable-256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#80b5ff",
+    "theme_color": "#29BDBB"
+  },
+  {
     "url": "https://obese-pwa.netlify.app/",
     "isActive": true,
     "name": "Obese",
@@ -2136,7 +3987,7 @@
         "type": "image/png"
       }
     ],
-    "lang": "",
+
     "categories": ["games"],
     "screenshots": [],
     "background_color": "#ffffff",
@@ -2346,6 +4197,39 @@
     "theme_color": "#44337a"
   },
   {
+    "url": "https://paulhoughton.github.io/remember/",
+    "isActive": true,
+    "name": "Remember",
+    "description": "",
+    "icon": "./icons/ic_directions_walk_48pt_4x.png",
+    "icons": [
+      {
+        "src": "./icons/ic_directions_walk_48pt.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/ic_directions_walk_48pt_2x.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/ic_directions_walk_48pt_3x.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/ic_directions_walk_48pt_4x.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#3f51b5"
+  },
+  {
     "url": "https://periodex.co/",
     "isActive": true,
     "name": "Periodex",
@@ -2531,7 +4415,7 @@
         "purpose": "maskable"
       }
     ],
-    "lang": "en",
+
     "categories": ["education", "books"],
     "screenshots": [
       {
@@ -2635,6 +4519,44 @@
     "theme_color": "#3c3b6e"
   },
   {
+    "url": "https://pokedex.org/",
+    "isActive": true,
+    "name": "Pokedex.org",
+    "description": "A mini-encyclopedia of Pokémon species, types, evolutions, and moves.",
+    "icon": "img/icon-48.png",
+    "icons": [
+      {
+        "src": "img/icon-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#EEEEEE",
+    "theme_color": "#a040a0"
+  },
+  {
     "url": "https://poly-mail.appspot.com/",
     "isActive": true,
     "name": "Polymer Mail",
@@ -2694,6 +4616,192 @@
     "screenshots": [],
     "background_color": "#efefef",
     "theme_color": "#282828"
+  },
+  {
+    "url": "https://pomotimer.com/",
+    "isActive": true,
+    "name": "Pomotimer",
+    "description": "Pomotimer",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#111827",
+    "theme_color": "#111827"
+  },
+  {
+    "url": "https://pwa-memory-game.surge.sh/",
+    "isActive": true,
+    "name": "Memory Game",
+    "description": "Play this game and strengthen your memory!",
+    "icon": "./images/192.png",
+    "icons": [
+      {
+        "src": "./images/48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#283344",
+    "theme_color": "#283344"
+  },
+  {
+    "url": "https://pwa-nes.vercel.app/",
+    "isActive": true,
+    "name": "PWA NES",
+    "description": "8-bit NES Emulator",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-360x360.png",
+        "type": "image/png",
+        "sizes": "360x360"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#0d1117",
+    "theme_color": "#0d1117"
+  },
+  {
+    "url": "https://pwa.journalisticapp.com/",
+    "isActive": true,
+    "name": "Journalistic",
+    "description": "A free micro journaling app with minimalistic design and powerful insights. Write and reflect about the happenings in your life with 3-7+ bullets a day.",
+    "icon": "https://pwa.journalisticapp.com/apple-touch-icon.png",
+    "icons": [
+      {
+        "src": "/_nuxt/icons/icon_64x64.a239f6.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_120x120.a239f6.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_144x144.a239f6.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_152x152.a239f6.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_192x192.a239f6.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_384x384.a239f6.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_512x512.a239f6.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+
+    "categories": ["lifestyle"],
+    "screenshots": [
+      {
+        "src": "/screenshots/01-write_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/02-journal_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/03-reflect_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/04-customize_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/05-keep-track_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/06-wisdom_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      },
+      {
+        "src": "/screenshots/07-ideas_x1024.png",
+        "type": "image/png",
+        "sizes": "512x1024"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://pwalist.app/",
@@ -2826,6 +4934,93 @@
     "theme_color": "#4DC0B5"
   },
   {
+    "url": "https://regex101.com/",
+    "isActive": true,
+    "name": "regex101",
+    "description": "regex101: build, test, and debug regex",
+    "icon": "/static/assets/icon-192.png",
+    "icons": [
+      {
+        "src": "/static/assets/icon-36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/maskable-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#f7f7f7",
+    "theme_color": "#3366a4"
+  },
+  {
+    "url": "https://resume-nation.github.io/",
+    "isActive": true,
+    "name": "Resume Nation",
+    "description": "A resume generator progressive web app",
+    "icon": "images/icon-192.png",
+    "icons": [
+      {
+        "src": "images/icon-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#EEEEEE",
+    "theme_color": "#673AB7"
+  },
+  {
     "url": "https://roneetkumar.github.io/umbrella/",
     "isActive": true,
     "name": "Umbrella : Weather App",
@@ -2842,6 +5037,199 @@
     "screenshots": [],
     "background_color": "#03a9f4",
     "theme_color": "#03a9f4"
+  },
+  {
+    "url": "https://rydeen.app/",
+    "isActive": true,
+    "name": "rydeen",
+    "description": "A progressive task management app for individuals who value speed, security and serenity.",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#ffffff"
+  },
+  {
+    "url": "https://saintsschedule.info/",
+    "isActive": true,
+    "name": "Saints Schedule & Info",
+    "description": "New Orleans Saints' game schedule, news, and bar database.",
+    "icon": "https://saintsschedule.info/assets/icons/saints-192.png",
+    "icons": [
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-512.png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-44.png",
+        "sizes": "44x44"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-48.png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-1024x600.png",
+        "sizes": "1240x600"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-300.png",
+        "sizes": "300x300"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-150.png",
+        "sizes": "150x150"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-88.png",
+        "sizes": "88x88"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-24.png",
+        "sizes": "24x24"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-50.png",
+        "sizes": "50x50"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-620x300.png",
+        "sizes": "620x300"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-192.png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-144.png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-96.png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-72.png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-36.png",
+        "sizes": "36x36"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-1024.png",
+        "sizes": "1024x1024"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-180.png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-152.png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-120.png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "https://saintsschedule.info/assets/icons/saints-76.png",
+        "sizes": "76x76"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#010203",
+    "theme_color": "#D3BC8D"
+  },
+  {
+    "url": "https://saucekudasai.com/",
+    "isActive": true,
+    "name": "Saucekudasai ",
+    "description": "An anime search engine that provide animeinfo based on image or url provided using trace.moe Api",
+    "icon": "icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#E5DFF6",
+    "theme_color": "#E5DFF6"
+  },
+  {
+    "url": "https://scoreboard.rocks/",
+    "isActive": true,
+    "name": "Scoreboard",
+    "description": "🤘 Scoreboard.Rocks - Scoreboard App that Rocks",
+    "icon": "https://scoreboard.rocks/wp-content/uploads/scoreboard.rocks192.png",
+    "icons": [
+      {
+        "src": "https://scoreboard.rocks/wp-content/uploads/scoreboard.rocks192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://scoreboard.rocks/wp-content/uploads/appicon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   {
     "url": "https://sii.im/playground/notes/",
@@ -2875,6 +5263,89 @@
     "screenshots": [],
     "background_color": "#ffffff",
     "theme_color": "#ffffff"
+  },
+  {
+    "url": "https://similarworlds.com/",
+    "isActive": true,
+    "name": "Similar Worlds",
+    "description": "Discuss Experiences, Share Stories, Ask Questions, Find Answers, Explore Interests, Make Friends, Express your true Self!",
+    "icon": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-192.png",
+    "icons": [
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-64.webp",
+        "sizes": "64x64",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Symbol-1024-Mask.png",
+        "sizes": "1280x1280",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Icon-Min-128.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://images.similarworlds.com/Similar-Worlds-Logo-Icon-Monochrome-128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "monochrome"
+      }
+    ],
+
+    "categories": ["social", "entertainment", "photo", "news"],
+    "screenshots": [
+      {
+        "src": "https://images.similarworlds.com/SW-PWA-01.jpg",
+        "sizes": "780x1558",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://images.similarworlds.com/SW-PWA-02.jpg",
+        "sizes": "780x1558",
+        "type": "image/jpeg"
+      }
+    ],
+    "background_color": "#EBF0F2",
+    "theme_color": "#EBF0F2"
   },
   {
     "url": "https://smaller-pictures.appspot.com/",
@@ -3042,6 +5513,96 @@
     "theme_color": "#987fff"
   },
   {
+    "url": "https://soundcloud.com/",
+    "isActive": true,
+    "name": "SoundCloud",
+    "description": "SoundCloud - Play Music, Audio & New Songs",
+    "icon": "/pwa-round-icon-192x192.png",
+    "icons": [
+      {
+        "src": "/pwa-round-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-round-icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FF5500",
+    "theme_color": "#FF5500"
+  },
+  {
+    "url": "https://splittypie.com/",
+    "isActive": true,
+    "name": "Splittypie - Easy expense splitting",
+    "description": "SplittyPie is a free app that helps you with sharing expenses with your friends. It's offline enable and mobile friendly, you can use it everywhere.",
+    "icon": "assets/icons/android/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/icons/android/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/android/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  },
+  {
     "url": "https://squoosh.app/",
     "isActive": true,
     "name": "Squoosh",
@@ -3060,7 +5621,7 @@
         "purpose": "maskable"
       }
     ],
-    "lang": "en",
+
     "categories": ["photo", "developer tools", "utilities", "productivity"],
     "screenshots": [
       {
@@ -3081,6 +5642,67 @@
     ],
     "background_color": "#fff",
     "theme_color": "#ff3385"
+  },
+  {
+    "url": "https://stadia.google.com/",
+    "isActive": true,
+    "name": "Stadia",
+    "description": "Get instant access to Stadia and a collection of games with a Stadia Pro no cost trial now.",
+    "icon": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-192.png",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "any"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-256.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "any"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-256.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "maskable"
+      },
+      {
+        "src": "//ssl.gstatic.com/stadia/gamers/assets/app-icon-v2-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#202124",
+    "theme_color": "#000000"
   },
   {
     "url": "https://startrack-ng.firebaseapp.com/",
@@ -3116,6 +5738,59 @@
     "categories": ["utilities"]
   },
   {
+    "url": "https://studiolacosanostra.github.io/apps/qr-code-generator/",
+    "isActive": true,
+    "name": "QR Code Generator",
+    "description": "Create custom QR Codes. You can save them as PNG image. You can change the size of the image.",
+    "icon": "assets/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#3f51b5"
+  },
+  {
     "url": "https://sushi-hunt.herokuapp.com/",
     "isActive": true,
     "name": "Sushi Hunt",
@@ -3130,6 +5805,142 @@
     ],
     "categories": ["food"],
     "screenshots": []
+  },
+  {
+    "url": "https://svenpanel.de/",
+    "isActive": true,
+    "name": "svenpanel",
+    "description": "The Shrine - The Message Is Feierei Alda. Das neue Svenpanel für weitere Gude Laune im Browser, dem Telefon & Tablet. Es ist all about Gude Laune. Obergeil!",
+    "icon": "/_nuxt/icons/icon_512x512.20d4a7.png",
+    "icons": [
+      {
+        "src": "/_nuxt/icons/icon_64x64.20d4a7.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_120x120.20d4a7.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_144x144.20d4a7.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_152x152.20d4a7.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_192x192.20d4a7.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_384x384.20d4a7.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/_nuxt/icons/icon_512x512.20d4a7.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff"
+  },
+  {
+    "url": "https://swahili-dictionary.com/english-swahili",
+    "isActive": true,
+    "name": "MobiTUKI English-Swahili Advanced Dictionary",
+    "description": "The best available English-Swahili-English dictionary with 30000+ entries, including idioms, derivatives, etymology and examples.",
+    "icon": "/static/img/favicon/apple-touch-icon.png",
+    "icons": [
+      {
+        "src": "/static/img/src/logo-rendered.svg",
+        "type": "image/svg+xml",
+        "sizes": "any",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/favicon/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/favicon/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/favicon/apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "180x180",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": ["education", "utilities"],
+    "screenshots": [
+      {
+        "src": "/static/img/screenshot1.png",
+        "sizes": "758x1266",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/img/screenshot2.png",
+        "sizes": "758x1266",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#8ab49e",
+    "theme_color": "#468966"
+  },
+  {
+    "url": "https://t4p4n.github.io/todoly/",
+    "isActive": true,
+    "name": "Todoly",
+    "description": "A Simple Todo List App!",
+    "icon": "images/msteams-192-192.png",
+    "icons": [
+      {
+        "src": "images/msteams-192-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/firefox-marketplace-512-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#e2e2e2",
+    "theme_color": "#0f3626"
   },
   {
     "url": "https://themer.dev/",
@@ -3158,6 +5969,62 @@
     "screenshots": [],
     "background_color": "#FFFCFF",
     "theme_color": "#282629"
+  },
+  {
+    "url": "https://tinder.com/",
+    "isActive": true,
+    "name": "Tinder",
+    "description": "With 55 billion matches to date, Tinder® is the world’s most popular dating app, making it the place to meet new people.",
+    "icon": "/static/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/static/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/android-chrome-192x192-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/static/android-chrome-512x512-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/static/screenshots/en/like.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/screenshots/en/discover.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/screenshots/en/match.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/screenshots/en/chat.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "categories": ["social"]
   },
   {
     "url": "https://tmaiadev-tetra.netlify.app/",
@@ -3273,6 +6140,66 @@
     "theme_color": "#55B4FA"
   },
   {
+    "url": "https://todo.blue/",
+    "isActive": true,
+    "name": "todo.blue",
+    "description": "ToDo App in Blue",
+    "icon": "https://todo.blue/wp-content/uploads/todoblue192a.png",
+    "icons": [
+      {
+        "src": "https://todo.blue/wp-content/uploads/todoblue192a.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://todo.blue/wp-content/uploads/todoblue192a.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://todo.blue/wp-content/uploads/todoblue512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://todo.blue/wp-content/uploads/todoblue512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#004aad",
+    "theme_color": "#004aad"
+  },
+  {
+    "url": "https://totalformatter.web.app/",
+    "isActive": true,
+    "name": "Total Formatter",
+    "description": "Total Formatter is an online markup language validator and formatter. It can lint, format and minify YAML, JSON, HTML and XML",
+    "icon": "logo.png",
+    "icons": [
+      {
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#007bff"
+  },
+  {
     "url": "https://tumblr.com/",
     "isActive": true,
     "name": "Tumblr",
@@ -3377,6 +6304,41 @@
     "screenshots": [],
     "background_color": "#eee",
     "theme_color": "#222"
+  },
+  {
+    "url": "https://unalengua.com/?hl=en",
+    "isActive": true,
+    "name": "Unalengua IPA",
+    "description": "easy to use free tool for converting text from English to the International Phonetic Alphabet, allows you to play Text-to-Speech audio and suggest the right language based on detected language, English to IPA, Spanish to IPA, Portuguese to IPA, German to IPA, Italian to IPA, Polish to IPA, Esperanto to IPA",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./img/icons/android-chrome-maskable-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#1a73e8"
   },
   {
     "url": "https://vault.passky.org/",
@@ -3484,6 +6446,225 @@
     "theme_color": "#0D1117"
   },
   {
+    "url": "https://vegancheck.me/",
+    "isActive": true,
+    "name": "VeganCheck.me",
+    "description": "VeganCheck.me checks if a product is vegan or not.",
+    "icon": "icon-192x192.png?v=3.0.0",
+    "icons": [
+      {
+        "src": "icon-192x192.png?v=3.0.0",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-256x256.png?v=3.0.0",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-384x384.png?v=3.0.0",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png?v=3.0.0",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "maskable_icon.png?v=2.0.0",
+        "sizes": "640x640",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x96.png?v=2.0.0",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x128.png?v=2.0.0",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x192.png?v=2.0.0",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x384.png?v=2.0.0",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "maskable_icon_x512.png?v=2.0.0",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#121212",
+    "theme_color": "#121212"
+  },
+  {
+    "url": "https://veggietables.org/",
+    "isActive": true,
+    "name": "VeggieTables Farm Record Keeping",
+    "description": "Track your crops and farming activities for organic certification.",
+    "icon": "/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#18bc9c",
+    "theme_color": "#0c6251"
+  },
+  {
+    "url": "https://versus.com/",
+    "isActive": true,
+    "name": "Versus, compare anything",
+    "description": "Compare smartphones, cameras, cities, headphones, graphics cards, and much more. With detailed tech specs, data visualizations, and price comparisons, Versus is the best product finder for a wide range of consumer electronics, from smartphones to PC hardware.",
+    "icon": "https://images.versus.io/favicon/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "https://images.versus.io/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon-60x60.png",
+        "sizes": "60x60",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/msapplication-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://images.versus.io/favicon/mstile-150x150.png",
+        "sizes": "150x150",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/img/1_compare-min.png",
+        "sizes": "1242x2208",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/2_discover-min.png",
+        "sizes": "1242x2208",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/3_buy-min.png",
+        "sizes": "1242x2208",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#161616",
+    "background_color": "#161616",
+    "categories": ["utilities"]
+  },
+  {
     "url": "https://vidno.online/",
     "isActive": true,
     "name": "Vidno – video web conference",
@@ -3505,6 +6686,39 @@
     "screenshots": [],
     "background_color": "#f7f7fd",
     "theme_color": "#f7f7fd"
+  },
+  {
+    "url": "https://web.kahla.app/",
+    "isActive": true,
+    "name": "Kahla",
+    "description": "As a cross-platform business messaging app, Kahla can encrypt communications at any location, on any device. And it is completely open source and free.",
+    "icon": "/assets/192x192.png",
+    "icons": [
+      {
+        "src": "/assets/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/240x240.png",
+        "sizes": "240x240",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#fff"
   },
   {
     "url": "https://web.telegram.org/",
@@ -3563,6 +6777,118 @@
     "screenshots": [],
     "background_color": "#fff",
     "theme_color": "#497495"
+  },
+  {
+    "url": "https://web.threema.ch/",
+    "isActive": true,
+    "name": "Threema Web",
+    "description": "Chat from your desktop with Threema Web and have full access to all chats, contacts and media files.",
+    "icon": "img/favicon/android-icon-192x192.png?v=2.4.0",
+    "icons": [
+      {
+        "src": "img/favicon/android-icon-36x36.png?v=2.4.0",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "img/favicon/android-icon-48x48.png?v=2.4.0",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "img/favicon/android-icon-72x72.png?v=2.4.0",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "img/favicon/android-icon-96x96.png?v=2.4.0",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "img/favicon/android-icon-144x144.png?v=2.4.0",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "img/favicon/android-icon-192x192.png?v=2.4.0",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      },
+      {
+        "src": "img/favicon/favicon.ico?v=2.4.0",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "rgb(117,117,117)",
+    "theme_color": "rgb(117,117,117)"
+  },
+  {
+    "url": "https://wordcounter.io/",
+    "isActive": true,
+    "name": "Word Counter",
+    "description": "Count characters, words, sentences, paragraphs and pages in real time, along with keyword density and reading level.",
+    "icon": "assets/images/icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/images/icons/icon-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#3C72DF",
+    "theme_color": "#3C72DF"
   },
   {
     "url": "https://wordle.madeinmadrid.org/",
@@ -3672,6 +6998,116 @@
     "screenshots": [],
     "background_color": "#ef5936",
     "theme_color": "#ef5936"
+  },
+  {
+    "url": "https://www.booksie.org/",
+    "isActive": true,
+    "name": "Booksie",
+    "description": "An open catalog of free picture storybooks for children instantly available for reading.",
+    "icon": "assets/icon.png",
+    "icons": [
+      {
+        "sizes": "44x44",
+        "src": "assets/windows/44.png"
+      },
+      {
+        "sizes": "50x50",
+        "src": "assets/windows/50.png"
+      },
+      {
+        "sizes": "150x150",
+        "src": "assets/windows/150.png"
+      },
+      {
+        "sizes": "192x192",
+        "src": "assets/icon.png"
+      },
+      {
+        "sizes": "512x512",
+        "src": "assets/splash.png"
+      },
+      {
+        "src": "assets/icon.svg"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "assets/screenshots/1.webp"
+      },
+      {
+        "src": "assets/screenshots/2.webp"
+      },
+      {
+        "src": "assets/screenshots/3.webp"
+      },
+      {
+        "src": "assets/screenshots/4.webp"
+      },
+      {
+        "src": "assets/screenshots/5.webp"
+      },
+      {
+        "src": "assets/screenshots/6.webp"
+      }
+    ],
+    "background_color": "#fcfcb4",
+    "theme_color": "#fcfcb4",
+    "categories": ["books", "education", "kids"]
+  },
+  {
+    "url": "https://www.computerbase.de/",
+    "isActive": true,
+    "name": "ComputerBase",
+    "description": "Unabhängiges Tech-Magazin. News und Tests zu Smartphones, Tablets, PC-Hardware, Software und IT. Große technikaffine Community hilft im Forum.",
+    "icon": "/img/icon-192.png",
+    "icons": [
+      {
+        "src": "/img/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icon-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [
+      {
+        "src": "/img/app/screenshot-1.png",
+        "sizes": "1080x2050",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app/screenshot-2.png",
+        "sizes": "1080x2050",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app/screenshot-3.png",
+        "sizes": "1080x2050",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app/screenshot-4.png",
+        "sizes": "1080x2050",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app/screenshot-5.png",
+        "sizes": "1080x2050",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#2c5b9c",
+    "theme_color": "#2c5b9c"
   },
   {
     "url": "https://www.currency-calc.com/",
@@ -3795,6 +7231,146 @@
     "theme_color": "#0275d8"
   },
   {
+    "url": "https://www.digikala.com/",
+    "isActive": true,
+    "name": "Digikala",
+    "description": "Buy everything you need at the best price from Digikala! The latest types of mobile phones, laptops, clothes, cosmetics, books, home appliances, cars, etc.",
+    "icon": "/logo192.png",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "96x96 32x32 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "categories": ["shopping"]
+  },
+  {
+    "url": "https://www.freelancer.com/login",
+    "isActive": true,
+    "name": "Freelancer - Hire & Find Jobs",
+    "description": "Login to access millions of freelance jobs and freelancers ready to bid on your projects. If you don’t have an account, create one today.",
+    "icon": "https://www.f-cdn.com/assets/main/en/assets/app-icons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "https://www.f-cdn.com/assets/main/en/assets/app-icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.f-cdn.com/assets/main/en/assets/app-icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#f0f0f0",
+    "theme_color": "#007fed"
+  },
+  {
+    "url": "https://www.google.com/maps",
+    "isActive": true,
+    "name": "Google Maps",
+    "description": "Find local businesses, view maps and get driving directions in Google Maps.",
+    "icon": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "src": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "512x512",
+        "src": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_512x512.png",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["travel"],
+    "screenshots": [],
+    "background_color": "#ffffff",
+    "theme_color": "#1A73E8"
+  },
+  {
+    "url": "https://photos.google.com/",
+    "isActive": true,
+    "name": "Google Photos",
+    "description": "Google Photos is the home for all your photos and videos, automatically organized and easy to share.",
+    "icon": "//ssl.gstatic.com/social/photosui/images/logo/2x/photos_96dp.png",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/social/photosui/images/logo/1x/photos_512dp.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "//ssl.gstatic.com/social/photosui/images/logo/2x/photos_96dp.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "//ssl.gstatic.com/social/photosui/images/logo/2x/photos_64dp.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "//ssl.gstatic.com/social/photosui/images/logo/1x/photos_96dp.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "//ssl.gstatic.com/social/photosui/images/logo/1x/photos_64dp.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      }
+    ],
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "categories": ["photo"]
+  },
+  {
+    "url": "https://www.housing.com/",
+    "isActive": true,
+    "name": "Housing Go",
+    "description": "Find your Dream Home from 5 Lakh+ properties on Housing.com. Find ✓327000+ Properties for Sale. ✓110000+ Properties for Rent. ✓46000+ New Projects &amp; ✓15000+ PG/Co-Living Spaces. Enquire Now!",
+    "icon": "//c.housingcdn.com/s/assets/logo-192.2a46a9da.png",
+    "icons": [
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-192.2a46a9da.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-144.467ca177.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "//c.housingcdn.com/s/assets/logo-512.51d71d36.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#fff",
+    "theme_color": "#7323dc"
+  },
+  {
     "url": "https://www.japanese-phrasebook.com/",
     "isActive": true,
     "name": "Japanese Phrasebook",
@@ -3822,6 +7398,266 @@
     ],
     "background_color": "#ffffff",
     "theme_color": "#f44336"
+  },
+  {
+    "url": "https://www.mtgstocks.com/news",
+    "isActive": true,
+    "name": "MTGStocks",
+    "description": "MTGStocks is a Magic the Gathering price tracker with price analysis and keeps track of your favorite cards to improve your MTG Finance.",
+    "icon": "/assets/images/favicons/icon-192x192.png",
+    "icons": [
+      {
+        "src": "/assets/images/favicons/apple-touch-icon-57x57.png",
+        "sizes": "57x57",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/apple-touch-icon-60x60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/apple-touch-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/apple-touch-icon-114x114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/favicon-160x160.png",
+        "sizes": "160x160",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/favicon-196x196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/favicons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#333",
+    "theme_color": "#fff"
+  },
+  {
+    "url": "https://www.omnicamapp.com/",
+    "isActive": true,
+    "name": "OmniCam",
+    "description": "The best live streaming webcams around the world.",
+    "icon": "Frontend/img/icon-512x512.png",
+    "icons": [
+      {
+        "src": "Frontend/img/icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "Frontend/img/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "Frontend/img/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "Frontend/img/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "Frontend/img/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "Frontend/img/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "Frontend/img/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "Frontend/img/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0",
+        "purpose": "maskable"
+      },
+      {
+        "src": "Frontend/img/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "Frontend/img/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  },
+  {
+    "url": "https://www.pakwheels.com/",
+    "isActive": true,
+    "name": "Pakistan's #1 Automobile Website",
+    "description": "Pakistan's #1 automobile website. Buy &amp; Sell Cars, Bikes, Auto parts &amp; Accessories in Pakistan. Post Ad for free and reach thousands of buyers. Discuss &amp; read everything related to automobiles. Get your Car/Gari inspected and calculate prices with Pakista",
+    "icon": "/assets/Wheels-Logo.png",
+    "icons": [
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/Wheels-Logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#FFFFFF",
+    "theme_color": "#223C7A"
+  },
+  {
+    "url": "https://www.photopea.com/",
+    "isActive": true,
+    "name": "Photopea",
+    "description": "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!",
+    "icon": "promo/icon512.png",
+    "icons": [
+      {
+        "src": "promo/icon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "promo/maskable512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#0f171d",
+    "theme_color": "#474747"
+  },
+  {
+    "url": "https://www.pokequest.wiki/",
+    "isActive": true,
+    "name": "PokeQuest Wiki",
+    "description": "Pokemon Quest Wiki: recipes, evolution levels and everything",
+    "icon": "/favicon.png",
+    "icons": [
+      {
+        "src": "/static/img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#f2e3c5",
+    "theme_color": "#f2e3c5"
   },
   {
     "url": "https://www.silveos.com/",
@@ -3882,8 +7718,148 @@
         "src": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-11852e267c30000bf63ef60def1fef5e.svg"
       }
     ],
-    "lang": "en",
+
     "categories": ["music"],
     "screenshots": []
+  },
+  {
+    "url": "https://www.taskade.com/",
+    "isActive": true,
+    "name": "Taskade",
+    "description": "Taskade is the unified workspace for you and your team. Get work done faster and smarter with structured task lists, outline notes, kanban boards, and mind maps.",
+    "icon": "/images/logo-192.png",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "type": "image/x-icon",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/images/logo-50.svg",
+        "type": "image/svg+xml",
+        "sizes": "50x50"
+      },
+      {
+        "src": "/images/email-logo.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "/images/logo-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/notification-logo.png",
+        "type": "image/png",
+        "sizes": "200x200"
+      },
+      {
+        "src": "/images/logo-large-old.png",
+        "type": "image/png",
+        "sizes": "250x250"
+      },
+      {
+        "src": "/images/logo-300.png",
+        "type": "image/png",
+        "sizes": "300x300"
+      },
+      {
+        "src": "/images/logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/images/bookmark_logo.png",
+        "type": "image/png",
+        "sizes": "1025x1025"
+      }
+    ],
+    "categories": ["productivity"]
+  },
+  {
+    "url": "https://xsound.app/",
+    "isActive": true,
+    "name": "XSound.app",
+    "description": "Multifunctional Synthesizer by XSound",
+    "icon": "assets/images/icon-192x192.png",
+    "icons": [
+      {
+        "src": "assets/images/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#000",
+    "theme_color": "#800080"
+  },
+  {
+    "url": "https://zpix1.github.io/yahtzee/",
+    "isActive": true,
+    "name": "Yahtzee",
+    "description": "",
+    "icon": "./img/icons/android-chrome-192x192.png",
+    "icons": [
+      {
+        "src": "./img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#35495E",
+    "theme_color": "#35495E"
+  },
+  {
+    "url": "https://ztable.io/",
+    "isActive": true,
+    "name": "ZTable.io",
+    "description": "Find the percentage of values below a given z-score in a standard normal distribution.",
+    "icon": "static/img/icons/192.png",
+    "icons": [
+      {
+        "src": "static/img/icons/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "static/img/icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "static/img/icons/1024-maskable.png",
+        "type": "image/png",
+        "sizes": "1024x1024",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "background_color": "#f0f0fd",
+    "theme_color": "#f0f0fd"
   }
 ]
