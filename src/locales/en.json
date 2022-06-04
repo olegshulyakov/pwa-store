@@ -6,6 +6,7 @@
     },
     "header": {
       "home": "Home",
+      "instructions": "Instructions",
       "about": "About"
     },
     "footer": {
@@ -30,6 +31,25 @@
       "pending": "loading...",
       "error": "error while fetching applications",
       "empty": "no applications"
+    },
+    "instruction": {
+      "title": "How to install a PWA to your device?",
+      "desktop": {
+        "steps": {
+          "1": "Open a web app in your preferred browser.",
+          "2": "Click on an install button in the address bar.",
+          "3": "Click Install."
+        }
+      },
+      "mobile": {
+        "steps": {
+          "1": "Open a URL address of a PWA you want to install in your browser.",
+          "2": "Open your browser's settings.",
+          "3": "Scroll down and tap Add to Home screen.",
+          "4": "Confirm by tapping Add."
+        }
+      },
+      "final": "That is it! You have successfully installed a PWA to your device and now can access the installed web app simply by tapping the icon!"
     },
     "about": {
       "title": "About",

@@ -11,6 +11,10 @@
             {{ $t("component.header.home") }}
           </RouterLink>
 
+          <RouterLink class="text-gray-700 text-sm font-medium hover:underline py-1 mr-4 lg:mr-6" to="/instructions">
+            {{ $t("component.header.instructions") }}
+          </RouterLink>
+
           <RouterLink class="text-gray-700 text-sm font-medium hover:underline py-1 mr-4 lg:mr-6" to="/about">
             {{ $t("component.header.about") }}
           </RouterLink>
