@@ -17,10 +17,10 @@
       target="_blank"
     >
       <template v-if="app.isActive">
-        <span class="material-icons">download</span>&nbsp;{{ $t("applicationCard.get") }}
+        <span class="material-icons">download</span>&nbsp;{{ $t("component.applicationCard.get") }}
       </template>
       <template v-else>
-        <span class="material-icons">open_in_new</span>&nbsp;{{ $t("applicationCard.open") }}
+        <span class="material-icons">open_in_new</span>&nbsp;{{ $t("component.applicationCard.open") }}
       </template>
     </a>
   </div>

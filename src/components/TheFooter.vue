@@ -6,12 +6,12 @@
       <ul class="flex flex-wrap justify-center md:justify-end">
         <li>
           <a href="https://github.com/olegshulyakov/doesitpwa" target="_blank" class="hover:underline py-1 mr-4">
-            {{ $t("footer.contact-me") }}
+            {{ $t("component.footer.contact-me") }}
           </a>
         </li>
         <li>
           <a href="https://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank" class="hover:underline py-1 mr-4">
-            {{ $t("footer.terms") }}
+            {{ $t("component.footer.terms") }}
           </a>
         </li>
         <li>
@@ -20,7 +20,7 @@
             target="_blank"
             class="hover:underline py-1 mr-4"
           >
-            {{ $t("footer.new-app") }}
+            {{ $t("component.footer.new-app") }}
           </a>
         </li>
       </ul>

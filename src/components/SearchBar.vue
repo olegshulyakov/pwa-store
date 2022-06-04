@@ -3,17 +3,19 @@
     class="w-full md:w-96 p-1 flex flex-auto items-center content-center border rounded-lg border-gray-300 shadow-sm"
     v-on:submit="goSearch"
   >
-    <button type="submit" class="material-icons" :alt="$t('search.search')" v-on:click="goSearch">search</button>
+    <button type="submit" class="material-icons" :alt="$t('component.search.search')" v-on:click="goSearch">
+      search
+    </button>
 
     <input
       type="search"
       class="w-full mx-1 px-1 rounded"
       :value="text"
-      :placeholder="$t('search.placeholder')"
+      :placeholder="$t('component.search.placeholder')"
       v-on:keyup="onTextChange"
     />
 
-    <button v-if="text" class="material-icons" :alt="$t('search.cancel')" v-on:click="goHome">close</button>
+    <button v-if="text" class="material-icons" :alt="$t('component.search.cancel')" v-on:click="goHome">close</button>
   </form>
 </template>
 
