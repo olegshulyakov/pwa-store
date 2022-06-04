@@ -90,10 +90,10 @@ const doCheck = async (link) => {
     description = openGraphDescription || headerDescription,
     categories = [],
     icons = [],
-    lang,
     screenshots = [],
     background_color,
     theme_color,
+    related_applications,
   } = manifest;
 
   const icon =
@@ -108,11 +108,11 @@ const doCheck = async (link) => {
     description,
     icon,
     icons,
-    lang,
     categories,
     screenshots,
     background_color,
     theme_color,
+    related_applications,
   };
 };
 
